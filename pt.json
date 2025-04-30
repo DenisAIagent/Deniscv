@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "Líder de Equipe e Estratega Digital",
+    "headline": "Estruturo equipes e otimizo seu desempenho digital.",
+    "cta_contact": "Contactar-me",
+    "cta_cv": "Receber meu CV"
+  },
+  "value_prop": {
+    "pillar1_title": "Gestão Ágil",
+    "pillar2_title": "Marketing Digital",
+    "pillar3_title": "Parcerias Estratégicas"
+  },
+  "achievements": {
+    "kpi1_label": "campanhas / visualizações",
+    "kpi2_label": "crescimento da equipe",
+    "kpi3_label": "objetivos alcançados",
+    "mentions_title": "Menções"
+  },
+  "skills": {
+    "management_title": "Gestão",
+    "management_desc": "Recrutamento, coaching, team building",
+    "marketing_title": "Marketing",
+    "marketing_desc": "Google Ads, funis, automação"
+  },
+  "photography": {
+    "title": "Fotografia",
+    "mentions_title": "Menções na Imprensa",
+    "portfolio_link": "Ver meu portfólio"
+  },
+  "contact": {
+    "title": "Contato",
+    "form_name": "Nome",
+    "form_email": "Email",
+    "form_message": "Mensagem",
+    "form_submit": "Enviar",
+    "success_message": "Mensagem enviada com sucesso!",
+    "timezone": "Fuso horário"
+  },
+  "cv_form": {
+    "title": "Receber meu CV",
+    "name": "Nome",
+    "email": "Email",
+    "submit": "Receber",
+    "success_message": "CV enviado! Verifique sua caixa de entrada."
+  },
+  "footer": {
+    "legal": "Aviso Legal",
+    "hosting": "Hospedado por Railway",
+    "copyright": "© Denis Adam – Todos os direitos reservados"
+  }
+}
