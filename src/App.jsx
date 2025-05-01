@@ -1,3 +1,4 @@
+import React from 'react'; // <-- Ligne ajoutée
 import { useTranslation } from 'react-i18next';
 import Hero from './components/Hero';
 import ValueProp from './components/ValueProp';
@@ -48,4 +49,3 @@ function App() {
 }
 
 export default App;
-
