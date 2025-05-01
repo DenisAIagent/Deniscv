@@ -1,9 +1,17 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Pas besoin de configurer css.postcss ici, car Vite utilisera
-  // automatiquement votre fichier postcss.config.js s'il existe.
+  css: {
+    postcss: {
+      plugins: [
+        tailwindcss,
+        autoprefixer,
+      ],
+    },
+  },
 });
