@@ -19,13 +19,16 @@ const Achievements = () => {
     }
   }, [inView]);
 
+  // MODIFICATION: Mise à jour du tableau KPIs selon les dernières instructions
   const kpis = [
-    { value: 1500, suffix: '', labelKey: 'kpi1_label', description: '6M vues' }, // 1500 campagnes / 6M vues
-    { value: 133, suffix: '%', labelKey: 'kpi2_label' }, // 133% croissance équipe
-    { value: 135, suffix: '%', labelKey: 'kpi3_label' }, // 135% objectifs atteints
+    { value: 1500, suffix: '', labelKey: 'kpi1_label', description: '6M vues' }, // KPI Campagnes/Vues conservé
+    // Remplacement du KPI Croissance par le nombre de coachings
+    { value: 1274, suffix: '+', labelKey: 'kpi_coaching_label', description: 'Sessions individuelles hebdo.' },
+    // KPI Objectifs conservé mais avec précision dans le label (via traduction) et description
+    { value: 135, suffix: '%', labelKey: 'kpi3_label', description: 'Commerciaux' }
   ];
 
-  const mentions = ['Forbes', 'Rolling Stone', 'IPA Awards'];
+  // Section Mentions (Forbes, etc.) déjà supprimée
 
   const kpiVariants = {
     hidden: { opacity: 0, scale: 0.8 },
@@ -41,27 +44,11 @@ const Achievements = () => {
     }),
   };
 
-  const mentionsVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-        delayChildren: kpis.length * 0.2 + 0.2, // Start after KPIs finish animating
-      },
-    },
-  };
-
-  const mentionItemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 },
-  };
-
   return (
     <section id="achievements" ref={ref} className="py-16 md:py-24 bg-gray-100 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         {/* KPIs Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 md:mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {kpis.map((kpi, index) => (
             <motion.div
               key={index}
@@ -73,43 +60,22 @@ const Achievements = () => {
             >
               <div className="text-4xl md:text-5xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                 {startCounter ? (
-                  <CountUp end={kpi.value} duration={2.5} suffix={kpi.suffix} />
+                  <CountUp end={kpi.value} duration={2.5} separator=" " suffix={kpi.suffix} />
                 ) : (
                   `0${kpi.suffix}`
                 )}
               </div>
               <p className="text-sm text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                 {/* Utilisation des clés de traduction existantes et nouvelle */}
                 {t(`achievements.${kpi.labelKey}`)}
-                {kpi.description && <span className="block text-xs">({kpi.description})</span>}
+                {kpi.description && <span className="block text-xs normal-case font-medium text-gray-600 dark:text-gray-300">({kpi.description})</span>}
               </p>
             </motion.div>
           ))}
         </div>
-
-        {/* Mentions Section */}
-        <motion.div
-          variants={mentionsVariants}
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-          className="text-center"
-        >
-          <h3 className="text-xl font-semibold mb-4 text-gray-700 dark:text-gray-300">{t('achievements.mentions_title')}</h3>
-          <motion.div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-2">
-            {mentions.map((mention, index) => (
-              <motion.span
-                key={index}
-                variants={mentionItemVariants}
-                className="text-lg text-gray-600 dark:text-gray-400 font-medium"
-              >
-                {mention}
-              </motion.span>
-            ))}
-          </motion.div>
-        </motion.div>
       </div>
     </section>
   );
 };
 
 export default Achievements;
-
