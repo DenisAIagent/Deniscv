@@ -1,7 +1,7 @@
 import React from 'react';
 import '../i18n/locales/config.js'; // Import i18n configuration
 import ReactDOM from 'react-dom/client';
-import App from './src/App.jsx';
+import App from './App.jsx';
 import './src/index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
