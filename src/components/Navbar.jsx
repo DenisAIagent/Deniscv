@@ -26,14 +26,6 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-              className="text-xl font-bold text-gray-900 dark:text-white"
-            >
-              {t('logo')}
-            </motion.div>
           </div>
 
           {/* Desktop menu */}

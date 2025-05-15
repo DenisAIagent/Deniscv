@@ -32,11 +32,11 @@
     "view": "Voir le Projet"
   },
   "contact": {
-    "title": "Me Contacter",
+    "title": "Contactez-moi",
     "name": "Nom",
     "email": "Email",
-    "message": "Message",
-    "send": "Envoyer le Message"
+    "message": "Votre message",
+    "send": "Envoyer"
   },
   "expertise": {
     "management": "🎯 Management Opérationnel",
