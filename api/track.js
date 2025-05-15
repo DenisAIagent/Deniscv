@@ -5,7 +5,7 @@ const router = express.Router();
 
 let client, db, events;
 
-// Connexion différée à MongoDB, uniquement au premier appel
+// Connexion MongoDB seulement lors du premier appel
 async function initMongo() {
   if (!client) {
     const uri = process.env.MONGODB_URI;
@@ -15,7 +15,7 @@ async function initMongo() {
     await client.connect();
     db = client.db('cvsite');
     events = db.collection('events');
-    console.log("✅ Connexion MongoDB établie");
+    console.log('✅ Connexion MongoDB établie');
   }
 }
 

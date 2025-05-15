@@ -13,19 +13,20 @@ const app = express();
 app.use(express.json());
 app.use('/api/track', trackRouter);
 
-// Serve fichiers frontend
+// Fichiers statiques (React/Vite build)
 app.use(express.static(path.join(__dirname, 'dist')));
 
-// SPA fallback
+// Fallback SPA
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
+// Lancement serveur
 app.listen(PORT, () => {
   console.log(`🚀 Serveur lancé sur http://localhost:${PORT}`);
 });
 
-// Pour logs d'erreurs non capturées
+// Sécurité : log en cas d'erreur asynchrone
 process.on('unhandledRejection', (err) => {
   console.error('🚨 Promesse non gérée :', err);
 });
