@@ -142,20 +142,16 @@
   },
   "testimonials": {
     "title": "Témoignages",
-    "camille": {
-      "name": "Camille D.",
-      "title": "Manager chez Google",
-      "text": "Denis a toujours su dépasser les attentes avec une approche stratégique et humaine."
+    "tachfin": {
+      "name": "Tachfin Khelil",
+      "title": "Directeur du site John Paul à Lisbonne",
+      "text": "En tant que directeur du site John Paul à Lisbonne, j'ai eu le plaisir de collaborer avec Denis ADAM, dont l'engagement, la rigueur et la polyvalence ont fortement contribué à la qualité de notre service premium. Il a su structurer et renforcer notre équipe de conciergerie de nuit, tout en faisant preuve d'un sens aigu de la gestion de crise et de l'expérience client. Proactif, résilient et toujours orienté solution, Denis a su gagner la confiance des clients comme de ses collaborateurs. Je le recommande vivement pour tout poste nécessitant leadership, adaptabilité et excellence relationnelle."
     },
-    "lucas": {
-      "name": "Lucas M.",
-      "title": "Client MDMC",
-      "text": "Grâce à Denis, notre campagne YouTube a dépassé le million de vues avec un excellent ROI."
-    },
-    "marta": {
-      "name": "Marta G.",
-      "title": "Responsable Projets, John Paul",
-      "text": "Sa rigueur et sa créativité ont transformé notre manière de travailler ensemble."
+    "customer_feedback": {
+      "title": "Feedback Client",
+      "fraud": "Incident de fraude à la carte bancaire :\n\"Le manager Denis ADAM a fait preuve d'un professionnalisme exemplaire ; son équipe a répondu à toutes nos demandes. Nous sommes ravis de la qualité du service fourni.\"",
+      "mbappe": "T-shirt signé Mbappé :\n\"Un grand merci à vous, Denis, et à Jade pour votre travail formidable. Pour une première, c'est une belle réussite pour moi. Merci de transmettre à toute l'équipe, je vais envoyer un mail en ce sens.\"",
+      "covid": "Assistance pendant la crise Covid à l'étranger :\n\"Je tenais à vous dire combien j'ai apprécié votre bienveillance. Je tiens à vous exprimer toute ma gratitude car j'ai déjà été en contact avec l'ambassade de France à Cuba puis j'ai eu le médecin, et le médecin de l'assurance. J'ai été touchée par votre réactivité, votre compassion et votre empathie.\""
     }
   }
 } 
