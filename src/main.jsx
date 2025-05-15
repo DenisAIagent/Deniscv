@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react'; // <--- Importer Suspense
 import ReactDOM from 'react-dom/client';
-import '../i18n/locales/config.js'; // Import i18n configuration (garder avant)
+import '../i18n/config.js'; // Correction du chemin d'importation
 import App from './App.jsx'; 
 import './index.css'; 
 
