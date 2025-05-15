@@ -3,9 +3,7 @@ import { MongoClient } from 'mongodb';
 
 const router = express.Router();
 
-let client;
-let db;
-let events;
+let client, db, events;
 
 // Connexion différée à MongoDB, uniquement au premier appel
 async function initMongo() {
@@ -27,7 +25,7 @@ router.post('/', async (req, res) => {
     await initMongo();
 
     const { event, lang, userAgent } = req.body;
-    if (!event) return res.status(400).json({ error: 'Missing event parameter' });
+    if (!event) return res.status(400).json({ error: 'event is required' });
 
     await events.insertOne({
       event,
@@ -38,7 +36,7 @@ router.post('/', async (req, res) => {
 
     res.sendStatus(200);
   } catch (err) {
-    console.error('❌ Erreur dans /api/track:', err.stack || err);
+    console.error('❌ Erreur dans /api/track :', err.stack || err);
     res.status(500).json({ error: 'Internal server error' });
   }
 });
