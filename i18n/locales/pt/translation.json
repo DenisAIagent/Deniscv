@@ -107,7 +107,7 @@
     "subtitle": "Uma carreira marcada pela excelência e resultados concretos",
     "cta": "Vamos conversar sobre seu projeto",
     "team_leader": {
-      "title": "Team Leader Operations",
+      "title": "Team Manager Night Shift",
       "team_creation": "Criação e estruturação de uma equipe local de suporte (de 3 a 7 agentes)",
       "planning": "Gestão de planejamento de longo prazo e alertas internas com Google Suite",
       "quality": "Acompanhamento de KPIs e relatórios mensais de performance",
@@ -142,21 +142,6 @@
   },
   "testimonials": {
     "title": "Depoimentos",
-    "camille": {
-      "name": "Camille D.",
-      "title": "Gerente no Google",
-      "text": "Denis sempre superou as expectativas com uma abordagem estratégica e humana."
-    },
-    "lucas": {
-      "name": "Lucas M.",
-      "title": "Cliente MDMC",
-      "text": "Graças ao Denis, nossa campanha no YouTube ultrapassou um milhão de visualizações com excelente ROI."
-    },
-    "marta": {
-      "name": "Marta G.",
-      "title": "Gestora de Projetos, John Paul",
-      "text": "Seu rigor e criatividade transformaram nossa forma de trabalhar juntos."
-    },
     "tachfin": {
       "name": "Tachfin Khelil",
       "title": "Directeur du site John Paul à Lisbonne",
