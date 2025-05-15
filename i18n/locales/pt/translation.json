@@ -3,26 +3,98 @@
     "home": "Início",
     "about": "Sobre",
     "projects": "Projetos",
-    "contact": "Contato"
+    "contact": "Contato",
+    "fr": "FR",
+    "en": "EN",
+    "es": "ES",
+    "pt": "PT"
   },
+  "logo": "Logo Denis Adam",
   "hero": {
     "title": "Denis Adam",
     "subtitle": "Desenvolvedor Full Stack",
-    "description": "Apaixonado por criar soluções web inovadoras"
+    "description": "Apaixonado por criar soluções web inovadoras",
+    "name": "Denis Adam",
+    "slogan": "Estruturar equipes, Otimizar performance, Inspirar crescimento.",
+    "cta_contact": "Me Contatar",
+    "cta_cv": "Solicitar meu CV"
   },
   "about": {
-    "title": "Sobre mim",
-    "description": "Sou um desenvolvedor full stack com experiência em tecnologias web modernas."
+    "title": "Sobre Mim",
+    "description": "Sou um desenvolvedor full stack com experiência em tecnologias web modernas.",
+    "portrait": "Retrato de Denis Adam",
+    "texte": "Com sólida experiência em gestão, passei 5 anos na John Paul liderando uma equipe de 7 concierges. Durante este período, estruturei a equipe implementando processos completos de coaching, onboarding, treinamento contínuo e suporte personalizado, desenvolvendo fortes habilidades de liderança e desenvolvimento de talentos.\n\nSimultaneamente, desde 2018, fundei e dirijo minha agência de marketing digital, MDMC Music Ads. Apoiamos mais de cem clientes no desenvolvimento estratégico e engajamento de sua base de fãs online.\n\nNossa expertise digital gerou resultados tangíveis: mais de 1.500 campanhas lançadas, 34 milhões de visualizações acumuladas e taxas de engajamento sólidas entre 4 e 8%. Minha especialidade: transformar o interesse em uma comunidade de fãs leais e ativos.\n\nHoje, coloco esta dupla expertise - gerencial e digital -, baseada em dados e orientada a resultados, a serviço da estruturação de suas equipes e crescimento de seu projeto."
   },
   "projects": {
     "title": "Meus Projetos",
     "view": "Ver Projeto"
   },
   "contact": {
-    "title": "Entre em Contato",
+    "title": "Me Contatar",
     "name": "Nome",
     "email": "Email",
     "message": "Mensagem",
-    "send": "Enviar Mensagem"
+    "send": "Enviar Mensagem",
+    "direct_coordinates": "Contato Direto",
+    "timezone": "Fuso Horário",
+    "success_message": "Mensagem enviada com sucesso!",
+    "error_message": "Ocorreu um erro. Por favor, tente novamente."
+  },
+  "expertise": {
+    "management": "🎯 Gestão Operacional",
+    "strategie": "📊 Estratégia Digital",
+    "partenariat": "🤝 Parceria Comprometida"
+  },
+  "chiffres": {
+    "campagnes": "1.500 Campanhas Lançadas (6M visualizações)",
+    "sessions": "1.274+ Sessões Individuais Semanais",
+    "objectifs": "135% Objetivos Alcançados (Vendas)"
+  },
+  "domaines": {
+    "management": {
+      "title": "Gestão de Equipes e Operacional",
+      "desc": "Expertise em liderança, coaching e estruturação de equipes para performance e desenvolvimento ótimos."
+    },
+    "strategie": {
+      "title": "Estratégia Digital e Marketing",
+      "desc": "Maestria no desenvolvimento e execução de estratégias digitais para melhorar a presença online e engajamento dos fãs."
+    }
+  },
+  "portfolio": {
+    "title": "Paixão por Fotografia",
+    "photos": [
+      "Marine se apresentando no palco",
+      "Banda Black Pumas em show",
+      "Cigarettes After Sex no palco",
+      "Falling In Reverse apresentação ao vivo 1",
+      "Falling In Reverse apresentação ao vivo 2",
+      "Artista em show, close",
+      "Cantor no palco com microfone",
+      "Guitarrista tocando em show",
+      "Retrato em preto e branco de Leonore, menção honrosa IPA",
+      "Nathaniel Rateliff & The Night Sweats ao vivo",
+      "Banda Sum 41 em show, vista completa",
+      "Banda Sum 41 no palco, ângulo diferente",
+      "The Peakles Tivoli se apresentando no Tivoli"
+    ]
+  },
+  "reconnaissances": {
+    "title": "Reconhecimentos",
+    "forbes": "Publicação Forbes",
+    "rollingstone": "Publicação Rolling Stone",
+    "ipa": "Menção Honrosa IPA Awards 2023"
+  },
+  "cta_portfolio": "Ver meu portfolio",
+  "zones": {
+    "title": "Áreas Geográficas Alvo",
+    "desc": "Aberto a oportunidades nas seguintes regiões:",
+    "france": "França: Paris, Centro Vale do Loire",
+    "portugal": "Portugal: Lisboa, Setúbal, Alentejo, Algarve",
+    "espagne": "Espanha: Andaluzia (Sevilha)",
+    "usa": "EUA: Califórnia, Nova York, Texas (Patrocínio de visto necessário)"
+  },
+  "footer": {
+    "mentions": "Aviso Legal|Hospedado no Netlify",
+    "copyright": "© 2025 Denis Adam Todos os direitos reservados."
   }
 } 

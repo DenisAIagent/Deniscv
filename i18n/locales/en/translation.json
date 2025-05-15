@@ -3,16 +3,27 @@
     "home": "Home",
     "about": "About",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "fr": "FR",
+    "en": "EN",
+    "es": "ES",
+    "pt": "PT"
   },
+  "logo": "Denis Adam Logo",
   "hero": {
     "title": "Denis Adam",
     "subtitle": "Full Stack Developer",
-    "description": "Passionate about creating innovative web solutions"
+    "description": "Passionate about creating innovative web solutions",
+    "name": "Denis Adam",
+    "slogan": "Structure Teams, Optimize Performance, Inspire Growth.",
+    "cta_contact": "Contact Me",
+    "cta_cv": "Request my CV"
   },
   "about": {
     "title": "About Me",
-    "description": "I am a full stack developer with experience in modern web technologies."
+    "description": "I am a full stack developer with experience in modern web technologies.",
+    "portrait": "Denis Adam Portrait",
+    "texte": "With solid management experience, I spent 5 years at John Paul leading a team of 7 concierges. During this period, I structured the team by implementing complete coaching, onboarding, continuous training, and personalized support processes, developing strong leadership and talent development skills.\n\nSimultaneously, since 2018, I founded and run my digital marketing agency, MDMC Music Ads. We support over a hundred clients in strategic development and online fanbase engagement.\n\nOur digital expertise has generated tangible results: over 1,500 campaigns launched, 34 million cumulative views, and solid engagement rates between 4 and 8%. My specialty: transforming interest into a loyal and active fan community.\n\nToday, I put this dual expertise - managerial and digital -, data-driven and results-oriented, at the service of structuring your teams and growing your project."
   },
   "projects": {
     "title": "My Projects",
@@ -23,6 +34,67 @@
     "name": "Name",
     "email": "Email",
     "message": "Message",
-    "send": "Send Message"
+    "send": "Send Message",
+    "direct_coordinates": "Direct Contact",
+    "timezone": "Timezone",
+    "success_message": "Message sent successfully!",
+    "error_message": "An error occurred. Please try again."
+  },
+  "expertise": {
+    "management": "🎯 Operational Management",
+    "strategie": "📊 Digital Strategy",
+    "partenariat": "🤝 Committed Partnership"
+  },
+  "chiffres": {
+    "campagnes": "1,500 Campaigns Launched (6M views)",
+    "sessions": "1,274+ Weekly Individual Sessions",
+    "objectifs": "135% Goals Achieved (Sales)"
+  },
+  "domaines": {
+    "management": {
+      "title": "Team & Operational Management",
+      "desc": "Expertise in leadership, coaching, and team structuring for optimal performance and development."
+    },
+    "strategie": {
+      "title": "Digital Strategy & Marketing",
+      "desc": "Mastery in developing and executing digital strategies to improve online presence and fan engagement."
+    }
+  },
+  "portfolio": {
+    "title": "Photography Passion",
+    "photos": [
+      "Marine performing on stage",
+      "Black Pumas band in concert",
+      "Cigarettes After Sex on stage",
+      "Falling In Reverse live performance 1",
+      "Falling In Reverse live performance 2",
+      "Artist in concert, close-up",
+      "Singer on stage with microphone",
+      "Guitarist playing in concert",
+      "Black and white portrait of Leonore, IPA honorable mention",
+      "Nathaniel Rateliff & The Night Sweats live",
+      "Sum 41 band in concert, full view",
+      "Sum 41 band on stage, different angle",
+      "The Peakles Tivoli performing at Tivoli"
+    ]
+  },
+  "reconnaissances": {
+    "title": "Recognition",
+    "forbes": "Forbes Publication",
+    "rollingstone": "Rolling Stone Publication",
+    "ipa": "IPA Awards 2023 Honorable Mention"
+  },
+  "cta_portfolio": "View my portfolio",
+  "zones": {
+    "title": "Target Geographic Areas",
+    "desc": "Open to opportunities in the following regions:",
+    "france": "France: Paris, Centre Val de Loire",
+    "portugal": "Portugal: Lisbon, Setúbal, Alentejo, Algarve",
+    "espagne": "Spain: Andalusia (Seville)",
+    "usa": "USA: California, New York, Texas (Visa sponsorship required)"
+  },
+  "footer": {
+    "mentions": "Legal Notice|Hosted on Netlify",
+    "copyright": "© 2025 Denis Adam All rights reserved."
   }
 } 
