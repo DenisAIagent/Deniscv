@@ -8,9 +8,9 @@ const ValueProp = () => {
   const { t } = useTranslation();
 
   const pillars = [
-    { key: 'pillar1', title: t('value_prop.pillar1_title'), iconPlaceholder: '🎯' /* icon: FaUsersCog */ },
-    { key: 'pillar2', title: t('value_prop.pillar2_title'), iconPlaceholder: '📊' /* icon: FaChartLine */ },
-    { key: 'pillar3', title: t('value_prop.pillar3_title'), iconPlaceholder: '🤝' /* icon: FaHandshake */ },
+    { key: 'management', title: t('expertise.management'), iconPlaceholder: '🎯' },
+    { key: 'strategie', title: t('expertise.strategie'), iconPlaceholder: '📊' },
+    { key: 'partenariat', title: t('expertise.partenariat'), iconPlaceholder: '🤝' },
   ];
 
   const cardVariants = {

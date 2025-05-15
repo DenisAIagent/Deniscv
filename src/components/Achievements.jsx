@@ -21,11 +21,9 @@ const Achievements = () => {
 
   // MODIFICATION: Mise à jour du tableau KPIs selon les dernières instructions
   const kpis = [
-    { value: 1500, suffix: '', labelKey: 'kpi1_label', description: '6M vues' }, // KPI Campagnes/Vues conservé
-    // Remplacement du KPI Croissance par le nombre de coachings
-    { value: 1274, suffix: '+', labelKey: 'kpi_coaching_label', description: 'Sessions individuelles hebdo.' },
-    // KPI Objectifs conservé mais avec précision dans le label (via traduction) et description
-    { value: 135, suffix: '%', labelKey: 'kpi3_label', description: 'Commerciaux' }
+    { value: 1500, suffix: '', label: t('chiffres.campagnes') },
+    { value: 1274, suffix: '+', label: t('chiffres.sessions') },
+    { value: 135, suffix: '%', label: t('chiffres.objectifs') }
   ];
 
   // Section Mentions (Forbes, etc.) déjà supprimée
@@ -66,9 +64,7 @@ const Achievements = () => {
                 )}
               </div>
               <p className="text-sm text-gray-500 dark:text-gray-400 uppercase tracking-wider">
-                 {/* Utilisation des clés de traduction existantes et nouvelle */}
-                {t(`achievements.${kpi.labelKey}`)}
-                {kpi.description && <span className="block text-xs normal-case font-medium text-gray-600 dark:text-gray-300">({kpi.description})</span>}
+                {kpi.label}
               </p>
             </motion.div>
           ))}

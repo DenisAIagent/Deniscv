@@ -55,11 +55,11 @@ const Hero = () => {
       {/* Utiliser une clé de traduction pour l'attribut alt */}
       <img
         src={logoSrc}
-        alt={t('hero.logo_alt', 'Denis Adam Logo')} // Ajoutez cette clé à vos fichiers de traduction
+        alt={t('hero.logo_alt', 'Logo Denis Adam')}
         className="w-40 md:w-48 h-auto mb-6"
       />
-      <h2 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-primary dark:text-white">{t('hero.title')}</h2>
-      <p className="text-lg md:text-xl mb-8 max-w-2xl text-secondary dark:text-gray-300">{t('hero.headline')}</p>
+      <h2 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-primary dark:text-white">{t('hero.name')}</h2>
+      <p className="text-lg md:text-xl mb-8 max-w-2xl text-secondary dark:text-gray-300">{t('hero.slogan')}</p>
       <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
         <motion.button
           whileHover={{ scale: 1.05 }}

@@ -41,34 +41,27 @@ const About = () => {
           {/* Colonne Gauche: Photo */}
           <motion.div variants={itemVariantsLeft} className="w-full lg:w-1/3 flex-shrink-0">
             <img
-              src={profilePhoto} // <-- La variable importée est utilisée ici
-              alt={t('about.photo_alt', 'Portrait de Denis Adam')} // Texte alternatif pour l'accessibilité
+              src={profilePhoto}
+              alt={t('about.portrait')}
               className="rounded-lg shadow-xl w-full max-w-sm mx-auto lg:mx-0 h-auto object-cover"
-              loading="lazy" // Chargement différé de l'image
+              loading="lazy"
             />
           </motion.div>
 
           {/* Colonne Droite: Texte */}
           <motion.div variants={itemVariantsRight} className="w-full lg:w-2/3 text-center lg:text-left">
              {/* Titre de la section */}
-            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-6 text-primary dark:text-white">{t('about.title', 'Qui Suis-Je ?')}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-6 text-primary dark:text-white">
+              {t('about.title')}
+            </h2>
 
-            {/* Paragraphe 1: Management John Paul */}
-            <p className="text-base md:text-lg mb-4 leading-relaxed">
-              {t('about.paragraph_management')}
-            </p>
-            {/* Paragraphe 2: Agence MDMC */}
-            <p className="text-base md:text-lg mb-4 leading-relaxed">
-              {t('about.paragraph_agency')}
-            </p>
-            {/* Paragraphe 3: Résultats */}
-            <p className="text-base md:text-lg mb-4 leading-relaxed">
-              {t('about.paragraph_results')}
-            </p>
-            {/* Paragraphe 4: Synthèse / Proposition */}
-            <p className="text-base md:text-lg font-medium leading-relaxed text-blue-600 dark:text-blue-400">
-              {t('about.paragraph_synthesis')}
-            </p>
+            <div className="text-base md:text-lg leading-relaxed space-y-4">
+              {t('about.texte').split('\n\n').map((paragraph, index) => (
+                <p key={index} className={index === 3 ? 'font-medium text-blue-600 dark:text-blue-400' : ''}>
+                  {paragraph}
+                </p>
+              ))}
+            </div>
           </motion.div>
         </motion.div>
       </div>

@@ -3,16 +3,27 @@
     "home": "Accueil",
     "about": "À propos",
     "projects": "Projets",
-    "contact": "Contact"
+    "contact": "Contact",
+    "fr": "FR",
+    "en": "EN",
+    "es": "ES",
+    "pt": "PT"
   },
+  "logo": "Logo Denis Adam",
   "hero": {
     "title": "Denis Adam",
     "subtitle": "Développeur Full Stack",
-    "description": "Passionné par la création de solutions web innovantes"
+    "description": "Passionné par la création de solutions web innovantes",
+    "name": "Denis Adam",
+    "slogan": "Structurer les équipes, Optimiser la performance, Inspirer la croissance.",
+    "cta_contact": "Me Contacter",
+    "cta_cv": "Demander mon CV"
   },
   "about": {
     "title": "À propos de moi",
-    "description": "Je suis un développeur full stack avec de l'expérience dans les technologies web modernes."
+    "description": "Je suis un développeur full stack avec de l'expérience dans les technologies web modernes.",
+    "portrait": "Portrait de Denis Adam",
+    "texte": "Fort d'une expérience solide en management, j'ai notamment passé 5 ans chez John Paul à diriger une équipe de 7 concierges. Durant cette période, j'ai structuré l'équipe en mettant en place les processus complets de coaching, d'onboarding, de formation continue et d'accompagnement personnalisé, développant ainsi des compétences pointues en leadership et en développement des talents.\n\nParallèlement, depuis 2018, j'ai fondé et je dirige mon agence de marketing digital, MDMC Music Ads. Nous accompagnons plus d'une centaine de clients dans le développement stratégique et l'engagement de leur fanbase en ligne.\n\nNotre savoir-faire digital a généré des résultats tangibles : plus de 1 500 campagnes lancées, 34 millions de vues cumulées, et des taux d'engagement solides entre 4 et 8 %. Ma spécialité : transformer l'intérêt en une communauté de fans fidèles et actifs.\n\nAujourd'hui, je mets cette double expertise - managériale et digitale -, data-driven et orientée résultats, au service de la structuration de vos équipes et de la croissance de votre projet."
   },
   "projects": {
     "title": "Mes Projets",
@@ -24,5 +35,62 @@
     "email": "Email",
     "message": "Message",
     "send": "Envoyer le Message"
+  },
+  "expertise": {
+    "management": "🎯 Management Opérationnel",
+    "strategie": "📊 Stratégie Digitale",
+    "partenariat": "🤝 Partenariat Engagé"
+  },
+  "chiffres": {
+    "campagnes": "1 500 Campagnes Lancées (6M vues)",
+    "sessions": "1 274+ Sessions individuelles hebdomadaires",
+    "objectifs": "135% Objectifs Atteints (Commerciaux)"
+  },
+  "domaines": {
+    "management": {
+      "title": "Management d'Équipe & Opérationnel",
+      "desc": "Expertise en direction, coaching et structuration d'équipes pour une performance et un développement optimaux."
+    },
+    "strategie": {
+      "title": "Stratégie Digitale & Marketing",
+      "desc": "Maîtrise du développement et de l'exécution de stratégies digitales pour améliorer la présence en ligne et l'engagement des fans."
+    }
+  },
+  "portfolio": {
+    "title": "Passion Photographie",
+    "photos": [
+      "Marine en concert sur scène",
+      "Le groupe Black Pumas en concert",
+      "Cigarettes After Sex sur scène",
+      "Falling In Reverse performance live 1",
+      "Falling In Reverse performance live 2",
+      "Artiste en concert, plan rapproché",
+      "Chanteur sur scène avec micro",
+      "Guitariste jouant en concert",
+      "Portrait noir et blanc de Leonore, mention honorable IPA",
+      "Nathaniel Rateliff & The Night Sweats en live",
+      "Groupe Sum 41 en concert, vue d'ensemble",
+      "Groupe Sum 41 sur scène, autre angle",
+      "The Peakles Tivoli en performance au Tivoli"
+    ]
+  },
+  "reconnaissances": {
+    "title": "Reconnaissances",
+    "forbes": "Publication Forbes",
+    "rollingstone": "Publication Rolling Stone",
+    "ipa": "Mention honorable aux IPA Awards 2023"
+  },
+  "cta_portfolio": "Voir mon portfolio",
+  "zones": {
+    "title": "Zones Géographiques Cibles",
+    "desc": "Ouvert aux opportunités dans les régions suivantes :",
+    "france": "France : Paris, Centre Val de Loire",
+    "portugal": "Portugal : Lisbonne, Setúbal, Alentejo, Algarve",
+    "espagne": "Espagne : Andalousie (Séville)",
+    "usa": "USA : Californie, New York, Texas (Sponsoring de visa nécessaire)"
+  },
+  "footer": {
+    "mentions": "Mentions Légales|Hébergé sur Netlify",
+    "copyright": "© 2025 Denis Adam Tous droits réservés."
   }
 } 

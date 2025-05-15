@@ -7,16 +7,13 @@ const Skills = () => {
 
   const skillBlocks = [
     {
-      titleKey: 'skills.management_title',
-      descKey: 'skills.management_desc',
-      // Add specific skills if needed
-      // items: ['Recrutement', 'Coaching', 'Team Building', 'Gestion de projet Agile']
+      title: t('domaines.management.title'),
+      desc: t('domaines.management.desc')
     },
     {
-      titleKey: 'skills.marketing_title',
-      descKey: 'skills.marketing_desc',
-      // items: ['Google Ads', 'SEO/SEA', 'Funnels de conversion', 'Marketing Automation', 'Analyse de données']
-    },
+      title: t('domaines.strategie.title'),
+      desc: t('domaines.strategie.desc')
+    }
   ];
 
   const sectionVariants = {
@@ -56,16 +53,8 @@ const Skills = () => {
               variants={blockVariants}
               className="p-8 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm"
             >
-              <h3 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">{t(block.titleKey)}</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-6">{t(block.descKey)}</p>
-              {/* Optional: List specific skills */}
-              {/* {block.items && (
-                <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300">
-                  {block.items.map((item, i) => (
-                    <li key={i}>{item}</li>
-                  ))}
-                </ul>
-              )} */}
+              <h3 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">{block.title}</h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-6">{block.desc}</p>
             </motion.div>
           ))}
         </motion.div>

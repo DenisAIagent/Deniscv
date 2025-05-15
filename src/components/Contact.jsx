@@ -22,12 +22,11 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY || SERVICE_ID === 'YOUR_SERVICE_ID') {
-        console.error('EmailJS credentials are not configured.');
-        setSubmitStatus('error'); // Indicate error if credentials are placeholders
-        // Hide status message after a few seconds
-        setTimeout(() => setSubmitStatus(null), 5000);
-        return; // Prevent submission if not configured
+    if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
+      console.error('EmailJS credentials are not configured.');
+      setSubmitStatus('error');
+      setTimeout(() => setSubmitStatus(null), 5000);
+      return;
     }
 
     setIsSubmitting(true);
@@ -36,13 +35,12 @@ const Contact = () => {
     try {
       await emailjs.send(SERVICE_ID, TEMPLATE_ID, formData, PUBLIC_KEY);
       setSubmitStatus('success');
-      setFormData({ name: '', email: '', message: '' }); // Clear form
+      setFormData({ name: '', email: '', message: '' });
     } catch (error) {
       console.error('EmailJS Error:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
-      // Hide status message after a few seconds
       setTimeout(() => setSubmitStatus(null), 5000);
     }
   };
@@ -77,7 +75,7 @@ const Contact = () => {
             {/* Contact Form */}
             <motion.form variants={itemVariants} onSubmit={handleSubmit} className="space-y-4" aria-label="Contact form">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{t('contact.form_name')}</label>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{t('contact.name')}</label>
                 <input
                   type="text"
                   id="name"
@@ -91,7 +89,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{t('contact.form_email')}</label>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{t('contact.email')}</label>
                 <input
                   type="email"
                   id="email"
@@ -105,7 +103,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{t('contact.form_message')}</label>
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{t('contact.message')}</label>
                 <textarea
                   id="message"
                   name="message"
@@ -125,7 +123,7 @@ const Contact = () => {
                   disabled={isSubmitting}
                   className={`w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300 ${isSubmitting ? 'opacity-50 cursor-not-allowed' : ''}`}
                 >
-                  {isSubmitting ? 'Sending...' : t('contact.form_submit')}
+                  {isSubmitting ? 'Sending...' : t('contact.send')}
                 </motion.button>
               </div>
               {/* Status messages with ARIA live regions */}
@@ -133,13 +131,13 @@ const Contact = () => {
                 <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} role="status" aria-live="polite" className="text-green-600 dark:text-green-400 text-center mt-4">{t('contact.success_message')}</motion.p>
               )}
               {submitStatus === 'error' && (
-                <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} role="alert" aria-live="assertive" className="text-red-600 dark:text-red-400 text-center mt-4">An error occurred. Please check credentials or try again.</motion.p> // Updated error message
+                <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} role="alert" aria-live="assertive" className="text-red-600 dark:text-red-400 text-center mt-4">{t('contact.error_message')}</motion.p>
               )}
             </motion.form>
 
             {/* Direct Contact Info */}
             <motion.div variants={itemVariants} className="space-y-4 text-gray-700 dark:text-gray-300" aria-label="Direct contact information">
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Direct Coordinates</h3>
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{t('contact.direct_coordinates')}</h3>
               <p>
                 <strong>Email:</strong> <a href="mailto:denis.adam@example.com" className="text-blue-600 dark:text-blue-400 hover:underline">denis.adam@example.com</a>
               </p>
