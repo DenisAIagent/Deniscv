@@ -1,5 +1,5 @@
 // src/App.jsx
-import React from 'react'; // <-- React doit aussi être importé si ce n'est pas déjà fait implicitement par votre config Vite
+import React, { useEffect } from 'react'; // <-- React doit aussi être importé si ce n'est pas déjà fait implicitement par votre config Vite
 import { useTranslation } from 'react-i18next';
 import Hero from './components/Hero';
 import ValueProp from './components/ValueProp';
@@ -18,6 +18,33 @@ import Navbar from './components/Navbar';
 function App() {
   const { i18n } = useTranslation();
   const [isDarkMode] = useDarkMode();
+
+  // Test du tracking
+  useEffect(() => {
+    const testTracking = async () => {
+      try {
+        const response = await fetch('/api/track', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            event: 'page_view',
+            lang: i18n.language,
+            userAgent: navigator.userAgent
+          })
+        });
+        
+        if (!response.ok) {
+          console.error('❌ Tracking failed:', response.status);
+        }
+      } catch (error) {
+        console.error('❌ Tracking error:', error);
+      }
+    };
+
+    testTracking();
+  }, [i18n.language]);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);

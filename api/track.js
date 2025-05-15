@@ -10,7 +10,7 @@ let events;
 async function initMongoDB() {
   try {
     if (!process.env.MONGODB_URI) {
-      console.error('MONGODB_URI is not defined');
+      console.error('❌ MONGODB_URI is not defined');
       return;
     }
     
@@ -18,33 +18,47 @@ async function initMongoDB() {
     await client.connect();
     db = client.db('cvsite');
     events = db.collection('events');
-    console.log('MongoDB connected successfully');
+    console.log('✅ MongoDB connected successfully');
   } catch (err) {
-    console.error('MongoDB connection error:', err);
+    console.error('❌ MongoDB connection error:', err);
   }
 }
 
 // Initialiser la connexion
 initMongoDB();
 
-router.post('/', async (req, res) => {
+// Middleware pour vérifier la connexion MongoDB
+const checkMongoConnection = (req, res, next) => {
+  if (!events) {
+    console.error('❌ MongoDB not initialized');
+    return res.status(500).json({ error: 'Database connection not available' });
+  }
+  next();
+};
+
+router.post('/', checkMongoConnection, async (req, res) => {
   try {
-    if (!events) {
-      throw new Error('MongoDB not initialized');
-    }
-    
     const { event, lang, userAgent } = req.body;
-    await events.insertOne({ 
-      event, 
-      lang, 
-      userAgent, 
+    
+    if (!event) {
+      return res.status(400).json({ error: 'event is required' });
+    }
+
+    const trackingData = {
+      event,
+      lang: lang || 'unknown',
+      userAgent: userAgent || 'unknown',
       timestamp: new Date(),
       ip: req.ip
-    });
+    };
+
+    console.log('📊 Tracking event:', trackingData);
+    
+    await events.insertOne(trackingData);
     res.sendStatus(200);
   } catch (err) {
-    console.error('Tracking error:', err);
-    res.sendStatus(500);
+    console.error('❌ Tracking error:', err);
+    res.status(500).json({ error: 'Internal server error' });
   }
 });
 
@@ -52,7 +66,7 @@ router.post('/', async (req, res) => {
 process.on('SIGINT', async () => {
   if (client) {
     await client.close();
-    console.log('MongoDB connection closed');
+    console.log('✅ MongoDB connection closed');
   }
   process.exit(0);
 });

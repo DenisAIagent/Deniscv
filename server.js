@@ -7,6 +7,12 @@ const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Log des variables d'environnement
+console.log('🔧 Environment variables:');
+console.log('MONGODB_URI:', process.env.MONGODB_URI ? '✅ Defined' : '❌ Not defined');
+console.log('PORT:', process.env.PORT || 3000);
+console.log('NODE_ENV:', process.env.NODE_ENV || 'development');
+
 // Middleware pour parser le JSON
 app.use(express.json());
 
