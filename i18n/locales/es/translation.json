@@ -96,5 +96,12 @@
   "footer": {
     "mentions": "Aviso Legal|Alojado en Netlify",
     "copyright": "© 2025 Denis Adam Todos los derechos reservados."
+  },
+  "cv_form": {
+    "title": "Obtener mi CV",
+    "name": "Tu nombre",
+    "email": "Tu correo electrónico",
+    "submit": "Enviar",
+    "success_message": "¡Tu solicitud ha sido enviada con éxito!"
   }
 } 
