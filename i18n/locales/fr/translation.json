@@ -103,18 +103,40 @@
     "success_message": "Votre demande a été envoyée avec succès !"
   },
   "timeline": {
-    "title": "Parcours",
-    "mdmc": {
-      "title": "MDMC Music Ads — Fondateur",
-      "desc": "Développement d'outils marketing IA pour artistes & labels."
+    "title": "Parcours Professionnel",
+    "subtitle": "Une carrière marquée par l'excellence et des résultats concrets",
+    "cta": "Discutons de votre projet",
+    "team_leader": {
+      "title": "Team Leader Operations",
+      "team_creation": "Création et structuration d'une équipe locale de support (de 3 à 7 agents)",
+      "planning": "Gestion de la planification à long terme et des alertes internes avec Google Suite",
+      "quality": "Suivi des KPIs et reporting mensuel sur les performances",
+      "coaching": "Coaching individualisé et programmes de formation internes",
+      "collaboration": "Organisation de réunions hebdomadaires et activités de team building"
     },
-    "johnpaul": {
-      "title": "John Paul — Team Manager",
-      "desc": "Restructuration équipe, excellence client, innovation CRM."
+    "cmo": {
+      "title": "Co-founder & CMO - Partner",
+      "strategy": "Définition de la stratégie produit et marketing (PLG, acquisition, onboarding, rétention)",
+      "mvp": "Coordination du MVP avec le CTO et le designer",
+      "partnerships": "Négociation avec 10 partenaires techniques et institutionnels",
+      "market": "Analyse approfondie des leaders du marché",
+      "commercial": "Développement d'une stratégie commerciale multicanale"
     },
-    "google": {
-      "title": "Google — Account Strategist (YouTube Ads)",
-      "desc": "Optimisation de campagnes vidéos pour clients majeurs en France et Europe."
+    "digital_marketing": {
+      "title": "Digital Marketing Manager",
+      "strategy": "Gestion de 1 500 campagnes YouTube (6M vues, 10% engagement qualifié)",
+      "performance": "Suivi des KPIs et gestion financière",
+      "business": "Établissement de partenariats stratégiques",
+      "recruitment": "Recrutement et structuration d'équipes cross-fonctionnelles"
+    },
+    "account_strategist": {
+      "title": "Account Strategist",
+      "management": "Gestion de campagnes Search, Display et YouTube à fort trafic",
+      "strategy": "Recommandations stratégiques personnalisées",
+      "training": "Formation interne sur les bonnes pratiques Google Suite",
+      "adaptability": "Adaptation aux profils clients divers",
+      "collaboration": "Collaboration étroite avec les équipes produit et data",
+      "relations": "Relations clients et internes positives"
     }
   },
   "testimonials": {
