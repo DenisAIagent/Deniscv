@@ -96,5 +96,12 @@
   "footer": {
     "mentions": "Legal Notice|Hosted on Netlify",
     "copyright": "© 2025 Denis Adam All rights reserved."
+  },
+  "cv_form": {
+    "title": "Get My Resume",
+    "name": "Your name",
+    "email": "Your email",
+    "submit": "Send",
+    "success_message": "Your request has been sent successfully!"
   }
 } 

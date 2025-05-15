@@ -98,10 +98,10 @@
     "copyright": "© 2025 Denis Adam Todos los derechos reservados."
   },
   "cv_form": {
-    "title": "Obtener mi CV",
+    "title": "Recibe mi CV",
     "name": "Tu nombre",
-    "email": "Tu correo electrónico",
+    "email": "Tu correo",
     "submit": "Enviar",
-    "success_message": "¡Tu solicitud ha sido enviada con éxito!"
+    "success_message": "¡Tu solicitud ha sido enviada correctamente!"
   }
 } 
