@@ -5,7 +5,7 @@ import { FiX } from 'react-icons/fi';
 import emailjs from '@emailjs/browser'; // Import emailjs
 
 const CvModal = ({ isOpen, onClose }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [formData, setFormData] = useState({ name: '', email: '' });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null); // null, 'success', 'error'
@@ -50,6 +50,17 @@ const CvModal = ({ isOpen, onClose }) => {
       setFormData({ name: '', email: '' }); // Clear form
       // Optionally close modal on success after a delay
       // setTimeout(() => onClose(), 3000);
+
+      // Track the CV request
+      await fetch('/api/track', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          event: 'cv_download',
+          lang: i18n.language,
+          userAgent: navigator.userAgent
+        }),
+      });
     } catch (error) {
       console.error('EmailJS Error (CV Request):', error);
       setSubmitStatus('error');

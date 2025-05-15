@@ -11,6 +11,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import DarkModeToggle from './components/DarkModeToggle';
 import useDarkMode from './hooks/useDarkMode';
+import CareerTimeline from './components/CareerTimeline';
+import Testimonials from './components/Testimonials';
+import Navbar from './components/Navbar';
 
 function App() {
   const { i18n } = useTranslation();
@@ -34,17 +37,19 @@ function App() {
   );
 
   return (
-    // Appliquez la classe 'dark' au conteneur principal si isDarkMode est vrai
-    <div className={`App ${isDarkMode ? 'dark' : ''}`}>
-       <Controls /> {/* Affiche les contrôles de langue/mode sombre */}
-       <Hero />
-       <ValueProp />
-       <Achievements />
-       <About />      {/* <-- AJOUTER CETTE LIGNE */}
-       <Skills />     {/* Skills vient après About */}
-       <Photography />
-       <Contact />
-       <Footer />
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <Navbar />
+      <Controls />
+      <Hero />
+      <ValueProp />
+      <Achievements />
+      <About />
+      <Skills />
+      <CareerTimeline />
+      <Photography />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }

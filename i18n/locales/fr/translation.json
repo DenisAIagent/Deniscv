@@ -99,5 +99,38 @@
     "email": "Votre email",
     "submit": "Envoyer",
     "success_message": "Votre demande a été envoyée avec succès !"
+  },
+  "timeline": {
+    "title": "Parcours",
+    "mdmc": {
+      "title": "MDMC Music Ads — Fondateur",
+      "desc": "Développement d'outils marketing IA pour artistes & labels."
+    },
+    "johnpaul": {
+      "title": "John Paul — Team Manager",
+      "desc": "Restructuration équipe, excellence client, innovation CRM."
+    },
+    "google": {
+      "title": "Google — Account Strategist (YouTube Ads)",
+      "desc": "Optimisation de campagnes vidéos pour clients majeurs en France et Europe."
+    }
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "camille": {
+      "name": "Camille D.",
+      "title": "Manager chez Google",
+      "text": "Denis a toujours su dépasser les attentes avec une approche stratégique et humaine."
+    },
+    "lucas": {
+      "name": "Lucas M.",
+      "title": "Client MDMC",
+      "text": "Grâce à Denis, notre campagne YouTube a dépassé le million de vues avec un excellent ROI."
+    },
+    "marta": {
+      "name": "Marta G.",
+      "title": "Responsable Projets, John Paul",
+      "text": "Sa rigueur et sa créativité ont transformé notre manière de travailler ensemble."
+    }
   }
 } 
