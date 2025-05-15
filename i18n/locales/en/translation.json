@@ -35,8 +35,8 @@
     "title": "Contact Me",
     "name": "Name",
     "email": "Email",
-    "message": "Message",
-    "send": "Send Message"
+    "message": "Your message",
+    "send": "Send"
   },
   "expertise": {
     "management": "🎯 Operational Management",
