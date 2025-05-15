@@ -8,6 +8,8 @@ import CountUp from 'react-countup';
 const CareerTimeline = () => {
   const { t } = useTranslation();
 
+  const today = t('timeline.today', 'Aujourd\'hui');
+
   const stats = [
     { number: 133, suffix: '%', label: 'Croissance Équipe' },
     { number: 135, suffix: '%', label: 'Objectifs Atteints' },
@@ -17,29 +19,10 @@ const CareerTimeline = () => {
 
   const timelineData = [
     {
-      title: t('timeline.team_leader.title'),
-      company: 'Premium international concierge service',
-      location: 'Lisbon, Portugal',
-      period: '11/2019 - 10/2024',
-      icon: 'https://i.postimg.cc/GmJzMZhB/john-paul-vector-logo.png',
-      achievements: [
-        { metric: '133%', text: 'Croissance de l\'équipe en 1 an' },
-        { metric: '7', text: 'Agents formés et coachés' },
-        { metric: '98%', text: 'Satisfaction client' }
-      ],
-      details: [
-        t('timeline.team_leader.team_creation'),
-        t('timeline.team_leader.planning'),
-        t('timeline.team_leader.quality'),
-        t('timeline.team_leader.coaching'),
-        t('timeline.team_leader.collaboration')
-      ]
-    },
-    {
       title: t('timeline.cmo.title'),
       company: 'BandStream SAS',
       location: 'Lisbon, Portugal',
-      period: '09/2024 - 09/2024',
+      period: `09/2024 - ${today}`,
       icon: 'https://i.postimg.cc/xTvBjg8H/Bandstream-logo-quadri-noir.png',
       achievements: [
         { metric: '70%', text: 'Accords de partenariat' },
@@ -58,7 +41,7 @@ const CareerTimeline = () => {
       title: t('timeline.digital_marketing.title'),
       company: 'Mdmc',
       location: 'Lisbon, Portugal',
-      period: '07/2018 - 01/2024',
+      period: `07/2018 - ${today}`,
       icon: 'https://i.postimg.cc/dDc3TZGf/favicon.png',
       achievements: [
         { metric: '1.5K', text: 'Campagnes YouTube' },
@@ -70,6 +53,25 @@ const CareerTimeline = () => {
         t('timeline.digital_marketing.performance'),
         t('timeline.digital_marketing.business'),
         t('timeline.digital_marketing.recruitment')
+      ]
+    },
+    {
+      title: t('timeline.team_leader.title'),
+      company: 'Premium international concierge service',
+      location: 'Lisbon, Portugal',
+      period: '11/2019 - 10/2024',
+      icon: 'https://i.postimg.cc/GmJzMZhB/john-paul-vector-logo.png',
+      achievements: [
+        { metric: '133%', text: 'Croissance de l\'équipe en 1 an' },
+        { metric: '7', text: 'Agents formés et coachés' },
+        { metric: '98%', text: 'Satisfaction client' }
+      ],
+      details: [
+        t('timeline.team_leader.team_creation'),
+        t('timeline.team_leader.planning'),
+        t('timeline.team_leader.quality'),
+        t('timeline.team_leader.coaching'),
+        t('timeline.team_leader.collaboration')
       ]
     },
     {
