@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { useTranslation } from 'react-i18next';
@@ -11,10 +11,10 @@ const CareerTimeline = () => {
   const today = t('timeline.today', 'Aujourd\'hui');
 
   const stats = [
-    { number: 133, suffix: '%', label: 'Croissance Équipe' },
-    { number: 135, suffix: '%', label: 'Objectifs Atteints' },
-    { number: 1500, suffix: '+', label: 'Campagnes Gérées' },
-    { number: 6, suffix: 'M+', label: 'Vues YouTube' }
+    { number: 133, suffix: '%', label: t('chiffres.team_growth') },
+    { number: 135, suffix: '%', label: t('chiffres.goals_achieved') },
+    { number: 1500, suffix: '', label: t('chiffres.youtube_campaigns') },
+    { number: 34, suffix: 'M+', label: t('chiffres.total_views') }
   ];
 
   const timelineData = [
@@ -25,9 +25,9 @@ const CareerTimeline = () => {
       period: `09/2024 - ${today}`,
       icon: 'https://i.postimg.cc/xTvBjg8H/Bandstream-logo-quadri-noir.png',
       achievements: [
-        { metric: '70%', text: 'Accords de partenariat' },
-        { metric: '10', text: 'Partenaires techniques' },
-        { metric: '15+', text: 'Documents stratégiques' }
+        { metric: '70%', text: t('chiffres.partnership_agreements') },
+        { metric: '10', text: t('chiffres.technical_partners') },
+        { metric: '15+', text: t('chiffres.strategic_documents') }
       ],
       details: [
         t('timeline.cmo.strategy'),
@@ -44,9 +44,9 @@ const CareerTimeline = () => {
       period: `07/2018 - ${today}`,
       icon: 'https://i.postimg.cc/dDc3TZGf/favicon.png',
       achievements: [
-        { metric: '1.5K', text: 'Campagnes YouTube' },
-        { metric: '6M+', text: 'Vues cumulées' },
-        { metric: '10%', text: 'Taux d\'engagement' }
+        { metric: '1.5K', text: t('chiffres.youtube_campaigns') },
+        { metric: '34M+', text: t('chiffres.total_views') },
+        { metric: '10%', text: t('chiffres.engagement_rate') }
       ],
       details: [
         t('timeline.digital_marketing.strategy'),
@@ -62,9 +62,9 @@ const CareerTimeline = () => {
       period: '11/2019 - 10/2024',
       icon: 'https://i.postimg.cc/GmJzMZhB/john-paul-vector-logo.png',
       achievements: [
-        { metric: '133%', text: 'Croissance de l\'équipe en 1 an' },
-        { metric: '7', text: 'Agents formés et coachés' },
-        { metric: '98%', text: 'Satisfaction client' }
+        { metric: '133%', text: t('chiffres.team_growth') },
+        { metric: '7', text: t('chiffres.agents_trained') },
+        { metric: '98%', text: t('chiffres.customer_satisfaction') }
       ],
       details: [
         t('timeline.team_leader.team_creation'),
@@ -81,9 +81,9 @@ const CareerTimeline = () => {
       period: '11/2017 - 07/2018',
       icon: 'https://i.postimg.cc/259QMmp5/Google-Ads-logo-svg.png',
       achievements: [
-        { metric: '135%', text: 'Objectifs atteints' },
-        { metric: '10%', text: 'Amélioration conversion' },
-        { metric: '100%', text: 'Satisfaction client' }
+        { metric: '135%', text: t('chiffres.goals_achieved') },
+        { metric: '10%', text: t('chiffres.conversion_improvement') },
+        { metric: '100%', text: t('chiffres.customer_satisfaction') }
       ],
       details: [
         t('timeline.account_strategist.management'),
@@ -95,6 +95,11 @@ const CareerTimeline = () => {
       ]
     }
   ];
+
+  // Gestion de la modale Calendly
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
 
   return (
     <section id="career" className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
@@ -215,13 +220,36 @@ const CareerTimeline = () => {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <a
-            href="#contact"
+          <button
+            onClick={openModal}
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-lg"
           >
             {t('timeline.cta')}
-          </a>
+          </button>
         </motion.div>
+        {/* Modale Calendly */}
+        {isModalOpen && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
+            <div className="bg-white dark:bg-gray-900 rounded-lg shadow-xl p-6 max-w-2xl w-full relative">
+              <button
+                onClick={closeModal}
+                className="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:hover:text-white text-2xl font-bold"
+                aria-label="Fermer"
+              >
+                ×
+              </button>
+              <iframe
+                src="https://calendly.com/mdmc-yt/meeting"
+                title="Calendly"
+                width="100%"
+                height="600"
+                frameBorder="0"
+                className="rounded-lg border-0"
+                allow="fullscreen"
+              ></iframe>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
