@@ -188,11 +188,14 @@ const CareerTimeline = () => {
                 {/* Réalisations clés */}
                 <div className="grid grid-cols-3 gap-4 mb-6">
                   {item.achievements.map((achievement, idx) => (
-                    <div key={idx} className="text-center p-3 bg-blue-50 dark:bg-blue-900 rounded-lg">
+                    <div
+                      key={idx}
+                      className="flex flex-col items-center justify-center p-2 bg-blue-50 dark:bg-blue-900 rounded-lg max-w-[110px] mx-auto w-full"
+                    >
                       <div className="text-lg font-bold text-blue-600 dark:text-blue-400">
                         {achievement.metric}
                       </div>
-                      <div className="text-sm text-gray-600 dark:text-gray-300">
+                      <div className="text-xs text-gray-600 dark:text-gray-300 text-center break-words whitespace-normal">
                         {achievement.text}
                       </div>
                     </div>
