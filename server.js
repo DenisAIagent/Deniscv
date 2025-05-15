@@ -2,6 +2,8 @@ import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import trackRouter from './api/track.js';
+app.use('/api/track', trackRouter);
+
 
 const app = express();
 const __filename = fileURLToPath(import.meta.url);
