@@ -136,14 +136,15 @@ const Contact = () => {
             </motion.form>
 
             {/* Direct Contact Info */}
-            <motion.div variants={itemVariants} className="space-y-4 text-gray-700 dark:text-gray-300" aria-label="Direct contact information">
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{t('contact.direct_coordinates')}</h3>
-              <p>
-                <strong>Email:</strong> <a href="mailto:denis.adam@example.com" className="text-blue-600 dark:text-blue-400 hover:underline">denis.adam@example.com</a>
-              </p>
-              <p>
-                <strong>{t('contact.timezone')}:</strong> Europe/Paris (GMT+2)
-              </p>
+            <motion.div variants={itemVariants} className="space-y-4 text-gray-700 dark:text-gray-300" aria-label="Zones géographiques cibles">
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{t('zones.title')}</h3>
+              <p>{t('zones.desc')}</p>
+              <ul className="list-disc pl-5">
+                <li>{t('zones.france')}</li>
+                <li>{t('zones.portugal')}</li>
+                <li>{t('zones.espagne')}</li>
+                <li>{t('zones.usa')}</li>
+              </ul>
             </motion.div>
           </div>
         </motion.div>
