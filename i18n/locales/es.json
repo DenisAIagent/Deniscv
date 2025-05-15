@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "job_title": "Líder de Equipa e Estratega Digital",
+    "cta_contact": "Contactar",
+    "cta_cv": "Pedir o meu CV",
+    "focus_1_text": "Gestão Operacional",
+    "focus_2_text": "Estratégia Digital",
+    "focus_3_text": "Parceria Empenhada"
+  },
+  "achievements": {
+    "kpi_campaigns_label": "Campanhas Lançadas (6M visualizações)",
+    "kpi_coaching_label": "Sessões individuais semanais",
+    "kpi_objectives_label": "Objetivos Atingidos (Comerciais)"
+  },
+  "about": {
+    "title": "Quem Sou Eu?",
+    "paragraph_management": "Com uma sólida experiência em gestão, passei 5 anos na John Paul a liderar uma equipa de 7 concierges. Durante este período, estruturei a equipa implementando processos completos de coaching, onboarding, formação contínua e acompanhamento personalizado, desenvolvendo assim competências apuradas em liderança e desenvolvimento de talentos.",
+    "paragraph_agency": "Paralelamente, desde 2018, fundei e dirijo a minha agência de marketing digital, MDMC Music Ads. Acompanhamos mais de uma centena de clientes no desenvolvimento estratégico e no engagement da sua fanbase online.",
+    "paragraph_results": "O nosso know-how digital gerou resultados tangíveis: mais de 1.500 campanhas lançadas, 34 milhões de visualizações acumuladas e taxas de engagement sólidas entre 4 e 8%. A minha especialidade: transformar o interesse numa comunidade de fãs leais e ativos.",
+    "paragraph_synthesis": "Hoje, coloco esta dupla experiência - de gestão e digital -, orientada por dados e focada em resultados, ao serviço da estruturação das suas equipas e do crescimento do seu projeto."
+  },
+  "skills": {
+    "photography_title": "Fotografia"
+  },
+  "recognitions": {
+    "title": "Reconhecimentos",
+    "item_forbes": "Publicado na Forbes",
+    "item_rolling_stone": "Publicado na Rolling Stone Magazine",
+    "item_ipa_awards": "Menção Honrosa IPA Awards 2023",
+    "cta_portfolio": "Ver o meu portefólio"
+  },
+  "contact": {
+    "title": "Contacte-me",
+    "form_name_label": "Nome",
+    "form_email_label": "Email",
+    "form_message_label": "A sua mensagem",
+    "form_submit_button": "Enviar",
+    "direct_title": "Contacto Direto",
+    "direct_email_label": "Email:",
+    "direct_timezone_label": "Fuso horário:"
+  },
+  "footer": {
+    "legal_link": "Menções Legais",
+    "hosting_info": "Hospedado em Netlify",
+    "copyright_text": "Todos os direitos reservados."
+  }
+}

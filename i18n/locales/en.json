@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "job_title": "Team Leader & Digital Strategist",
+    "cta_contact": "Contact Me",
+    "cta_cv": "Request my Resume",
+    "focus_1_text": "Operational Management",
+    "focus_2_text": "Digital Strategy",
+    "focus_3_text": "Committed Partnership"
+  },
+  "achievements": {
+    "kpi_campaigns_label": "Campaigns Launched (6M views)",
+    "kpi_coaching_label": "Weekly individual sessions",
+    "kpi_objectives_label": "Objectives Achieved (Commercial)"
+  },
+  "about": {
+    "title": "Who Am I?",
+    "paragraph_management": "With solid management experience, I notably spent 5 years at John Paul leading a team of 7 concierges. During this period, I structured the team by implementing comprehensive processes for coaching, onboarding, continuous training, and personalized support, thereby developing sharp skills in leadership and talent development.",
+    "paragraph_agency": "In parallel, since 2018, I founded and run my digital marketing agency, MDMC Music Ads. We support over a hundred clients in the strategic development and engagement of their online fanbase.",
+    "paragraph_results": "Our digital expertise has generated tangible results: over 1,500 campaigns launched, 34 million cumulative views, and solid engagement rates between 4 and 8%. My specialty: transforming interest into a community of loyal and active fans.",
+    "paragraph_synthesis": "Today, I leverage this dual expertise - managerial and digital -, data-driven and results-oriented, to help structure your teams and grow your project."
+  },
+  "skills": {
+    "photography_title": "Photography"
+  },
+  "recognitions": {
+    "title": "Recognitions",
+    "item_forbes": "Published in Forbes",
+    "item_rolling_stone": "Published in Rolling Stone Magazine",
+    "item_ipa_awards": "Honorable Mention IPA Awards 2023",
+    "cta_portfolio": "View my portfolio"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "form_name_label": "Name",
+    "form_email_label": "Email",
+    "form_message_label": "Your message",
+    "form_submit_button": "Send",
+    "direct_title": "Direct Contact",
+    "direct_email_label": "Email:",
+    "direct_timezone_label": "Time zone:"
+  },
+  "footer": {
+    "legal_link": "Legal Notice",
+    "hosting_info": "Hosted on Netlify",
+    "copyright_text": "All rights reserved."
+  }
+}

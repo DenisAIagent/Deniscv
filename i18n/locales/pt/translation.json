@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Denis Adam",
+    "subtitle": "Desenvolvedor Full Stack",
+    "description": "Apaixonado por criar soluções web inovadoras"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "description": "Sou um desenvolvedor full stack com experiência em tecnologias web modernas."
+  },
+  "projects": {
+    "title": "Meus Projetos",
+    "view": "Ver Projeto"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Mensagem",
+    "send": "Enviar Mensagem"
+  }
+} 

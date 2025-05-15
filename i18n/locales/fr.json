@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "job_title": "Team Leader & Stratège Digital",
+    "cta_contact": "Me Contacter",
+    "cta_cv": "Demander mon CV",
+    "focus_1_text": "Management Opérationnel",
+    "focus_2_text": "Stratégie Digitale",
+    "focus_3_text": "Partenariat Engagé"
+  },
+  "achievements": {
+    "kpi_campaigns_label": "Campagnes Lancées (6M vues)",
+    "kpi_coaching_label": "Sessions individuelles hebdo.",
+    "kpi_objectives_label": "Objectifs Atteints (Commerciaux)"
+  },
+  "about": {
+    "title": "Qui Suis-Je ?",
+    "paragraph_management": "Fort d'une expérience solide en management, j'ai notamment passé 5 chez John Paul à diriger une équipe de 7 concierges. Durant cette période, j'ai structuré l'équipe en mettant en place les processus complets de coaching, d'onboarding, de formation continue et d'accompagnement personnalisé, développant ainsi des compétences pointues en leadership et en développement des talents.",
+    "paragraph_agency": "Parallèlement, depuis 2018, j'ai fondé et je dirige mon agence de marketing digital, MDMC Music Ads. Nous accompagnons plus d’une centaine de clients dans le développement stratégique et l'engagement de leur fanbase en ligne.",
+    "paragraph_results": "Notre savoir-faire digital a généré des résultats tangibles : plus de 1 500 campagnes lancées, 34 millions de vues cumulées, et des taux d’engagement solides entre 4 et 8 %. Ma spécialité : transformer l'intérêt en une communauté de fans fidèles et actifs.",
+    "paragraph_synthesis": "Aujourd'hui, je mets cette double expertise - managériale et digitale -, data-driven et orientée résultats, au service de la structuration de vos équipes et de la croissance de votre projet."
+  },
+  "skills": {
+    "photography_title": "Photographie"
+  },
+  "recognitions": {
+    "title": "Reconnaissances",
+    "item_forbes": "Publié dans Forbes",
+    "item_rolling_stone": "Publié dans Rolling Stone Magazine",
+    "item_ipa_awards": "Mention Honorable IPA Awards 2023",
+    "cta_portfolio": "Voir mon portfolio"
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "form_name_label": "Nom",
+    "form_email_label": "Email",
+    "form_message_label": "Votre message",
+    "form_submit_button": "Envoyer",
+    "direct_title": "Coordonnées Directes",
+    "direct_email_label": "Email:",
+    "direct_timezone_label": "Fuseau horaire:"
+  },
+  "footer": {
+    "legal_link": "Mentions Légales",
+    "hosting_info": "Hébergé sur Netlify",
+    "copyright_text": "Tous droits réservés."
+  }
+}
