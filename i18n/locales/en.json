@@ -1,51 +1,47 @@
 {
   "hero": {
-    "title": "Team Leader & Digital Strategist",
-    "headline": "I structure teams and optimize their digital performance.",
-    "cta_contact": "Contact me",
-    "cta_cv": "Receive my CV"
-  },
-  "value_prop": {
-    "pillar1_title": "Agile Management",
-    "pillar2_title": "Digital Marketing",
-    "pillar3_title": "Strategic Partnerships"
+    "job_title": "Team Leader & Digital Strategist",
+    "cta_contact": "Contact Me",
+    "cta_cv": "Request my Resume",
+    "focus_1_text": "Operational Management",
+    "focus_2_text": "Digital Strategy",
+    "focus_3_text": "Committed Partnership"
   },
   "achievements": {
-    "kpi1_label": "campaigns / views",
-    "kpi2_label": "team growth",
-    "kpi3_label": "objectives achieved",
-    "mentions_title": "Mentions"
+    "kpi_campaigns_label": "Campaigns Launched (6M views)",
+    "kpi_coaching_label": "Weekly individual sessions",
+    "kpi_objectives_label": "Objectives Achieved (Commercial)"
+  },
+  "about": {
+    "title": "Who Am I?",
+    "paragraph_management": "With solid management experience, I notably spent 5 years at John Paul leading a team of 7 concierges. During this period, I structured the team by implementing comprehensive processes for coaching, onboarding, continuous training, and personalized support, thereby developing sharp skills in leadership and talent development.",
+    "paragraph_agency": "In parallel, since 2018, I founded and run my digital marketing agency, MDMC Music Ads. We support over a hundred clients in the strategic development and engagement of their online fanbase.",
+    "paragraph_results": "Our digital expertise has generated tangible results: over 1,500 campaigns launched, 34 million cumulative views, and solid engagement rates between 4 and 8%. My specialty: transforming interest into a community of loyal and active fans.",
+    "paragraph_synthesis": "Today, I leverage this dual expertise - managerial and digital -, data-driven and results-oriented, to help structure your teams and grow your project."
   },
   "skills": {
-    "management_title": "Management",
-    "management_desc": "Recruitment, coaching, team building",
-    "marketing_title": "Marketing",
-    "marketing_desc": "Google Ads, funnels, automation"
+    "photography_title": "Photography"
   },
-  "photography": {
-    "title": "Photography",
-    "mentions_title": "Press Mentions",
-    "portfolio_link": "See my portfolio"
+  "recognitions": {
+    "title": "Recognitions",
+    "item_forbes": "Published in Forbes",
+    "item_rolling_stone": "Published in Rolling Stone Magazine",
+    "item_ipa_awards": "Honorable Mention IPA Awards 2023",
+    "cta_portfolio": "View my portfolio"
   },
   "contact": {
-    "title": "Contact",
-    "form_name": "Name",
-    "form_email": "Email",
-    "form_message": "Message",
-    "form_submit": "Send",
-    "success_message": "Message sent successfully!",
-    "timezone": "Timezone"
-  },
-  "cv_form": {
-    "title": "Receive my CV",
-    "name": "Name",
-    "email": "Email",
-    "submit": "Receive",
-    "success_message": "CV sent! Check your inbox."
+    "title": "Contact Me",
+    "form_name_label": "Name",
+    "form_email_label": "Email",
+    "form_message_label": "Your message",
+    "form_submit_button": "Send",
+    "direct_title": "Direct Contact",
+    "direct_email_label": "Email:",
+    "direct_timezone_label": "Time zone:"
   },
   "footer": {
-    "legal": "Legal Notice",
-    "hosting": "Hosted by Railway",
-    "copyright": "© Denis Adam – All rights reserved"
+    "legal_link": "Legal Notice",
+    "hosting_info": "Hosted on Netlify",
+    "copyright_text": "All rights reserved."
   }
 }

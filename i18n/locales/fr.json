@@ -1,51 +1,47 @@
 {
   "hero": {
-    "title": "Team Leader & Digital Strategist",
-    "headline": "Je structure des équipes et optimise leur performance digitale.",
-    "cta_contact": "Me contacter",
-    "cta_cv": "Recevoir mon CV"
-  },
-  "value_prop": {
-    "pillar1_title": "Management agile",
-    "pillar2_title": "Marketing digital",
-    "pillar3_title": "Partenariats stratégiques"
+    "job_title": "Team Leader & Stratège Digital",
+    "cta_contact": "Me Contacter",
+    "cta_cv": "Demander mon CV",
+    "focus_1_text": "Management Opérationnel",
+    "focus_2_text": "Stratégie Digitale",
+    "focus_3_text": "Partenariat Engagé"
   },
   "achievements": {
-    "kpi1_label": "campagnes / vues",
-    "kpi2_label": "croissance équipe",
-    "kpi3_label": "objectifs atteints",
-    "mentions_title": "Mentions"
+    "kpi_campaigns_label": "Campagnes Lancées (6M vues)",
+    "kpi_coaching_label": "Sessions individuelles hebdo.",
+    "kpi_objectives_label": "Objectifs Atteints (Commerciaux)"
+  },
+  "about": {
+    "title": "Qui Suis-Je ?",
+    "paragraph_management": "Fort d'une expérience solide en management, j'ai notamment passé 5 chez John Paul à diriger une équipe de 7 concierges. Durant cette période, j'ai structuré l'équipe en mettant en place les processus complets de coaching, d'onboarding, de formation continue et d'accompagnement personnalisé, développant ainsi des compétences pointues en leadership et en développement des talents.",
+    "paragraph_agency": "Parallèlement, depuis 2018, j'ai fondé et je dirige mon agence de marketing digital, MDMC Music Ads. Nous accompagnons plus d’une centaine de clients dans le développement stratégique et l'engagement de leur fanbase en ligne.",
+    "paragraph_results": "Notre savoir-faire digital a généré des résultats tangibles : plus de 1 500 campagnes lancées, 34 millions de vues cumulées, et des taux d’engagement solides entre 4 et 8 %. Ma spécialité : transformer l'intérêt en une communauté de fans fidèles et actifs.",
+    "paragraph_synthesis": "Aujourd'hui, je mets cette double expertise - managériale et digitale -, data-driven et orientée résultats, au service de la structuration de vos équipes et de la croissance de votre projet."
   },
   "skills": {
-    "management_title": "Management",
-    "management_desc": "Recrutement, coaching, team building",
-    "marketing_title": "Marketing",
-    "marketing_desc": "Google Ads, funnels, automatisation"
+    "photography_title": "Photographie"
   },
-  "photography": {
-    "title": "Photographie",
-    "mentions_title": "Mentions Presse",
-    "portfolio_link": "Voir mon portfolio"
+  "recognitions": {
+    "title": "Reconnaissances",
+    "item_forbes": "Publié dans Forbes",
+    "item_rolling_stone": "Publié dans Rolling Stone Magazine",
+    "item_ipa_awards": "Mention Honorable IPA Awards 2023",
+    "cta_portfolio": "Voir mon portfolio"
   },
   "contact": {
-    "title": "Contact",
-    "form_name": "Nom",
-    "form_email": "Email",
-    "form_message": "Message",
-    "form_submit": "Envoyer",
-    "success_message": "Message envoyé avec succès !",
-    "timezone": "Fuseau horaire"
-  },
-  "cv_form": {
-    "title": "Recevoir mon CV",
-    "name": "Nom",
-    "email": "Email",
-    "submit": "Recevoir",
-    "success_message": "CV envoyé ! Vérifiez votre boîte de réception."
+    "title": "Contactez-moi",
+    "form_name_label": "Nom",
+    "form_email_label": "Email",
+    "form_message_label": "Votre message",
+    "form_submit_button": "Envoyer",
+    "direct_title": "Coordonnées Directes",
+    "direct_email_label": "Email:",
+    "direct_timezone_label": "Fuseau horaire:"
   },
   "footer": {
-    "legal": "Mentions légales",
-    "hosting": "Hébergement Railway",
-    "copyright": "© Denis Adam – Tous droits réservés"
+    "legal_link": "Mentions Légales",
+    "hosting_info": "Hébergé sur Netlify",
+    "copyright_text": "Tous droits réservés."
   }
 }

@@ -1,11 +1,15 @@
-import React from 'react';
-import '../i18n/locales/config.js'; // Import i18n configuration
+import React, { Suspense } from 'react'; // <--- Importer Suspense
 import ReactDOM from 'react-dom/client';
-import App from './App.jsx'; // Ce chemin est correct (App.jsx est au même niveau que main.jsx dans src)
-import './index.css'; // Ce chemin est correct (index.css est au même niveau que main.jsx dans src)
+import '../i18n/locales/config.js'; // Import i18n configuration (garder avant)
+import App from './App.jsx'; 
+import './index.css'; 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    {/* 👇 Ajouter Suspense ici 👇 */}
+    <Suspense fallback={<div>Chargement des traductions...</div>}> 
+      <App /> 
+    </Suspense>
+    {/* ↑↑↑ Fin de Suspense ↑↑↑ */}
   </React.StrictMode>,
 );
