@@ -144,12 +144,14 @@ const CareerTimeline = () => {
               key={index}
               className="vertical-timeline-element"
               date={item.period}
-              iconStyle={{ 
-                background: 'rgb(33, 150, 243)', 
-                color: '#fff',
+              iconStyle={{
+                background: '#fff',
+                border: '4px solid #2196f3',
+                boxShadow: '0 0 0 6px #e5e7eb',
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'center'
+                justifyContent: 'center',
+                padding: 0
               }}
               icon={
                 <img 

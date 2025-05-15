@@ -7,7 +7,9 @@
     "fr": "FR",
     "en": "EN",
     "es": "ES",
-    "pt": "PT"
+    "pt": "PT",
+    "skills": "Competencias",
+    "portfolio": "Portfolio"
   },
   "logo": "Logo Denis Adam",
   "hero": {
@@ -16,55 +18,51 @@
     "description": "Apasionado por crear soluciones web innovadoras",
     "name": "Denis Adam",
     "slogan": "Estructurar equipos, Optimizar el rendimiento, Inspirar el crecimiento.",
-    "cta_contact": "Contactarme",
+    "cta_contact": "Contáctame",
     "cta_cv": "Solicitar mi CV"
   },
   "about": {
     "title": "Sobre mí",
     "description": "Soy un desarrollador full stack con experiencia en tecnologías web modernas.",
     "portrait": "Retrato de Denis Adam",
-    "texte": "Con sólida experiencia en gestión, pasé 5 años en John Paul dirigiendo un equipo de 7 conserjes. Durante este período, estructuré el equipo implementando procesos completos de coaching, onboarding, formación continua y apoyo personalizado, desarrollando fuertes habilidades de liderazgo y desarrollo de talentos.\n\nSimultáneamente, desde 2018, fundé y dirijo mi agencia de marketing digital, MDMC Music Ads. Apoyamos a más de cien clientes en el desarrollo estratégico y el compromiso de su base de fans en línea.\n\nNuestra experiencia digital ha generado resultados tangibles: más de 1.500 campañas lanzadas, 34 millones de visualizaciones acumuladas y tasas de compromiso sólidas entre 4 y 8%. Mi especialidad: transformar el interés en una comunidad de fans leales y activos.\n\nHoy, pongo esta doble experiencia - gerencial y digital -, basada en datos y orientada a resultados, al servicio de la estructuración de sus equipos y el crecimiento de su proyecto."
+    "texte": "Con una sólida experiencia en gestión, pasé 5 años en John Paul liderando un equipo de 7 conserjes. Durante este período, estructuré el equipo implementando procesos completos de coaching, onboarding, formación continua y acompañamiento personalizado, desarrollando habilidades avanzadas en liderazgo y desarrollo de talentos.\n\nParalelamente, desde 2018, fundé y dirijo mi agencia de marketing digital, MDMC Music Ads. Apoyamos a más de cien clientes en el desarrollo estratégico y el compromiso de su base de fans en línea.\n\nNuestro saber digital ha generado resultados tangibles: más de 1.500 campañas lanzadas, 34 millones de visualizaciones acumuladas y tasas de compromiso sólidas entre el 4 y el 8%. Mi especialidad: transformar el interés en una comunidad de fans leales y activos.\n\nHoy pongo esta doble experiencia -gerencial y digital-, orientada a los datos y a los resultados, al servicio de la estructuración de sus equipos y del crecimiento de su proyecto."
   },
   "projects": {
     "title": "Mis Proyectos",
     "view": "Ver Proyecto"
   },
   "contact": {
-    "title": "Contactarme",
+    "title": "Contáctame",
     "name": "Nombre",
-    "email": "Correo",
+    "email": "Correo electrónico",
     "message": "Mensaje",
-    "send": "Enviar Mensaje",
-    "direct_coordinates": "Contacto Directo",
-    "timezone": "Zona Horaria",
-    "success_message": "¡Mensaje enviado con éxito!",
-    "error_message": "Ocurrió un error. Por favor, inténtelo de nuevo."
+    "send": "Enviar Mensaje"
   },
   "expertise": {
     "management": "🎯 Gestión Operativa",
     "strategie": "📊 Estrategia Digital",
-    "partenariat": "🤝 Asociación Comprometida"
+    "partenariat": "🤝 Alianza Comprometida"
   },
   "chiffres": {
     "campagnes": "1.500 Campañas Lanzadas (6M vistas)",
-    "sessions": "1.274+ Sesiones Individuales Semanales",
+    "sessions": "1.274+ Sesiones individuales semanales",
     "objectifs": "135% Objetivos Alcanzados (Ventas)"
   },
   "domaines": {
     "management": {
-      "title": "Gestión de Equipos y Operativa",
+      "title": "Gestión de Equipos y Operaciones",
       "desc": "Experiencia en liderazgo, coaching y estructuración de equipos para un rendimiento y desarrollo óptimos."
     },
     "strategie": {
       "title": "Estrategia Digital y Marketing",
-      "desc": "Maestría en el desarrollo y ejecución de estrategias digitales para mejorar la presencia en línea y el compromiso de los fans."
+      "desc": "Dominio en el desarrollo y ejecución de estrategias digitales para mejorar la presencia online y el compromiso de los fans."
     }
   },
   "portfolio": {
     "title": "Pasión por la Fotografía",
     "photos": [
       "Marine actuando en el escenario",
-      "Banda Black Pumas en concierto",
+      "Black Pumas en concierto",
       "Cigarettes After Sex en el escenario",
       "Falling In Reverse actuación en vivo 1",
       "Falling In Reverse actuación en vivo 2",
@@ -73,25 +71,25 @@
       "Guitarrista tocando en concierto",
       "Retrato en blanco y negro de Leonore, mención honorífica IPA",
       "Nathaniel Rateliff & The Night Sweats en vivo",
-      "Banda Sum 41 en concierto, vista completa",
-      "Banda Sum 41 en el escenario, ángulo diferente",
-      "The Peakles Tivoli actuando en Tivoli"
+      "Sum 41 en concierto, vista completa",
+      "Sum 41 en el escenario, otro ángulo",
+      "The Peakles Tivoli actuando en el Tivoli"
     ]
   },
   "reconnaissances": {
     "title": "Reconocimientos",
-    "forbes": "Publicación Forbes",
-    "rollingstone": "Publicación Rolling Stone",
-    "ipa": "Mención Honorífica IPA Awards 2023"
+    "forbes": "Publicación en Forbes",
+    "rollingstone": "Publicación en Rolling Stone",
+    "ipa": "Mención honorífica en los IPA Awards 2023"
   },
   "cta_portfolio": "Ver mi portfolio",
   "zones": {
-    "title": "Áreas Geográficas Objetivo",
+    "title": "Zonas Geográficas Objetivo",
     "desc": "Abierto a oportunidades en las siguientes regiones:",
-    "france": "Francia: París, Centro Valle del Loira",
+    "france": "Francia: París, Centro Val de Loira",
     "portugal": "Portugal: Lisboa, Setúbal, Alentejo, Algarve",
     "espagne": "España: Andalucía (Sevilla)",
-    "usa": "EE.UU.: California, Nueva York, Texas (Patrocinio de visa requerido)"
+    "usa": "EE.UU.: California, Nueva York, Texas (Se requiere patrocinio de visa)"
   },
   "footer": {
     "mentions": "Aviso Legal|Alojado en Netlify",
@@ -100,8 +98,63 @@
   "cv_form": {
     "title": "Recibe mi CV",
     "name": "Tu nombre",
-    "email": "Tu correo",
+    "email": "Tu correo electrónico",
     "submit": "Enviar",
-    "success_message": "¡Tu solicitud ha sido enviada correctamente!"
+    "success_message": "¡Tu solicitud ha sido enviada con éxito!"
+  },
+  "timeline": {
+    "title": "Trayectoria Profesional",
+    "subtitle": "Una carrera marcada por la excelencia y resultados tangibles",
+    "cta": "Hablemos de tu proyecto",
+    "team_leader": {
+      "title": "Team Leader Operations",
+      "team_creation": "Creación y estructuración de un equipo local de soporte (de 3 a 7 agentes)",
+      "planning": "Gestión de la planificación a largo plazo y alertas internas con Google Suite",
+      "quality": "Seguimiento de KPIs e informes mensuales de rendimiento",
+      "coaching": "Coaching individualizado y programas de formación interna",
+      "collaboration": "Organización de reuniones semanales y actividades de team building"
+    },
+    "cmo": {
+      "title": "Co-fundador & CMO - Socio",
+      "strategy": "Definición de la estrategia de producto y marketing (PLG, adquisición, onboarding, retención)",
+      "mvp": "Coordinación del MVP con el CTO y el diseñador",
+      "partnerships": "Negociación con 10 socios técnicos e institucionales",
+      "market": "Análisis en profundidad de los líderes del mercado",
+      "commercial": "Desarrollo de una estrategia comercial multicanal"
+    },
+    "digital_marketing": {
+      "title": "Digital Marketing Manager",
+      "strategy": "Gestión de 1.500 campañas de YouTube (6M vistas, 10% de engagement calificado)",
+      "performance": "Seguimiento de KPIs y gestión financiera",
+      "business": "Establecimiento de alianzas estratégicas",
+      "recruitment": "Reclutamiento y estructuración de equipos multifuncionales"
+    },
+    "account_strategist": {
+      "title": "Account Strategist",
+      "management": "Gestión de campañas de Search, Display y YouTube de alto tráfico",
+      "strategy": "Recomendaciones estratégicas personalizadas",
+      "training": "Formación interna en buenas prácticas de Google Suite",
+      "adaptability": "Adaptación a perfiles de clientes diversos",
+      "collaboration": "Colaboración estrecha con los equipos de producto y datos",
+      "relations": "Relaciones positivas con clientes e internas"
+    }
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "camille": {
+      "name": "Camille D.",
+      "title": "Manager en Google",
+      "text": "Denis siempre ha superado las expectativas con un enfoque estratégico y humano."
+    },
+    "lucas": {
+      "name": "Lucas M.",
+      "title": "Cliente MDMC",
+      "text": "Gracias a Denis, nuestra campaña de YouTube superó el millón de vistas con un ROI excelente."
+    },
+    "marta": {
+      "name": "Marta G.",
+      "title": "Responsable de Proyectos, John Paul",
+      "text": "Su rigor y creatividad transformaron nuestra forma de trabajar juntos."
+    }
   }
 } 

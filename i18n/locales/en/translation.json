@@ -7,7 +7,9 @@
     "fr": "FR",
     "en": "EN",
     "es": "ES",
-    "pt": "PT"
+    "pt": "PT",
+    "skills": "Skills",
+    "portfolio": "Portfolio"
   },
   "logo": "Denis Adam Logo",
   "hero": {
@@ -34,11 +36,7 @@
     "name": "Name",
     "email": "Email",
     "message": "Message",
-    "send": "Send Message",
-    "direct_coordinates": "Direct Contact",
-    "timezone": "Timezone",
-    "success_message": "Message sent successfully!",
-    "error_message": "An error occurred. Please try again."
+    "send": "Send Message"
   },
   "expertise": {
     "management": "🎯 Operational Management",
@@ -98,10 +96,65 @@
     "copyright": "© 2025 Denis Adam All rights reserved."
   },
   "cv_form": {
-    "title": "Get My Resume",
+    "title": "Receive my CV",
     "name": "Your name",
     "email": "Your email",
     "submit": "Send",
     "success_message": "Your request has been sent successfully!"
+  },
+  "timeline": {
+    "title": "Professional Journey",
+    "subtitle": "A career marked by excellence and tangible results",
+    "cta": "Let's discuss your project",
+    "team_leader": {
+      "title": "Team Leader Operations",
+      "team_creation": "Created and structured a local support team (from 3 to 7 agents)",
+      "planning": "Managed long-term planning and internal alerts with Google Suite",
+      "quality": "Monitored KPIs and monthly performance reporting",
+      "coaching": "Individual coaching and internal training programs",
+      "collaboration": "Organized weekly meetings and team building activities"
+    },
+    "cmo": {
+      "title": "Co-founder & CMO - Partner",
+      "strategy": "Defined product and marketing strategy (PLG, acquisition, onboarding, retention)",
+      "mvp": "Coordinated MVP with CTO and designer",
+      "partnerships": "Negotiated with 10 technical and institutional partners",
+      "market": "In-depth analysis of market leaders",
+      "commercial": "Developed a multichannel commercial strategy"
+    },
+    "digital_marketing": {
+      "title": "Digital Marketing Manager",
+      "strategy": "Managed 1,500 YouTube campaigns (6M views, 10% qualified engagement)",
+      "performance": "KPI tracking and financial management",
+      "business": "Established strategic partnerships",
+      "recruitment": "Recruited and structured cross-functional teams"
+    },
+    "account_strategist": {
+      "title": "Account Strategist",
+      "management": "Managed high-traffic Search, Display, and YouTube campaigns",
+      "strategy": "Provided personalized strategic recommendations",
+      "training": "Internal training on Google Suite best practices",
+      "adaptability": "Adapted to diverse client profiles",
+      "collaboration": "Close collaboration with product and data teams",
+      "relations": "Positive client and internal relations"
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "camille": {
+      "name": "Camille D.",
+      "title": "Manager at Google",
+      "text": "Denis has always exceeded expectations with a strategic and human approach."
+    },
+    "lucas": {
+      "name": "Lucas M.",
+      "title": "MDMC Client",
+      "text": "Thanks to Denis, our YouTube campaign exceeded one million views with excellent ROI."
+    },
+    "marta": {
+      "name": "Marta G.",
+      "title": "Project Manager, John Paul",
+      "text": "His rigor and creativity transformed our way of working together."
+    }
   }
 } 
