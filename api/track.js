@@ -3,7 +3,6 @@ import express from 'express';
 import { MongoClient } from 'mongodb';
 
 const router = express.Router();
-
 const uri = process.env.MONGODB_URI;
 if (!uri) throw new Error("❌ MONGODB_URI is not defined");
 
@@ -25,7 +24,7 @@ router.post('/', async (req, res) => {
 
     res.sendStatus(200);
   } catch (err) {
-    console.error('❌ Tracking Error:', err.stack || err);
+    console.error('❌ Tracking error:', err.stack || err);
     res.sendStatus(500);
   }
 });
