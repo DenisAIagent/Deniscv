@@ -25,7 +25,7 @@
     "title": "Sobre mim",
     "description": "Sou um desenvolvedor full stack com experiência em tecnologias web modernas.",
     "portrait": "Retrato de Denis Adam",
-    "texte": "Com sólida experiência em gestão, passei 5 anos na John Paul liderando uma equipe de 7 concierges. Durante esse período, estruturei a equipe implementando processos completos de coaching, onboarding, treinamento contínuo e acompanhamento personalizado, desenvolvendo habilidades avançadas em liderança e desenvolvimento de talentos.\n\nParalelamente, desde 2018, fundei e dirijo minha agência de marketing digital, MDMC Music Ads. Apoiamos mais de cem clientes no desenvolvimento estratégico e no engajamento de suas bases de fãs online.\n\nNossa expertise digital gerou resultados tangíveis: mais de 1.500 campanhas lançadas, 34 milhões de visualizações acumuladas e taxas de engajamento sólidas entre 4% e 8%. Minha especialidade: transformar interesse em uma comunidade de fãs leais e ativos.\n\nHoje, coloco essa dupla expertise - gerencial e digital -, orientada por dados e resultados, a serviço da estruturação das suas equipes e do crescimento do seu projeto."
+    "texte": "Com sólida experiência em gestão, passei 5 anos na John Paul (empresa de concierge de luxo) liderando uma equipe de 7 concierges. Durante esse período, estruturei a equipe implementando processos completos de coaching, onboarding, treinamento contínuo e acompanhamento personalizado, desenvolvendo habilidades avançadas em liderança e desenvolvimento de talentos.\n\nParalelamente, desde 2018, fundei e gerencio minha agência de marketing digital, MDMC Music Ads. Apoiamos mais de cem clientes no desenvolvimento estratégico e no engajamento de suas bases de fãs online.\n\nNossa expertise digital gerou resultados tangíveis: mais de 1.500 campanhas lançadas, 34 milhões de visualizações acumuladas e taxas de engajamento sólidas entre 4% e 8%. Minha especialidade: transformar interesse em uma comunidade de fãs leais e ativos.\n\nHoje, coloco essa dupla expertise - gerencial e digital -, orientada por dados e resultados, a serviço da estruturação das suas equipes e do crescimento do seu projeto."
   },
   "projects": {
     "title": "Meus Projetos",
@@ -33,8 +33,8 @@
   },
   "contact": {
     "title": "Entrar em contato",
-    "name": "Nome",
-    "email": "Email",
+    "name": "Seu nome",
+    "email": "Seu email",
     "message": "Mensagem",
     "send": "Enviar Mensagem"
   },
@@ -66,7 +66,7 @@
     },
     "strategie": {
       "title": "Estratégia Digital & Marketing",
-      "desc": "Domínio no desenvolvimento e execução de estratégias digitais para melhorar a presença online e o engajamento dos fãs."
+      "desc": "Especialista no desenvolvimento e execução de estratégias digitais para melhorar a presença online e o engajamento dos fãs."
     }
   },
   "portfolio": {
@@ -87,7 +87,7 @@
       "The Peakles Tivoli se apresentando no Tivoli"
     ]
   },
-  "reconnaissances": {
+  "reconhecimentos": {
     "title": "Reconhecimentos",
     "forbes": "Publicação na Forbes",
     "rollingstone": "Publicação na Rolling Stone",
@@ -96,7 +96,7 @@
   "cta_portfolio": "Ver meu portfólio",
   "zones": {
     "title": "Zonas Geográficas Alvo",
-    "desc": "Aberto a oportunidades nas seguintes regiões:",
+    "desc": "Disponível para oportunidades nas seguintes regiões:",
     "france": "França: Paris, Centre Val de Loire",
     "portugal": "Portugal: Lisboa, Setúbal, Alentejo, Algarve",
     "espagne": "Espanha: Andaluzia (Sevilha)",
