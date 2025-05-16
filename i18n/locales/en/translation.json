@@ -25,7 +25,7 @@
     "title": "About Me",
     "description": "I am a full stack developer with experience in modern web technologies.",
     "portrait": "Denis Adam Portrait",
-    "texte": "With solid management experience, I spent 5 years at John Paul leading a team of 7 concierges. During this period, I structured the team by implementing complete coaching, onboarding, continuous training, and personalized support processes, developing strong leadership and talent development skills.\n\nSimultaneously, since 2018, I founded and run my digital marketing agency, MDMC Music Ads. We support over a hundred clients in strategic development and online fanbase engagement.\n\nOur digital expertise has generated tangible results: over 1,500 campaigns launched, 34 million cumulative views, and solid engagement rates between 4 and 8%. My specialty: transforming interest into a loyal and active fan community.\n\nToday, I put this dual expertise - managerial and digital -, data-driven and results-oriented, at the service of structuring your teams and growing your project."
+    "texte": "With solid management experience, I spent 5 years at John Paul (luxury concierge company) leading a team of 7 concierges. During this period, I structured the team by implementing complete coaching, onboarding, continuous training, and personalized support processes, developing strong leadership and talent development skills.\n\nSimultaneously, since 2018, I founded and run my digital marketing agency, MDMC Music Ads. We support over a hundred clients in strategic development and online fanbase engagement.\n\nOur digital expertise has generated tangible results: over 1,500 campaigns launched, 34 million cumulative views, and solid engagement rates between 4% and 8%. My specialty: transforming interest into a loyal and active fan community.\n\nToday, I put this dual expertise - managerial and digital -, data-driven and results-oriented, at the service of structuring your teams and growing your project."
   },
   "projects": {
     "title": "My Projects",
@@ -66,7 +66,7 @@
     },
     "strategie": {
       "title": "Digital Strategy & Marketing",
-      "desc": "Mastery in developing and executing digital strategies to improve online presence and fan engagement."
+      "desc": "Expert in developing and executing digital strategies to improve online presence and fan engagement."
     }
   },
   "portfolio": {
@@ -96,7 +96,7 @@
   "cta_portfolio": "View my portfolio",
   "zones": {
     "title": "Target Geographic Areas",
-    "desc": "Open to opportunities in the following regions:",
+    "desc": "Available for opportunities in the following regions:",
     "france": "France: Paris, Centre Val de Loire",
     "portugal": "Portugal: Lisbon, Setúbal, Alentejo, Algarve",
     "espagne": "Spain: Andalusia (Seville)",
