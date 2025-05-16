@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.adam-denis.com/sitemap.xml 
+Sitemap: https://adam-denis.com/sitemap.xml 
