@@ -57,7 +57,7 @@ const CareerTimeline = () => {
     },
     {
       title: t('timeline.team_leader.title'),
-      company: 'Premium international concierge service',
+      company: 'John Paul',
       location: 'Lisbon, Portugal',
       period: '11/2019 - 10/2024',
       icon: 'https://i.postimg.cc/GmJzMZhB/john-paul-vector-logo.png',
