@@ -57,7 +57,10 @@
     "conversion_improvement": "Amélioration conversion",
     "campagnes": "1 500 Campagnes Lancées (34M vues)",
     "sessions": "1 274+ Sessions individuelles hebdomadaires",
-    "objectifs": "135% Objectifs Atteints (Commerciaux)"
+    "objectifs": "135% Objectifs Atteints (Commerciaux)",
+    "media_mentions": "50+ retombées médiatiques",
+    "media_projects": "100+ projets et artistes accompagnés",
+    "press_success": "90% de retombées presse positives"
   },
   "domaines": {
     "management": {
@@ -149,6 +152,14 @@
       "collaboration": "Collaboration étroite avec les équipes produit et data",
       "relations": "Relations clients et internes positives"
     },
+    "pr_manager": {
+      "title": "Attaché de presse & Responsable Relations Médias",
+      "strategy": "Développement et mise en œuvre de la stratégie de relations médias de l'entreprise.",
+      "press_releases": "Rédaction et diffusion de communiqués de presse pour assurer une couverture médiatique optimale.",
+      "media_relations": "Gestion et consolidation des relations avec les journalistes et les médias clés.",
+      "press_events": "Organisation d'événements de presse et coordination des interviews pour accroître la visibilité médiatique.",
+      "monitoring": "Suivi de la couverture médiatique et analyse de l'impact des actions de presse."
+    },
     "today": "Aujourd'hui"
   },
   "testimonials": {
@@ -165,4 +176,4 @@
       "covid": "Assistance pendant la crise Covid à l'étranger :\n\"Je tenais à vous dire combien j'ai apprécié votre bienveillance. Je tiens à vous exprimer toute ma gratitude car j'ai déjà été en contact avec l'ambassade de France à Cuba puis j'ai eu le médecin, et le médecin de l'assurance. J'ai été touchée par votre réactivité, votre compassion et votre empathie.\""
     }
   }
-} 
+}
