@@ -119,7 +119,8 @@
   "timeline": {
     "title": "Career Timeline",
     "subtitle": "A career marked by excellence and measurable results",
-    "cta": "Let’s talk about your project",
+    "cta": "Let's talk about your project",
+    "today": "Today",
     "team_leader": {
       "title": "Team Manager Night Shift",
       "team_creation": "Created and structured a local support team (from 3 to 7 agents)",
@@ -154,13 +155,15 @@
     },
     "pr_manager": {
       "title": "Press Officer & Media Relations Manager",
-      "strategy": "Developed and implemented the company's media relations strategy.",
-      "press_releases": "Drafted and disseminated press releases to ensure optimal media coverage.",
-      "media_relations": "Managed and strengthened relationships with key journalists and media outlets.",
-      "press_events": "Organized press events and coordinated interviews to increase visibility.",
-      "monitoring": "Monitored media coverage and analyzed the impact of press initiatives."
-    },
-    "today": "Today"
+      "strategy_creation": "Created complete PR strategy for Issoudun Reggae Temple (from 0 media strategy to national coverage)",
+      "value_transformation": "Radical transformation: from €0 to +€20K advertising value per festival edition",
+      "journalist_growth": "Exceptional journalist growth: from 1 to nearly 40 journalists present per edition",
+      "team_leadership": "Led team of 5 (2014-2017) and managed crisis post-2015 attacks",
+      "institutional_relations": "Comprehensive local, regional, and prefectural institutional relations strategy",
+      "scarecrow_success": "Scarecrow media transition: French independents → national/international coverage (120+ pages)",
+      "city_kay_expansion": "City Kay expansion: local → international coverage (Rolling Stone Magazine Mexico)",
+      "press_events": "Coordinated press events and interviews to maximize artistic visibility"
+    }
   },
   "testimonials": {
     "title": "Testimonials",
@@ -172,7 +175,7 @@
     "customer_feedback": {
       "title": "Customer Feedback",
       "fraud": "Credit card fraud incident:\n\"Manager Denis ADAM showed exemplary professionalism; his team responded to all our requests. We are very satisfied with the service provided.\"",
-      "mbappe": "Signed Mbappé t-shirt:\n\"A big thank you to you, Denis, and to Jade for your great work. For a first time, it’s a big success for me. Thanks for passing on my thanks to the team, I’ll send an email as well.\"",
+      "mbappe": "Signed Mbappé t-shirt:\n\"A big thank you to you, Denis, and to Jade for your great work. For a first time, it's a big success for me. Thanks for passing on my thanks to the team, I'll send an email as well.\"",
       "covid": "Assistance during Covid crisis abroad:\n\"I wanted to say how much I appreciated your kindness. I'm truly grateful, as I had already contacted the French embassy in Cuba and the insurance doctor. I was touched by your responsiveness, compassion, and empathy.\""
     }
   }
