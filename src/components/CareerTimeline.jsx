@@ -101,16 +101,19 @@ const CareerTimeline = () => {
       period: '2012 - 2017',
       icon: 'https://i1.sndcdn.com/avatars-000110067276-kjiaym-t1080x1080.jpg',
       achievements: [
-        { metric: '50+', text: t('chiffres.media_mentions') },
-        { metric: '100+', text: t('chiffres.media_projects') },
-        { metric: '90%', text: t('chiffres.press_success') }
+        { metric: '0 → €20K+', text: 'Valeur pub par édition (avant/après stratégie RP)' },
+        { metric: '1 → 40', text: 'Journalistes présents (transformation complète)' },
+        { metric: '120+', text: 'Pages de dossier de presse (record Scarecrow)' }
       ],
       details: [
-        t('timeline.pr_manager.strategy'),
-        t('timeline.pr_manager.press_releases'),
-        t('timeline.pr_manager.media_relations'),
-        t('timeline.pr_manager.press_events'),
-        t('timeline.pr_manager.monitoring')
+        'Création stratégie RP complète pour Issoudun Reggae Temple (passage de 0 stratégie média à couverture nationale)',
+        'Transformation radicale : de 0€ à +20K€ de valeur publicitaire par édition du festival',
+        'Croissance journalistique exceptionnelle : de 1 à près de 40 journalistes présents par édition',
+        'Leadership équipe de 5 personnes (2014-2017) et gestion de crise post-attaques 2015',
+        'Stratégie relations institutionnelles locales, régionales et préfectorales complète',
+        'Transition média Scarecrow : indépendants français → couverture nationale/internationale (120+ pages)',
+        'Expansion City Kay : couverture locale → internationale (Rolling Stone Magazine Mexico)',
+        'Coordination événements presse et interviews pour maximiser visibilité artistique'
       ]
     }
   ];
