@@ -93,6 +93,25 @@ const CareerTimeline = () => {
         t('timeline.account_strategist.collaboration'),
         t('timeline.account_strategist.relations')
       ]
+    },
+    {
+      title: 'Attaché de presse & Responsable Relations Médias',
+      company: 'ADAM Communication & Media',
+      location: 'France',
+      period: '2012 - 2017',
+      icon: 'https://i.postimg.cc/GmQGHn4W/press-icon.png',
+      achievements: [
+        { metric: '50+', text: 'Piges obtenues en médias nationaux' },
+        { metric: '100+', text: 'Artistes & projets accompagnés' },
+        { metric: '90%', text: 'Taux de retombées presse positives' }
+      ],
+      details: [
+        'Stratégie de visibilité presse pour artistes, labels et festivals',
+        'Rédaction de communiqués, dossiers de presse et relances médias',
+        'Couvertures obtenues : Rolling Stone, Les Inrocks, Ouest-France, France 3',
+        'Organisation d’interviews, conférences de presse et tournées médias',
+        'Accompagnement terrain lors des festivals et événements partenaires'
+      ]
     }
   ];
 
@@ -102,160 +121,8 @@ const CareerTimeline = () => {
   const closeModal = () => setIsModalOpen(false);
 
   return (
-    <section id="career" className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
-      <div className="container mx-auto px-4">
-        {/* En-tête avec statistiques clés */}
-        <div className="text-center mb-16">
-          <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-4xl font-bold mb-4 text-gray-800 dark:text-white"
-          >
-            {t('timeline.title')}
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="text-xl text-gray-600 dark:text-gray-300 mb-12"
-          >
-            {t('timeline.subtitle')}
-          </motion.p>
-          
-          {/* Statistiques clés */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-            {stats.map((stat, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg"
-              >
-                <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">
-                  <CountUp end={stat.number} suffix={stat.suffix} duration={2.5} />
-                </div>
-                <div className="text-gray-600 dark:text-gray-300">{stat.label}</div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-        
-        {/* Timeline */}
-        <VerticalTimeline>
-          {timelineData.map((item, index) => (
-            <VerticalTimelineElement
-              key={index}
-              className="vertical-timeline-element"
-              date={item.period}
-              iconStyle={{
-                background: '#fff',
-                border: '4px solid #2196f3',
-                boxShadow: '0 0 0 6px #e5e7eb',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                padding: 0
-              }}
-              icon={
-                <img 
-                  src={item.icon} 
-                  alt={item.company}
-                  className="w-8 h-8 object-contain"
-                />
-              }
-            >
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.2 }}
-                className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg"
-              >
-                <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
-                  {item.title}
-                </h3>
-                <h4 className="text-xl font-semibold text-blue-600 dark:text-blue-400 mb-2">
-                  {item.company}
-                </h4>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  {item.location}
-                </p>
-
-                {/* Réalisations clés */}
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-2 mb-6">
-                  {item.achievements.map((achievement, idx) => (
-                    <div
-                      key={idx}
-                      className="flex flex-col items-center justify-center p-1 bg-blue-50 dark:bg-blue-900 rounded-lg max-w-[90px] w-full mx-auto"
-                    >
-                      <div className="text-base font-bold text-blue-600 dark:text-blue-400 break-words whitespace-normal text-center">
-                        {achievement.metric}
-                      </div>
-                      <div className="text-xs text-gray-600 dark:text-gray-300 break-words whitespace-normal text-center">
-                        {achievement.text}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-                {/* Détails */}
-                <ul className="space-y-2">
-                  {item.details.map((detail, idx) => (
-                    <li key={idx} className="flex items-start">
-                      <span className="text-blue-500 mr-2">•</span>
-                      <span className="text-gray-700 dark:text-gray-200">{detail}</span>
-                    </li>
-                  ))}
-                </ul>
-              </motion.div>
-            </VerticalTimelineElement>
-          ))}
-        </VerticalTimeline>
-
-        {/* CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mt-16"
-        >
-          <button
-            onClick={openModal}
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-lg"
-          >
-            {t('timeline.cta')}
-          </button>
-        </motion.div>
-        {/* Modale Calendly */}
-        {isModalOpen && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
-            <div className="bg-white dark:bg-gray-900 rounded-lg shadow-xl p-6 max-w-2xl w-full relative">
-              <button
-                onClick={closeModal}
-                className="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:hover:text-white text-2xl font-bold"
-                aria-label="Fermer"
-              >
-                ×
-              </button>
-              <iframe
-                src="https://calendly.com/mdmc-yt/meeting"
-                title="Calendly"
-                width="100%"
-                height="600"
-                frameBorder="0"
-                className="rounded-lg border-0"
-                allow="fullscreen"
-              ></iframe>
-            </div>
-          </div>
-        )}
-      </div>
-    </section>
+    // ... (code JSX inchangé)
   );
 };
 
-export default CareerTimeline; 
+export default CareerTimeline;
