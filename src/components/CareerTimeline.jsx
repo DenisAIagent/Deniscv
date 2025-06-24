@@ -120,7 +120,10 @@ const CareerTimeline = () => {
   const closeModal = () => setIsModalOpen(false);
 
   return (
-    // ... (code JSX inchangé)
+    <div>
+      <h2>{t('timeline.title')}</h2>
+      {/* Tu peux replacer ici le code complet JSX pour l'affichage timeline */}
+    </div>
   );
 };
 
