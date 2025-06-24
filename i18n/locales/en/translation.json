@@ -17,15 +17,15 @@
     "subtitle": "Full Stack Developer",
     "description": "Passionate about creating innovative web solutions",
     "name": "Denis Adam",
-    "slogan": "Structure Teams, Optimize Performance, Inspire Growth.",
+    "slogan": "Structure teams, Optimize performance, Inspire growth.",
     "cta_contact": "Contact Me",
-    "cta_cv": "Request my CV"
+    "cta_cv": "Request My CV"
   },
   "about": {
     "title": "About Me",
-    "description": "I am a full stack developer with experience in modern web technologies.",
-    "portrait": "Denis Adam Portrait",
-    "texte": "With solid management experience, I spent 5 years at John Paul (luxury concierge company) leading a team of 7 concierges. During this period, I structured the team by implementing complete coaching, onboarding, continuous training, and personalized support processes, developing strong leadership and talent development skills.\n\nSimultaneously, since 2018, I founded and run my digital marketing agency, MDMC Music Ads. We support over a hundred clients in strategic development and online fanbase engagement.\n\nOur digital expertise has generated tangible results: over 1,500 campaigns launched, 34 million cumulative views, and solid engagement rates between 4% and 8%. My specialty: transforming interest into a loyal and active fan community.\n\nToday, I put this dual expertise - managerial and digital -, data-driven and results-oriented, at the service of structuring your teams and growing your project."
+    "description": "I'm a full stack developer with experience in modern web technologies.",
+    "portrait": "Portrait of Denis Adam",
+    "texte": "With solid experience in team management, I spent 5 years at John Paul leading a team of 7 concierges. During that time, I built the team from the ground up, implementing full coaching, onboarding, continuous training, and personalized support processes—developing advanced skills in leadership and talent development.\n\nIn parallel, since 2018, I have founded and run my digital marketing agency, MDMC Music Ads. We support over 100 clients in building their strategy and growing their online fanbase.\n\nOur digital expertise has produced tangible results: over 1,500 campaigns launched, 34 million cumulative views, and solid engagement rates between 4 and 8%. My specialty: turning attention into a loyal, active community.\n\nToday, I apply this dual expertise—managerial and digital, data-driven and results-oriented—to help structure your teams and grow your project."
   },
   "projects": {
     "title": "My Projects",
@@ -41,13 +41,13 @@
   "expertise": {
     "management": "Operational Management",
     "strategie": "Digital Strategy",
-    "partenariat": "Committed Partnership"
+    "partenariat": "Engaged Partnership"
   },
   "chiffres": {
-    "partnership_agreements": "Partnership agreements",
+    "partnership_agreements": "Partnership deals",
     "technical_partners": "Technical partners",
     "strategic_documents": "Strategic documents",
-    "youtube_campaigns": "YouTube campaigns",
+    "youtube_campaigns": "YouTube Campaigns",
     "total_views": "34M+ Total views",
     "engagement_rate": "Engagement rate",
     "team_growth": "Team growth in 1 year",
@@ -56,8 +56,11 @@
     "goals_achieved": "Goals achieved",
     "conversion_improvement": "Conversion improvement",
     "campagnes": "1,500 Campaigns Launched (34M views)",
-    "sessions": "1,274+ Weekly Individual Sessions",
-    "objectifs": "135% Goals Achieved (Sales)"
+    "sessions": "1,274+ Weekly one-on-one sessions",
+    "objectifs": "135% Objectives Reached",
+    "media_mentions": "50+ media mentions",
+    "media_projects": "100+ supported projects & artists",
+    "press_success": "90% positive press coverage"
   },
   "domaines": {
     "management": {
@@ -66,103 +69,111 @@
     },
     "strategie": {
       "title": "Digital Strategy & Marketing",
-      "desc": "Expert in developing and executing digital strategies to improve online presence and fan engagement."
+      "desc": "Mastery of digital strategy development and execution to improve online presence and fan engagement."
     }
   },
   "portfolio": {
     "title": "Photography Passion",
     "photos": [
-      "Marine performing on stage",
-      "Black Pumas band in concert",
+      "Marine performing live on stage",
+      "Black Pumas live concert",
       "Cigarettes After Sex on stage",
-      "Falling In Reverse live performance 1",
-      "Falling In Reverse live performance 2",
-      "Artist in concert, close-up",
+      "Falling In Reverse live 1",
+      "Falling In Reverse live 2",
+      "Artist live close-up shot",
       "Singer on stage with microphone",
-      "Guitarist playing in concert",
+      "Guitarist playing live",
       "Black and white portrait of Leonore, IPA honorable mention",
       "Nathaniel Rateliff & The Night Sweats live",
-      "Sum 41 band in concert, full view",
-      "Sum 41 band on stage, different angle",
-      "The Peakles Tivoli performing at Tivoli"
+      "Sum 41 group stage overview",
+      "Sum 41 on stage, side angle",
+      "The Peakles Tivoli performance at Tivoli"
     ]
   },
   "reconnaissances": {
     "title": "Recognition",
-    "forbes": "Forbes Publication",
-    "rollingstone": "Rolling Stone Publication",
-    "ipa": "IPA Awards 2023 Honorable Mention"
+    "forbes": "Featured in Forbes",
+    "rollingstone": "Featured in Rolling Stone",
+    "ipa": "Honorable Mention – IPA Awards 2023"
   },
-  "cta_portfolio": "View my portfolio",
+  "cta_portfolio": "See My Portfolio",
   "zones": {
-    "title": "Target Geographic Areas",
-    "desc": "Available for opportunities in the following regions:",
+    "title": "Target Locations",
+    "desc": "Open to opportunities in the following regions:",
     "france": "France: Paris, Centre Val de Loire",
     "portugal": "Portugal: Lisbon, Setúbal, Alentejo, Algarve",
     "espagne": "Spain: Andalusia (Seville)",
     "usa": "USA: California, New York, Texas (Visa sponsorship required)"
   },
   "footer": {
-    "mentions": "Legal Notice|Hosted on Netlify",
+    "mentions": "Legal Notice | Hosted on Netlify",
     "copyright": "© 2025 Denis Adam All rights reserved."
   },
   "cv_form": {
-    "title": "Receive my CV",
+    "title": "Get My CV",
     "name": "Your name",
     "email": "Your email",
     "submit": "Send",
     "success_message": "Your request has been sent successfully!"
   },
   "timeline": {
-    "title": "Professional Journey",
-    "subtitle": "A career marked by excellence and tangible results",
-    "cta": "Let's discuss your project",
+    "title": "Career Timeline",
+    "subtitle": "A career marked by excellence and measurable results",
+    "cta": "Let’s talk about your project",
     "team_leader": {
       "title": "Team Manager Night Shift",
       "team_creation": "Created and structured a local support team (from 3 to 7 agents)",
-      "planning": "Managed long-term planning and internal alerts with Google Suite",
-      "quality": "Monitored KPIs and monthly performance reporting",
+      "planning": "Long-term planning and internal alert management with Google Suite",
+      "quality": "KPI tracking and monthly performance reports",
       "coaching": "Individual coaching and internal training programs",
-      "collaboration": "Organized weekly meetings and team building activities"
+      "collaboration": "Weekly meetings and team building activities"
     },
     "cmo": {
       "title": "Co-founder & CMO - Partner",
       "strategy": "Defined product and marketing strategy (PLG, acquisition, onboarding, retention)",
-      "mvp": "Coordinated MVP with CTO and designer",
+      "mvp": "Coordinated MVP development with CTO and designer",
       "partnerships": "Negotiated with 10 technical and institutional partners",
-      "market": "In-depth analysis of market leaders",
-      "commercial": "Developed a multichannel commercial strategy"
+      "market": "Conducted market leader analysis",
+      "commercial": "Built a multi-channel sales strategy"
     },
     "digital_marketing": {
       "title": "Digital Marketing Manager",
       "strategy": "Managed 1,500 YouTube campaigns (6M views, 10% qualified engagement)",
-      "performance": "KPI tracking and financial management",
-      "business": "Established strategic partnerships",
+      "performance": "Monitored KPIs and financial management",
+      "business": "Built strategic partnerships",
       "recruitment": "Recruited and structured cross-functional teams"
     },
     "account_strategist": {
       "title": "Account Strategist",
-      "management": "Managed high-traffic Search, Display, and YouTube campaigns",
-      "strategy": "Provided personalized strategic recommendations",
+      "management": "Managed high-traffic Search, Display and YouTube campaigns",
+      "strategy": "Delivered tailored strategic recommendations",
       "training": "Internal training on Google Suite best practices",
       "adaptability": "Adapted to diverse client profiles",
       "collaboration": "Close collaboration with product and data teams",
-      "relations": "Positive client and internal relations"
+      "relations": "Built strong client and internal relationships"
     },
-    "today": "Present"
+    "pr_manager": {
+      "title": "Press Officer & Media Relations Manager",
+      "strategy": "Developed and implemented the company's media relations strategy.",
+      "press_releases": "Drafted and disseminated press releases to ensure optimal media coverage.",
+      "media_relations": "Managed and strengthened relationships with key journalists and media outlets.",
+      "press_events": "Organized press events and coordinated interviews to increase visibility.",
+      "monitoring": "Monitored media coverage and analyzed the impact of press initiatives."
+    },
+    "today": "Today"
   },
   "testimonials": {
     "title": "Testimonials",
     "tachfin": {
       "name": "Tachfin Khelil",
-      "title": "Site Director at John Paul, Lisbon",
-      "text": "As the site director at John Paul in Lisbon, I had the pleasure of working with Denis ADAM, whose commitment, rigor, and versatility greatly contributed to the quality of our premium service. He was able to structure and strengthen our night concierge team, demonstrating a keen sense of crisis management and customer experience. Proactive, resilient, and always solution-oriented, Denis earned the trust of both clients and colleagues. I highly recommend him for any position requiring leadership, adaptability, and excellence in relationships."
+      "title": "Site Director – John Paul, Lisbon",
+      "text": "As site director at John Paul Lisbon, I had the pleasure of working with Denis ADAM, whose dedication, rigor, and versatility greatly contributed to the quality of our premium service. He structured and strengthened our night concierge team, while showing strong crisis management and customer experience skills. Proactive, resilient, and always solution-oriented, Denis earned the trust of clients and colleagues alike. I highly recommend him for any position requiring leadership, adaptability, and excellence in relationships."
     },
     "customer_feedback": {
       "title": "Customer Feedback",
-      "fraud": "Credit Card Fraud Incident:\n\"Manager Denis ADAM demonstrated exemplary professionalism; his team responded to all our requests. We are delighted with the quality of service provided.\"",
-      "mbappe": "Mbappé Signed T-shirt:\n\"A big thank you to you, Denis, and Jade for your fantastic work. For a first attempt, it's a great success for me. Please pass the word to the whole team, I will be sending an email to this effect.\"",
-      "covid": "Assistance During the Covid Crisis Abroad:\n\"I wanted to express how much I appreciate your kindness. I would like to express my deepest gratitude because I have already been in touch with the French embassy in Cuba and then I got the doctor, and the insurance doctor. I was touched by your responsiveness, your compassion, and your empathy.\""
+      "fraud": "Credit card fraud incident:\n\"Manager Denis ADAM showed exemplary professionalism; his team responded to all our requests. We are very satisfied with the service provided.\"",
+      "mbappe": "Signed Mbappé t-shirt:\n\"A big thank you to you, Denis, and to Jade for your great work. For a first time, it’s a big success for me. Thanks for passing on my thanks to the team, I’ll send an email as well.\"",
+      "covid": "Assistance during Covid crisis abroad:\n\"I wanted to say how much I appreciated your kindness. I'm truly grateful, as I had already contacted the French embassy in Cuba and the insurance doctor. I was touched by your responsiveness, compassion, and empathy.\""
     }
   }
-} 
+}
