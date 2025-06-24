@@ -120,6 +120,7 @@
     "title": "Parcours Professionnel",
     "subtitle": "Une carrière marquée par l'excellence et des résultats concrets",
     "cta": "Discutons de votre projet",
+    "today": "Aujourd'hui",
     "team_leader": {
       "title": "Team Manager Night Shift",
       "team_creation": "Création et structuration d'une équipe locale de support (de 3 à 7 agents)",
@@ -154,13 +155,15 @@
     },
     "pr_manager": {
       "title": "Attaché de presse & Responsable Relations Médias",
-      "strategy": "Développement et mise en œuvre de la stratégie de relations médias de l'entreprise.",
-      "press_releases": "Rédaction et diffusion de communiqués de presse pour assurer une couverture médiatique optimale.",
-      "media_relations": "Gestion et consolidation des relations avec les journalistes et les médias clés.",
-      "press_events": "Organisation d'événements de presse et coordination des interviews pour accroître la visibilité médiatique.",
-      "monitoring": "Suivi de la couverture médiatique et analyse de l'impact des actions de presse."
-    },
-    "today": "Aujourd'hui"
+      "strategy_creation": "Création stratégie RP complète pour Issoudun Reggae Temple (passage de 0 stratégie média à couverture nationale)",
+      "value_transformation": "Transformation radicale : de 0€ à +20K€ de valeur publicitaire par édition du festival",
+      "journalist_growth": "Croissance journalistique exceptionnelle : de 1 à près de 40 journalistes présents par édition",
+      "team_leadership": "Leadership équipe de 5 personnes (2014-2017) et gestion de crise post-attaques 2015",
+      "institutional_relations": "Stratégie relations institutionnelles locales, régionales et préfectorales complète",
+      "scarecrow_success": "Transition média Scarecrow : indépendants français → couverture nationale/internationale (120+ pages)",
+      "city_kay_expansion": "Expansion City Kay : couverture locale → internationale (Rolling Stone Magazine Mexico)",
+      "press_events": "Coordination événements presse et interviews pour maximiser visibilité artistique"
+    }
   },
   "testimonials": {
     "title": "Témoignages",
