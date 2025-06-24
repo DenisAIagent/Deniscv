@@ -120,6 +120,7 @@
     "title": "Linha do Tempo Profissional",
     "subtitle": "Uma carreira marcada pela excelência e resultados concretos",
     "cta": "Vamos conversar sobre seu projeto",
+    "today": "Hoje",
     "team_leader": {
       "title": "Team Manager Turno da Noite",
       "team_creation": "Criação e estruturação de uma equipe local de suporte (3 a 7 agentes)",
@@ -153,14 +154,16 @@
       "relations": "Relacionamento sólido com clientes e equipes"
     },
     "pr_manager": {
-      "title": "Assessor de Imprensa e Relações com a Mídia",
-      "strategy": "Desenvolveu e implementou a estratégia de relações com a mídia da empresa.",
-      "press_releases": "Redigiu e distribuiu comunicados de imprensa para garantir cobertura adequada.",
-      "media_relations": "Geriu e fortaleceu os laços com jornalistas e veículos de comunicação estratégicos.",
-      "press_events": "Organizou eventos de imprensa e coordenou entrevistas para aumentar a visibilidade.",
-      "monitoring": "Monitorizou a cobertura da mídia e avaliou o impacto das iniciativas de imprensa."
-    },
-    "today": "Hoje"
+      "title": "Assessor de Imprensa e Responsável Relações com Mídia",
+      "strategy_creation": "Criação estratégia RP completa para Issoudun Reggae Temple (de 0 estratégia mediática para cobertura nacional)",
+      "value_transformation": "Transformação radical: de 0€ para +20K€ de valor publicitário por edição do festival",
+      "journalist_growth": "Crescimento jornalístico excepcional: de 1 para quase 40 jornalistas presentes por edição",
+      "team_leadership": "Liderança equipe de 5 pessoas (2014-2017) e gestão crise pós-ataques 2015",
+      "institutional_relations": "Estratégia integral relações institucionais locais, regionais e prefeiturais",
+      "scarecrow_success": "Transição mediática Scarecrow: independentes franceses → cobertura nacional/internacional (120+ páginas)",
+      "city_kay_expansion": "Expansão City Kay: cobertura local → internacional (Rolling Stone Magazine México)",
+      "press_events": "Coordenação eventos imprensa e entrevistas para maximizar visibilidade artística"
+    }
   },
   "testimonials": {
     "title": "Depoimentos",
