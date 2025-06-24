@@ -11,32 +11,32 @@
     "skills": "Competências",
     "portfolio": "Portfólio"
   },
-  "logo": "Logo Denis Adam",
+  "logo": "Logotipo Denis Adam",
   "hero": {
     "title": "Denis Adam",
     "subtitle": "Desenvolvedor Full Stack",
-    "description": "Apaixonado por criar soluções web inovadoras",
+    "description": "Apaixonado pela criação de soluções web inovadoras",
     "name": "Denis Adam",
-    "slogan": "Estruturar equipes, Otimizar performance, Inspirar crescimento.",
-    "cta_contact": "Entrar em contato",
+    "slogan": "Estruturar equipes, Otimizar desempenho, Inspirar crescimento.",
+    "cta_contact": "Entre em contato",
     "cta_cv": "Solicitar meu CV"
   },
   "about": {
     "title": "Sobre mim",
-    "description": "Sou um desenvolvedor full stack com experiência em tecnologias web modernas.",
+    "description": "Sou desenvolvedor full stack com experiência em tecnologias web modernas.",
     "portrait": "Retrato de Denis Adam",
-    "texte": "Com sólida experiência em gestão, passei 5 anos na John Paul (empresa de concierge de luxo) liderando uma equipe de 7 concierges. Durante esse período, estruturei a equipe implementando processos completos de coaching, onboarding, treinamento contínuo e acompanhamento personalizado, desenvolvendo habilidades avançadas em liderança e desenvolvimento de talentos.\n\nParalelamente, desde 2018, fundei e gerencio minha agência de marketing digital, MDMC Music Ads. Apoiamos mais de cem clientes no desenvolvimento estratégico e no engajamento de suas bases de fãs online.\n\nNossa expertise digital gerou resultados tangíveis: mais de 1.500 campanhas lançadas, 34 milhões de visualizações acumuladas e taxas de engajamento sólidas entre 4% e 8%. Minha especialidade: transformar interesse em uma comunidade de fãs leais e ativos.\n\nHoje, coloco essa dupla expertise - gerencial e digital -, orientada por dados e resultados, a serviço da estruturação das suas equipes e do crescimento do seu projeto."
+    "texte": "Com sólida experiência em gestão, passei 5 anos na John Paul liderando uma equipe de 7 concierges. Durante esse período, estruturei a equipe com processos completos de coaching, onboarding, treinamento contínuo e acompanhamento personalizado, desenvolvendo habilidades avançadas de liderança e desenvolvimento de talentos.\n\nDesde 2018, fundei e dirijo minha agência de marketing digital, MDMC Music Ads. Apoiamos mais de 100 clientes no desenvolvimento estratégico e engajamento de sua base de fãs online.\n\nNosso know-how digital gerou resultados tangíveis: mais de 1.500 campanhas lançadas, 34 milhões de visualizações acumuladas e taxas de engajamento sólidas entre 4% e 8%. Minha especialidade: transformar interesse em uma comunidade fiel e ativa.\n\nHoje, coloco essa dupla expertise – gerencial e digital, orientada a dados e resultados – a serviço da estruturação de suas equipes e do crescimento do seu projeto."
   },
   "projects": {
     "title": "Meus Projetos",
     "view": "Ver Projeto"
   },
   "contact": {
-    "title": "Entrar em contato",
-    "name": "Seu nome",
-    "email": "Seu email",
-    "message": "Mensagem",
-    "send": "Enviar Mensagem"
+    "title": "Contato",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Sua mensagem",
+    "send": "Enviar"
   },
   "expertise": {
     "management": "Gestão Operacional",
@@ -48,62 +48,65 @@
     "technical_partners": "Parceiros técnicos",
     "strategic_documents": "Documentos estratégicos",
     "youtube_campaigns": "Campanhas no YouTube",
-    "total_views": "34M+ Visualizações acumuladas",
+    "total_views": "34M+ Visualizações totais",
     "engagement_rate": "Taxa de engajamento",
     "team_growth": "Crescimento da equipe em 1 ano",
-    "agents_trained": "Agentes treinados e orientados",
+    "agents_trained": "Agentes treinados e acompanhados",
     "customer_satisfaction": "Satisfação do cliente",
     "goals_achieved": "Objetivos alcançados",
-    "conversion_improvement": "Melhoria de conversão",
-    "campagnes": "1.500 Campanhas Lançadas (34M visualizações)",
+    "conversion_improvement": "Melhoria na conversão",
+    "campagnes": "1.500 Campanhas Lançadas (34M de views)",
     "sessions": "1.274+ Sessões individuais semanais",
-    "objectifs": "135% Metas Atingidas (Comercial)"
+    "objectifs": "135% Objetivos Atingidos",
+    "media_mentions": "50+ menções na mídia",
+    "media_projects": "100+ artistas e projetos acompanhados",
+    "press_success": "90% de cobertura positiva da imprensa"
   },
   "domaines": {
     "management": {
-      "title": "Gestão de Equipes & Operacional",
-      "desc": "Expertise em liderança, coaching e estruturação de equipes para performance e desenvolvimento ideais."
+      "title": "Gestão de Equipe e Operações",
+      "desc": "Expertise em liderança, coaching e estruturação de equipes para desempenho e desenvolvimento ideais."
     },
     "strategie": {
-      "title": "Estratégia Digital & Marketing",
-      "desc": "Especialista no desenvolvimento e execução de estratégias digitais para melhorar a presença online e o engajamento dos fãs."
+      "title": "Estratégia Digital e Marketing",
+      "desc": "Domínio no desenvolvimento e execução de estratégias digitais para aumentar a presença online e o engajamento dos fãs."
     }
   },
   "portfolio": {
-    "title": "Paixão por Fotografia",
+    "title": "Paixão pela Fotografia",
     "photos": [
-      "Marine se apresentando no palco",
+      "Marine ao vivo no palco",
       "Black Pumas em concerto",
       "Cigarettes After Sex no palco",
-      "Falling In Reverse apresentação ao vivo 1",
-      "Falling In Reverse apresentação ao vivo 2",
-      "Artista em concerto, close-up",
-      "Cantor no palco com microfone",
-      "Guitarrista tocando em concerto",
-      "Retrato em preto e branco de Leonore, menção honrosa IPA",
+      "Falling In Reverse ao vivo 1",
+      "Falling In Reverse ao vivo 2",
+      "Artista em close-up",
+      "Cantor com microfone ao vivo",
+      "Guitarrista em concerto",
+      "Retrato preto e branco de Leonore (menção IPA)",
       "Nathaniel Rateliff & The Night Sweats ao vivo",
-      "Sum 41 em concerto, visão geral",
-      "Sum 41 no palco, outro ângulo",
-      "The Peakles Tivoli se apresentando no Tivoli"
+      "Sum 41 no palco, visão ampla",
+      "Sum 41 de outro ângulo",
+      "The Peakles no Tivoli"
     ]
   },
-  "reconhecimentos": {
+  "reconnaissances": {
     "title": "Reconhecimentos",
-    "forbes": "Publicação na Forbes",
-    "rollingstone": "Publicação na Rolling Stone",
+    "forbes": "Publicado na Forbes",
+    "rollingstone": "Publicado na Rolling Stone",
     "ipa": "Menção honrosa no IPA Awards 2023"
   },
   "cta_portfolio": "Ver meu portfólio",
   "zones": {
-    "title": "Zonas Geográficas Alvo",
-    "desc": "Disponível para oportunidades nas seguintes regiões:",
+    "title": "Zonas Geográficas de Interesse",
+    "desc": "Aberto a oportunidades nas seguintes regiões:",
     "france": "França: Paris, Centre Val de Loire",
     "portugal": "Portugal: Lisboa, Setúbal, Alentejo, Algarve",
     "espagne": "Espanha: Andaluzia (Sevilha)",
-    "usa": "EUA: Califórnia, Nova York, Texas (Necessário patrocínio de visto)"
+    "usa": "EUA: Califórnia, Nova York, Texas (patrocínio de visto necessário)"
   },
   "footer": {
-    "mentions": "Aviso Legal|Hospedado no Netlify",
+    "mentions": "Aviso legal | Hospedado na Netlify",
     "copyright": "© 2025 Denis Adam Todos os direitos reservados."
   },
   "cv_form": {
@@ -114,55 +117,63 @@
     "success_message": "Sua solicitação foi enviada com sucesso!"
   },
   "timeline": {
-    "title": "Trajetória Profissional",
+    "title": "Linha do Tempo Profissional",
     "subtitle": "Uma carreira marcada pela excelência e resultados concretos",
     "cta": "Vamos conversar sobre seu projeto",
     "team_leader": {
-      "title": "Team Manager Night Shift",
-      "team_creation": "Criação e estruturação de uma equipe local de suporte (de 3 a 7 agentes)",
-      "planning": "Gestão de planejamento de longo prazo e alertas internas com Google Suite",
-      "quality": "Acompanhamento de KPIs e relatórios mensais de performance",
-      "coaching": "Coaching individualizado e programas de treinamento internos",
-      "collaboration": "Organização de reuniões semanais e atividades de team building"
+      "title": "Team Manager Turno da Noite",
+      "team_creation": "Criação e estruturação de uma equipe local de suporte (3 a 7 agentes)",
+      "planning": "Planejamento de longo prazo com Google Suite",
+      "quality": "Monitoramento de KPIs e relatórios mensais",
+      "coaching": "Coaching individualizado e programas de treinamento",
+      "collaboration": "Reuniões semanais e team building"
     },
     "cmo": {
-      "title": "Co-fundador & CMO - Sócio",
-      "strategy": "Definição da estratégia de produto e marketing (PLG, aquisição, onboarding, retenção)",
-      "mvp": "Coordenação do MVP com o CTO e o designer",
+      "title": "Cofundador e CMO - Sócio",
+      "strategy": "Definição de estratégia de produto e marketing (PLG, aquisição, onboarding, retenção)",
+      "mvp": "Coordenação do MVP com CTO e designer",
       "partnerships": "Negociação com 10 parceiros técnicos e institucionais",
-      "market": "Análise aprofundada dos líderes de mercado",
-      "commercial": "Desenvolvimento de uma estratégia comercial multicanal"
+      "market": "Análise aprofundada do mercado",
+      "commercial": "Desenvolvimento de estratégia comercial multicanal"
     },
     "digital_marketing": {
-      "title": "Digital Marketing Manager",
-      "strategy": "Gestão de 1.500 campanhas no YouTube (6M visualizações, 10% de engajamento qualificado)",
-      "performance": "Acompanhamento de KPIs e gestão financeira",
-      "business": "Estabelecimento de parcerias estratégicas",
+      "title": "Gerente de Marketing Digital",
+      "strategy": "Gestão de 1.500 campanhas no YouTube (6M views, 10% de engajamento)",
+      "performance": "Gestão de KPIs e financeiro",
+      "business": "Parcerias estratégicas estabelecidas",
       "recruitment": "Recrutamento e estruturação de equipes multifuncionais"
     },
     "account_strategist": {
-      "title": "Account Strategist",
-      "management": "Gestão de campanhas Search, Display e YouTube de alto tráfego",
+      "title": "Estrategista de Contas",
+      "management": "Gestão de campanhas de alto tráfego (Search, Display, YouTube)",
       "strategy": "Recomendações estratégicas personalizadas",
-      "training": "Treinamento interno sobre boas práticas do Google Suite",
-      "adaptability": "Adaptação a diferentes perfis de clientes",
-      "collaboration": "Colaboração próxima com equipes de produto e dados",
-      "relations": "Relações positivas com clientes e internas"
+      "training": "Treinamentos internos sobre Google Suite",
+      "adaptability": "Adaptação a perfis diversos",
+      "collaboration": "Colaboração com times de produto e dados",
+      "relations": "Relacionamento sólido com clientes e equipes"
     },
-    "today": "Atualmente"
+    "pr_manager": {
+      "title": "Assessor de Imprensa e Relações com a Mídia",
+      "strategy": "Desenvolveu e implementou a estratégia de relações com a mídia da empresa.",
+      "press_releases": "Redigiu e distribuiu comunicados de imprensa para garantir cobertura adequada.",
+      "media_relations": "Geriu e fortaleceu os laços com jornalistas e veículos de comunicação estratégicos.",
+      "press_events": "Organizou eventos de imprensa e coordenou entrevistas para aumentar a visibilidade.",
+      "monitoring": "Monitorizou a cobertura da mídia e avaliou o impacto das iniciativas de imprensa."
+    },
+    "today": "Hoje"
   },
   "testimonials": {
     "title": "Depoimentos",
     "tachfin": {
       "name": "Tachfin Khelil",
       "title": "Diretor do site John Paul em Lisboa",
-      "text": "Como diretor do site John Paul em Lisboa, tive o prazer de colaborar com Denis ADAM, cujo compromisso, rigor e polivalência contribuíram fortemente para a qualidade do nosso serviço premium. Ele soube estruturar e reforçar nossa equipe de concierge noturno, demonstrando grande senso de gestão de crise e experiência do cliente. Proativo, resiliente e sempre orientado para soluções, Denis conquistou a confiança tanto dos clientes quanto dos colegas. Recomendo-o vivamente para qualquer cargo que exija liderança, adaptabilidade e excelência relacional."
+      "text": "Como diretor do site da John Paul em Lisboa, tive o prazer de trabalhar com Denis ADAM, cuja dedicação, rigor e versatilidade contribuíram fortemente para a qualidade do nosso serviço premium. Ele estruturou e fortaleceu nossa equipe de concierge noturna, demonstrando excelente capacidade de gestão de crises e experiência do cliente. Proativo, resiliente e sempre orientado a soluções, Denis conquistou a confiança de clientes e colegas. Recomendo fortemente para qualquer função que exija liderança e excelência relacional."
     },
     "customer_feedback": {
-      "title": "Feedback do Cliente",
-      "fraud": "Incidente de fraude com cartão de crédito:\n\"O gerente Denis ADAM demonstrou um profissionalismo exemplar; sua equipe respondeu a todos os nossos pedidos. Estamos muito satisfeitos com a qualidade do serviço prestado.\"",
-      "mbappe": "Camiseta assinada por Mbappé:\n\"Muito obrigado a você, Denis, e à Jade pelo trabalho fantástico. Para uma primeira vez, é um grande sucesso para mim. Por favor, transmita a toda a equipe, enviarei um e-mail a esse respeito.\"",
-      "covid": "Assistência durante a crise da Covid no exterior:\n\"Gostaria de dizer o quanto apreciei sua gentileza. Quero expressar minha mais profunda gratidão porque já estive em contato com a embaixada da França em Cuba, depois com o médico e o médico do seguro. Fiquei tocado pela sua capacidade de resposta, compaixão e empatia.\""
+      "title": "Feedback de Clientes",
+      "fraud": "Fraude com cartão bancário:\n\"O gerente Denis ADAM demonstrou um profissionalismo exemplar; sua equipe respondeu a todos os nossos pedidos. Estamos muito satisfeitos com o serviço.\"",
+      "mbappe": "Camiseta assinada por Mbappé:\n\"Muito obrigado a você, Denis, e à Jade pelo trabalho incrível. Para uma primeira vez, foi um grande sucesso. Obrigado por repassar isso à equipe.\"",
+      "covid": "Assistência durante a crise da Covid no exterior:\n\"Agradeço muito sua gentileza. Já havia contatado a embaixada da França em Cuba e o médico do seguro. Fiquei comovida com sua resposta rápida, compaixão e empatia.\""
     }
   }
-} 
+}
