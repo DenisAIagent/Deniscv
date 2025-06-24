@@ -120,6 +120,7 @@
     "title": "Trayectoria Profesional",
     "subtitle": "Una carrera marcada por la excelencia y resultados concretos",
     "cta": "Hablemos de tu proyecto",
+    "today": "Hoy",
     "team_leader": {
       "title": "Team Manager Turno Nocturno",
       "team_creation": "Creación y estructuración de un equipo local de soporte (de 3 a 7 agentes)",
@@ -154,13 +155,15 @@
     },
     "pr_manager": {
       "title": "Responsable de Prensa y Relaciones con los Medios",
-      "strategy": "Desarrolló e implementó la estrategia de relaciones con los medios de la empresa.",
-      "press_releases": "Redactó y distribuyó comunicados de prensa para asegurar una cobertura mediática óptima.",
-      "media_relations": "Gestionó y fortaleció relaciones con periodistas y medios clave.",
-      "press_events": "Organizó eventos de prensa y coordinó entrevistas para aumentar la visibilidad.",
-      "monitoring": "Supervisó la cobertura mediática y analizó el impacto de las acciones de prensa."
-    },
-    "today": "Hoy"
+      "strategy_creation": "Creación estrategia RP completa para Issoudun Reggae Temple (de 0 estrategia mediática a cobertura nacional)",
+      "value_transformation": "Transformación radical: de 0€ a +20K€ de valor publicitario por edición del festival",
+      "journalist_growth": "Crecimiento periodístico excepcional: de 1 a casi 40 periodistas presentes por edición",
+      "team_leadership": "Liderazgo equipo de 5 personas (2014-2017) y gestión crisis post-ataques 2015",
+      "institutional_relations": "Estrategia integral relaciones institucionales locales, regionales y prefectorales",
+      "scarecrow_success": "Transición mediática Scarecrow: independientes franceses → cobertura nacional/internacional (120+ páginas)",
+      "city_kay_expansion": "Expansión City Kay: cobertura local → internacional (Rolling Stone Magazine México)",
+      "press_events": "Coordinación eventos de prensa y entrevistas para maximizar visibilidad artística"
+    }
   },
   "testimonials": {
     "title": "Testimonios",
