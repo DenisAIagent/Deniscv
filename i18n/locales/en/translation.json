@@ -16,10 +16,10 @@
   "logo": "Denis Adam Logo",
   "hero": {
     "title": "Denis Adam",
-    "subtitle": "IS Project Manager & Digital Transformation",
-    "description": "Operational manager and IS project manager",
+    "subtitle": "Operational Manager & Digital Project Management",
+    "description": "Operational manager and digital project manager",
     "name": "Denis Adam",
-    "slogan": "IS project management, change management and team support serving public policies.",
+    "slogan": "Project management, change management and team support. Transferable skills for IS project management.",
     "cta_contact": "Contact Me",
     "cta_cv": "Request My CV",
     "location": "Based in Lisbon | Mobility: Bourges (18), France",
@@ -29,10 +29,10 @@
   },
   "about": {
     "title": "Profile",
-    "description": "Operational manager and IS project manager with 8+ years of experience.",
+    "description": "Operational manager with 8+ years of experience in project management and team support.",
     "portrait": "Portrait of Denis Adam",
-    "texte": "Operational manager and IS project manager with over 8 years of experience in client relations, strategic support, and digital transformation. Founder of a digital marketing agency (500+ clients, 34M views). Startup co-founder with a Ledger co-creator. Expertise in digital tools deployment, workflow automation, and artificial intelligence. Strong passion for tech and continuous improvement.\n\nKey skills: IS project management, cross-functional team coordination, change management, user support and training, digital tools deployment and team upskilling.\n\nAccredited photographer for Rolling Stone France and Forbes. International Photography Awards 2023 Winner. A cultural and artistic sensitivity that enriches my project vision.",
-    "highlight": "Ready to bring my IS expertise and support skills to the Departement du Cher."
+    "texte": "Operational manager with over 8 years of experience in client relations, strategic support, and digital transformation. Founder of a digital marketing agency (500+ clients, 34M views). Startup co-founder with a Ledger co-creator. Expertise in digital tools deployment, workflow automation, and artificial intelligence. Strong passion for tech and continuous improvement.\n\nKey skills: digital project management, cross-functional team coordination, change management, user support and training, digital tools deployment and team upskilling.\n\nAccredited photographer for Rolling Stone France and Forbes. International Photography Awards 2023 Winner. A cultural and artistic sensitivity that enriches my project vision.",
+    "highlight": "Ready to bring my project management experience and support skills to your organization."
   },
   "projects": {
     "title": "My Projects",
@@ -48,14 +48,14 @@
     "error_message": "An error occurred. Please try again."
   },
   "expertise": {
-    "management": "IS Project Management",
+    "management": "Digital Project Management",
     "strategie": "Digital Tools & AI",
     "partenariat": "Support & Training"
   },
   "expertise_desc": {
-    "management": "Cross-functional project team coordination, process structuring, information systems management. Experience in change management and digital transformation support.",
+    "management": "Cross-functional project team coordination, process structuring, digital and collaborative tools deployment. Experience in change management and digital transformation support.",
     "strategie": "Digital and collaborative tools deployment, CRM, Analytics. Workflow automation with n8n and Make. Applied artificial intelligence (prompt engineering, Claude Code, AI agents).",
-    "partenariat": "User support and training in IS tools deployment. Pedagogy, active listening and team upskilling."
+    "partenariat": "User support and training in digital tools deployment. Pedagogy, active listening and team upskilling."
   },
   "chiffres": {
     "partnership_agreements": "Partnership deals",
@@ -103,8 +103,8 @@
       "percent": 95
     },
     "project_management": {
-      "title": "IS Project Management & Coordination",
-      "detail": "Cross-functional project management, change management, collaborative tools, IS support",
+      "title": "Project Management & Coordination",
+      "detail": "Cross-functional project management, change management, collaborative tools, digital tools deployment",
       "level": "Advanced",
       "percent": 85
     },
@@ -117,8 +117,8 @@
   },
   "domaines": {
     "management": {
-      "title": "Team Management & IS Project Management",
-      "desc": "Expertise in leadership, coaching, and team structuring for optimal performance. Cross-functional IS project management, change management and user support."
+      "title": "Team Management & Project Management",
+      "desc": "Expertise in leadership, coaching, and team structuring for optimal performance. Cross-functional project management, change management and user support."
     },
     "strategie": {
       "title": "Digital Tools & Artificial Intelligence",
@@ -203,7 +203,7 @@
   },
   "timeline": {
     "title": "Career Timeline",
-    "subtitle": "Over 8 years of experience in project management, client relations, strategic support, and digital",
+    "subtitle": "Over 8 years of experience in project management, client relations, strategic support, and digital transformation",
     "cta": "Let's discuss your project",
     "today": "Today",
     "cmo": {

@@ -16,10 +16,10 @@
   "logo": "Logo Denis Adam",
   "hero": {
     "title": "Denis Adam",
-    "subtitle": "Chef de projets SI & Transformation numerique",
+    "subtitle": "Manager operationnel & Gestion de projets numeriques",
     "description": "Manager operationnel et chef de projets numeriques",
     "name": "Denis Adam",
-    "slogan": "Pilotage de projets SI, conduite du changement et accompagnement des equipes au service des politiques publiques.",
+    "slogan": "Gestion de projets, conduite du changement et accompagnement des equipes. Competences transposables au pilotage de projets SI.",
     "cta_contact": "Me Contacter",
     "cta_cv": "Demander mon CV",
     "location": "Base a Lisbonne | Mobilite : Bourges (18)",
@@ -29,10 +29,10 @@
   },
   "about": {
     "title": "Profil",
-    "description": "Manager operationnel et chef de projets SI avec plus de 8 ans d'experience.",
+    "description": "Manager operationnel avec plus de 8 ans d'experience en gestion de projets et accompagnement d'equipes.",
     "portrait": "Portrait de Denis Adam",
-    "texte": "Manager operationnel et chef de projets SI avec plus de 8 ans d'experience en relation client, accompagnement strategique et transformation numerique. Fondateur d'une agence de marketing digital (500+ clients, 34M de vues). Co-fondateur de startup avec un co-createur de Ledger. Expertise en deploiement d'outils numeriques, automatisation de workflows et intelligence artificielle. Forte appetence pour la tech et l'amelioration continue.\n\nCompetences cles : pilotage de projets SI, coordination d'equipes en transversalite, conduite du changement, support et accompagnement utilisateurs, deploiement d'outils numeriques et formation des equipes.\n\nPhotographe accredite Rolling Stone France et Forbes. Laureat International Photography Awards 2023. Une sensibilite culturelle et artistique qui nourrit ma vision des projets.",
-    "highlight": "Pret a mettre mon expertise SI et ma capacite d'accompagnement au service du Departement du Cher."
+    "texte": "Manager operationnel avec plus de 8 ans d'experience en relation client, accompagnement strategique et transformation numerique. Fondateur d'une agence de marketing digital (500+ clients, 34M de vues). Co-fondateur de startup avec un co-createur de Ledger. Expertise en deploiement d'outils numeriques, automatisation de workflows et intelligence artificielle. Forte appetence pour la tech et l'amelioration continue.\n\nCompetences cles : gestion de projets numeriques, coordination d'equipes en transversalite, conduite du changement, support et accompagnement utilisateurs, deploiement d'outils numeriques et formation des equipes.\n\nPhotographe accredite Rolling Stone France et Forbes. Laureat International Photography Awards 2023. Une sensibilite culturelle et artistique qui nourrit ma vision des projets.",
+    "highlight": "Pret a mettre mon experience en gestion de projets et ma capacite d'accompagnement au service de votre organisation."
   },
   "projects": {
     "title": "Mes Projets",
@@ -48,14 +48,14 @@
     "error_message": "Une erreur est survenue. Veuillez reessayer."
   },
   "expertise": {
-    "management": "Pilotage de Projets SI",
+    "management": "Gestion de Projets Numeriques",
     "strategie": "Outils Numeriques & IA",
     "partenariat": "Accompagnement & Formation"
   },
   "expertise_desc": {
-    "management": "Coordination d'equipes projets en transversalite, structuration de process, pilotage de systemes d'information. Experience en conduite du changement et accompagnement a la transformation numerique.",
+    "management": "Coordination d'equipes projets en transversalite, structuration de process, deploiement d'outils numeriques et collaboratifs. Experience en conduite du changement et accompagnement a la transformation numerique.",
     "strategie": "Deploiement d'outils numeriques et collaboratifs, CRM, Analytics. Automatisation de workflows avec n8n et Make. Intelligence artificielle appliquee (prompt engineering, Claude Code, agents IA).",
-    "partenariat": "Accompagnement et support utilisateurs dans le deploiement d'outils SI. Pedagogie, ecoute et formation. Montee en competences des equipes."
+    "partenariat": "Accompagnement et support utilisateurs dans le deploiement d'outils numeriques. Pedagogie, ecoute et formation. Montee en competences des equipes."
   },
   "chiffres": {
     "partnership_agreements": "Accords de partenariat",
@@ -103,8 +103,8 @@
       "percent": 95
     },
     "project_management": {
-      "title": "Pilotage de Projets SI & Coordination",
-      "detail": "Gestion de projets transversaux, conduite du changement, outils collaboratifs, support SI",
+      "title": "Gestion de Projets & Coordination",
+      "detail": "Gestion de projets transversaux, conduite du changement, outils collaboratifs, deploiement d'outils numeriques",
       "level": "Avance",
       "percent": 85
     },
@@ -117,8 +117,8 @@
   },
   "domaines": {
     "management": {
-      "title": "Management d'Equipe & Pilotage SI",
-      "desc": "Expertise en direction, coaching et structuration d'equipes pour une performance optimale. Pilotage de projets SI en transversalite, conduite du changement et accompagnement utilisateurs."
+      "title": "Management d'Equipe & Gestion de Projets",
+      "desc": "Expertise en direction, coaching et structuration d'equipes pour une performance optimale. Gestion de projets en transversalite, conduite du changement et accompagnement utilisateurs."
     },
     "strategie": {
       "title": "Outils Numeriques & Intelligence Artificielle",
@@ -203,7 +203,7 @@
   },
   "timeline": {
     "title": "Parcours Professionnel",
-    "subtitle": "Plus de 8 ans d'experience en gestion de projets SI, relation client, accompagnement strategique et transformation numerique",
+    "subtitle": "Plus de 8 ans d'experience en gestion de projets, relation client, accompagnement strategique et transformation numerique",
     "cta": "Discutons de votre projet",
     "today": "Aujourd'hui",
     "cmo": {

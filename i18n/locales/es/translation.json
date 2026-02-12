@@ -16,10 +16,10 @@
   "logo": "Logotipo Denis Adam",
   "hero": {
     "title": "Denis Adam",
-    "subtitle": "Jefe de proyectos SI & Transformacion digital",
-    "description": "Manager operativo y jefe de proyectos SI",
+    "subtitle": "Manager operativo & Gestion de proyectos digitales",
+    "description": "Manager operativo y gestor de proyectos digitales",
     "name": "Denis Adam",
-    "slogan": "Gestion de proyectos SI, gestion del cambio y acompanamiento de equipos al servicio de las politicas publicas.",
+    "slogan": "Gestion de proyectos, conduccion del cambio y acompanamiento de equipos. Competencias transferibles a la gestion de proyectos SI.",
     "cta_contact": "Contactame",
     "cta_cv": "Solicitar mi CV",
     "location": "Base en Lisboa | Movilidad: Bourges (18)",
@@ -29,10 +29,10 @@
   },
   "about": {
     "title": "Perfil",
-    "description": "Manager operativo y jefe de proyectos SI con mas de 8 anos de experiencia.",
+    "description": "Manager operativo con mas de 8 anos de experiencia en gestion de proyectos y acompanamiento de equipos.",
     "portrait": "Retrato de Denis Adam",
-    "texte": "Manager operativo y jefe de proyectos SI con mas de 8 anos de experiencia en relacion con el cliente, acompanamiento estrategico y transformacion digital. Fundador de una agencia de marketing digital (500+ clientes, 34M de visualizaciones). Cofundador de startup con un cocreador de Ledger. Experiencia en despliegue de herramientas digitales, automatizacion de workflows e inteligencia artificial. Fuerte interes por la tecnologia y la mejora continua.\n\nCompetencias clave: gestion de proyectos SI, coordinacion transversal de equipos, gestion del cambio, soporte y acompanamiento de usuarios, despliegue de herramientas digitales y formacion de equipos.\n\nFotografo acreditado Rolling Stone Francia y Forbes. Laureado International Photography Awards 2023. Una sensibilidad cultural y artistica que nutre mi vision de los proyectos.",
-    "highlight": "Listo para poner mi experiencia SI y mi capacidad de acompanamiento al servicio del Departamento del Cher."
+    "texte": "Manager operativo con mas de 8 anos de experiencia en relacion con el cliente, acompanamiento estrategico y transformacion digital. Fundador de una agencia de marketing digital (500+ clientes, 34M de visualizaciones). Cofundador de startup con un cocreador de Ledger. Experiencia en despliegue de herramientas digitales, automatizacion de workflows e inteligencia artificial. Fuerte interes por la tecnologia y la mejora continua.\n\nCompetencias clave: gestion de proyectos digitales, coordinacion transversal de equipos, conduccion del cambio, soporte y acompanamiento de usuarios, despliegue de herramientas digitales y formacion de equipos.\n\nFotografo acreditado Rolling Stone Francia y Forbes. Laureado International Photography Awards 2023. Una sensibilidad cultural y artistica que nutre mi vision de los proyectos.",
+    "highlight": "Listo para poner mi experiencia en gestion de proyectos y mi capacidad de acompanamiento al servicio de su organizacion."
   },
   "projects": {
     "title": "Mis Proyectos",
@@ -48,14 +48,14 @@
     "error_message": "Ha ocurrido un error. Por favor, intentalo de nuevo."
   },
   "expertise": {
-    "management": "Gestion de Proyectos SI",
+    "management": "Gestion de Proyectos Digitales",
     "strategie": "Herramientas Digitales & IA",
     "partenariat": "Acompanamiento & Formacion"
   },
   "expertise_desc": {
-    "management": "Coordinacion de equipos de proyecto en transversalidad, estructuracion de procesos, gestion de sistemas de informacion. Experiencia en conduccion del cambio y acompanamiento a la transformacion digital.",
+    "management": "Coordinacion de equipos de proyecto en transversalidad, estructuracion de procesos, despliegue de herramientas digitales y colaborativas. Experiencia en conduccion del cambio y acompanamiento a la transformacion digital.",
     "strategie": "Despliegue de herramientas digitales y colaborativas, CRM, Analytics. Automatizacion de workflows con n8n y Make. Inteligencia artificial aplicada (prompt engineering, Claude Code, agentes IA).",
-    "partenariat": "Acompanamiento y soporte a usuarios en el despliegue de herramientas SI. Pedagogia, escucha y formacion. Desarrollo de competencias de los equipos."
+    "partenariat": "Acompanamiento y soporte a usuarios en el despliegue de herramientas digitales. Pedagogia, escucha y formacion. Desarrollo de competencias de los equipos."
   },
   "chiffres": {
     "partnership_agreements": "Acuerdos de asociacion",
@@ -103,8 +103,8 @@
       "percent": 95
     },
     "project_management": {
-      "title": "Gestion de Proyectos SI & Coordinacion",
-      "detail": "Gestion de proyectos transversales, conduccion del cambio, herramientas colaborativas, soporte SI",
+      "title": "Gestion de Proyectos & Coordinacion",
+      "detail": "Gestion de proyectos transversales, conduccion del cambio, herramientas colaborativas, despliegue de herramientas digitales",
       "level": "Avanzado",
       "percent": 85
     },
@@ -117,8 +117,8 @@
   },
   "domaines": {
     "management": {
-      "title": "Gestion de Equipos & Proyectos SI",
-      "desc": "Experiencia en liderazgo, coaching y estructuracion de equipos para rendimiento optimo. Gestion de proyectos SI en transversalidad, conduccion del cambio y acompanamiento de usuarios."
+      "title": "Gestion de Equipos & Proyectos",
+      "desc": "Experiencia en liderazgo, coaching y estructuracion de equipos para rendimiento optimo. Gestion de proyectos en transversalidad, conduccion del cambio y acompanamiento de usuarios."
     },
     "strategie": {
       "title": "Herramientas Digitales & Inteligencia Artificial",
@@ -203,7 +203,7 @@
   },
   "timeline": {
     "title": "Trayectoria Profesional",
-    "subtitle": "Mas de 8 anos de experiencia en gestion de proyectos SI, relacion con el cliente, acompanamiento estrategico y transformacion digital",
+    "subtitle": "Mas de 8 anos de experiencia en gestion de proyectos, relacion con el cliente, acompanamiento estrategico y transformacion digital",
     "cta": "Hablemos de tu proyecto",
     "today": "Hoy",
     "cmo": {
