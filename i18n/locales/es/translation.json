@@ -31,7 +31,7 @@
     "title": "Perfil",
     "description": "Manager operativo con mas de 8 anos de experiencia en gestion de proyectos y acompanamiento de equipos.",
     "portrait": "Retrato de Denis Adam",
-    "texte": "Manager operativo con mas de 8 anos de experiencia en relacion con el cliente, acompanamiento estrategico y transformacion digital. Fundador de una agencia de marketing digital (500+ clientes, 34M de visualizaciones). Cofundador de startup con un cocreador de Ledger. Experiencia en despliegue de herramientas digitales, automatizacion de workflows e inteligencia artificial. Fuerte interes por la tecnologia y la mejora continua.\n\nCompetencias clave: gestion de proyectos digitales, coordinacion transversal de equipos, conduccion del cambio, soporte y acompanamiento de usuarios, despliegue de herramientas digitales y formacion de equipos.\n\nFotografo acreditado Rolling Stone Francia y Forbes. Laureado International Photography Awards 2023. Una sensibilidad cultural y artistica que nutre mi vision de los proyectos.",
+    "texte": "Manager operativo con mas de 8 anos de experiencia en relacion con el cliente, acompanamiento estrategico y transformacion digital. Fundador de una agencia de marketing digital (500+ clientes, 34M de visualizaciones). Cofundador de startup con un cocreador de Ledger. Experiencia en despliegue de herramientas digitales, automatizacion de workflows e inteligencia artificial. Fuerte interes por la tecnologia y la mejora continua.\n\nCompetencias clave: gestion de proyectos digitales, coordinacion transversal de equipos, conduccion del cambio, soporte y acompanamiento de usuarios, despliegue de herramientas digitales y formacion de equipos.\n\nFotografo acreditado Rolling Stone Francia y Forbes. Colaborador Rolling Stone Francia en SEO e implementacion de procesos de automatizacion y herramientas IA. Laureado International Photography Awards 2023. Una sensibilidad cultural y artistica que nutre mi vision de los proyectos.",
     "highlight": "Listo para poner mi experiencia en gestion de proyectos y mi capacidad de acompanamiento al servicio de su organizacion."
   },
   "projects": {
@@ -206,6 +206,13 @@
     "subtitle": "Mas de 8 anos de experiencia en gestion de proyectos, relacion con el cliente, acompanamiento estrategico y transformacion digital",
     "cta": "Hablemos de tu proyecto",
     "today": "Hoy",
+    "rolling_stone": {
+      "title": "Colaborador SEO & Automatizacion",
+      "company": "Rolling Stone Francia",
+      "seo": "Optimizacion SEO de contenidos editoriales para mejorar la visibilidad organica",
+      "automation": "Implementacion de workflows de automatizacion para ganar en fluidez y productividad",
+      "ai_tools": "Despliegue de herramientas basadas en inteligencia artificial para la redaccion y publicacion"
+    },
     "cmo": {
       "title": "Cofundador & CMO",
       "company": "BandStream SAS - Paris",

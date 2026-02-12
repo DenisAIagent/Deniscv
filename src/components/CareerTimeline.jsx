@@ -10,6 +10,17 @@ const CareerTimeline = () => {
 
   const timelineData = [
     {
+      title: t('timeline.rolling_stone.title'),
+      company: t('timeline.rolling_stone.company', 'Rolling Stone France'),
+      period: `2024 - ${today}`,
+      icon: 'https://i.postimg.cc/Kz8KxFJQ/rolling-stone-logo.png',
+      details: [
+        t('timeline.rolling_stone.seo'),
+        t('timeline.rolling_stone.automation'),
+        t('timeline.rolling_stone.ai_tools'),
+      ],
+    },
+    {
       title: t('timeline.cmo.title'),
       company: t('timeline.cmo.company', 'BandStream SAS - Paris'),
       period: `2024 - ${today}`,
