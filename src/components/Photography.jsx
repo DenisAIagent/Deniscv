@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import Lightbox from './Lightbox';
 
 // --- Swiper Imports ---
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, A11y } from 'swiper/modules';
+import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -84,6 +85,8 @@ const WEB_PROJECTS = [
 const Photography = () => {
   const { t, i18n } = useTranslation();
   const [activeTab, setActiveTab] = useState('photos');
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
   const lang = i18n.language?.substring(0, 2) || 'fr';
 
   const portfolioPhotos = [
@@ -116,6 +119,19 @@ const Photography = () => {
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
+  };
+
+  const openLightbox = (index) => {
+    setLightboxIndex(index);
+    setLightboxOpen(true);
+  };
+
+  const goToPrev = () => {
+    setLightboxIndex((prev) => (prev - 1 + portfolioPhotos.length) % portfolioPhotos.length);
+  };
+
+  const goToNext = () => {
+    setLightboxIndex((prev) => (prev + 1) % portfolioPhotos.length);
   };
 
   return (
@@ -162,7 +178,7 @@ const Photography = () => {
             <>
               <motion.div variants={itemVariants} className="mb-12 relative group">
                 <Swiper
-                  modules={[Navigation, Pagination, A11y]}
+                  modules={[Navigation, Pagination, A11y, Autoplay]}
                   spaceBetween={30}
                   slidesPerView={1}
                   navigation={{
@@ -171,6 +187,7 @@ const Photography = () => {
                   }}
                   pagination={{ clickable: true }}
                   loop={true}
+                  autoplay={{ delay: 3000, disableOnInteraction: false, pauseOnMouseEnter: true }}
                   className="mySwiper"
                   breakpoints={{
                     640: { slidesPerView: 2, spaceBetween: 20 },
@@ -182,8 +199,9 @@ const Photography = () => {
                       <img
                         src={photo.src}
                         alt={photo.alt}
-                        className="w-full h-72 md:h-96 object-contain"
+                        className="w-full h-72 md:h-96 object-contain cursor-pointer hover:scale-105 transition-transform duration-500"
                         loading="lazy"
+                        onClick={() => openLightbox(index)}
                       />
                     </SwiperSlide>
                   ))}
@@ -267,6 +285,16 @@ const Photography = () => {
           )}
         </motion.div>
       </div>
+
+      {/* Lightbox */}
+      <Lightbox
+        isOpen={lightboxOpen}
+        onClose={() => setLightboxOpen(false)}
+        src={portfolioPhotos[lightboxIndex]?.src}
+        alt={portfolioPhotos[lightboxIndex]?.alt}
+        onPrev={goToPrev}
+        onNext={goToNext}
+      />
     </section>
   );
 };

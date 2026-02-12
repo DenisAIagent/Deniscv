@@ -10,9 +10,9 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
 
-  const SERVICE_ID = 'service_ex03wyi';
-  const TEMPLATE_ID = 'template_a87k1rm';
-  const PUBLIC_KEY = 'a3nA-PiQ5mEXFNbv2';
+  const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_ex03wyi';
+  const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_a87k1rm';
+  const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'a3nA-PiQ5mEXFNbv2';
 
   const handleChange = (e) => {
     const { name, value } = e.target;

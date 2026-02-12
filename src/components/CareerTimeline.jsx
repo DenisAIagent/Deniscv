@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { useTranslation } from 'react-i18next';
@@ -6,6 +6,15 @@ import { motion } from 'framer-motion';
 
 const CareerTimeline = () => {
   const { t } = useTranslation();
+  const [isDark, setIsDark] = useState(document.documentElement.classList.contains('dark'));
+
+  useEffect(() => {
+    const observer = new MutationObserver(() => {
+      setIsDark(document.documentElement.classList.contains('dark'));
+    });
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    return () => observer.disconnect();
+  }, []);
   const today = t('timeline.today', "Aujourd'hui");
 
   const timelineData = [
@@ -13,11 +22,12 @@ const CareerTimeline = () => {
       title: t('timeline.rolling_stone.title'),
       company: t('timeline.rolling_stone.company', 'Rolling Stone France'),
       period: `2024 - ${today}`,
-      icon: 'https://i.postimg.cc/Kz8KxFJQ/rolling-stone-logo.png',
+      icon: '/rolling-stone-logo.png',
       details: [
         t('timeline.rolling_stone.seo'),
         t('timeline.rolling_stone.automation'),
         t('timeline.rolling_stone.ai_tools'),
+        t('timeline.rolling_stone.photo'),
       ],
     },
     {
@@ -84,8 +94,9 @@ const CareerTimeline = () => {
     },
     {
       title: t('timeline.ambulancier.title'),
-      company: t('timeline.ambulancier.company', 'Secteur prive - France'),
+      company: t('timeline.ambulancier.company', 'Jussieu Secours - France'),
       period: '2003 - 2008',
+      icon: '/jussieu-secours-logo.png',
       details: [t('timeline.ambulancier.description')],
     },
   ];
@@ -114,15 +125,15 @@ const CareerTimeline = () => {
               key={index}
               className="vertical-timeline-element--work"
               contentStyle={{
-                background: 'rgb(255, 255, 255)',
-                color: '#374151',
-                boxShadow: '0 10px 25px rgba(0,0,0,0.1)',
-                border: '1px solid #e5e7eb',
+                background: isDark ? 'rgb(31, 41, 55)' : 'rgb(255, 255, 255)',
+                color: isDark ? '#e5e7eb' : '#374151',
+                boxShadow: isDark ? '0 10px 25px rgba(0,0,0,0.3)' : '0 10px 25px rgba(0,0,0,0.1)',
+                border: isDark ? '1px solid #374151' : '1px solid #e5e7eb',
               }}
-              contentArrowStyle={{ borderRight: '7px solid rgb(255, 255, 255)' }}
+              contentArrowStyle={{ borderRight: `7px solid ${isDark ? 'rgb(31, 41, 55)' : 'rgb(255, 255, 255)'}` }}
               date={experience.period}
               iconStyle={{
-                background: '#fff',
+                background: isDark ? '#1f2937' : '#fff',
                 border: '3px solid #3b82f6',
                 boxShadow: '0 0 0 4px rgba(59, 130, 246, 0.1)',
               }}
@@ -132,7 +143,7 @@ const CareerTimeline = () => {
                     <img
                       src={experience.icon}
                       alt={experience.company}
-                      className="w-8 h-8 object-contain rounded"
+                      className="w-8 h-8 object-contain rounded transition-transform duration-300 hover:scale-[2.5]"
                       onError={(e) => { e.target.style.display = 'none'; }}
                     />
                   </div>
@@ -140,11 +151,11 @@ const CareerTimeline = () => {
               }
             >
               <div className="mb-3">
-                <h3 className="text-xl font-bold text-gray-800 mb-1">{experience.title}</h3>
-                <h4 className="text-lg font-semibold text-blue-600 mb-2">{experience.company}</h4>
+                <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-1">{experience.title}</h3>
+                <h4 className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">{experience.company}</h4>
               </div>
 
-              <ul className="list-disc list-inside space-y-1 text-sm text-gray-600">
+              <ul className="list-disc list-inside space-y-1 text-sm text-gray-600 dark:text-gray-300">
                 {experience.details.map((detail, detailIndex) => (
                   <li key={detailIndex}>{detail}</li>
                 ))}

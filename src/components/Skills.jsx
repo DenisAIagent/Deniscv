@@ -8,7 +8,7 @@ const Skills = () => {
   const skillKeys = ['dev', 'automation', 'ai', 'marketing', 'project_management', 'mediation'];
 
   const levelColors = {
-    20: 'bg-gray-400',
+    20: 'bg-indigo-500',
     50: 'bg-yellow-500',
     55: 'bg-yellow-500',
     75: 'bg-blue-500',
@@ -66,7 +66,8 @@ const Skills = () => {
               <motion.div
                 key={key}
                 variants={itemVariants}
-                className="bg-gray-50 dark:bg-gray-700 p-5 rounded-lg"
+                whileHover={{ scale: 1.02, y: -2 }}
+                className="bg-gray-50 dark:bg-gray-700 p-5 rounded-lg transition-shadow duration-300 hover:shadow-md cursor-default"
               >
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
                   <div>

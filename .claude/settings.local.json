@@ -20,7 +20,12 @@
       "Bash(cat:*)",
       "WebFetch(domain:adam-denis.com)",
       "WebFetch(domain:mdmcmusicads.com)",
-      "Bash(sips:*)"
+      "Bash(sips:*)",
+      "WebFetch(domain:recrutement.departement18.fr)",
+      "Bash(cd:*)",
+      "Bash(npm ls:*)",
+      "Bash(npx vite-bundle-visualizer)",
+      "Bash(npm install:*)"
     ],
     "deny": [],
     "ask": []

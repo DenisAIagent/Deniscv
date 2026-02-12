@@ -1,21 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- French version -->
   <url>
-    <loc>https://adam-denis.com/</loc>
+    <loc>https://adam-denis.com?lang=fr</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://adam-denis.com?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://adam-denis.com?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://adam-denis.com?lang=es" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://adam-denis.com?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adam-denis.com" />
   </url>
+
+  <!-- English version -->
   <url>
-    <loc>https://adam-denis.com/#about</loc>
+    <loc>https://adam-denis.com?lang=en</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://adam-denis.com?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://adam-denis.com?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://adam-denis.com?lang=es" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://adam-denis.com?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adam-denis.com" />
   </url>
+
+  <!-- Spanish version -->
   <url>
-    <loc>https://adam-denis.com/#projects</loc>
+    <loc>https://adam-denis.com?lang=es</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://adam-denis.com?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://adam-denis.com?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://adam-denis.com?lang=es" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://adam-denis.com?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adam-denis.com" />
   </url>
+
+  <!-- Portuguese version -->
   <url>
-    <loc>https://adam-denis.com/#skills</loc>
+    <loc>https://adam-denis.com?lang=pt</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://adam-denis.com?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://adam-denis.com?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://adam-denis.com?lang=es" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://adam-denis.com?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adam-denis.com" />
   </url>
-  <url>
-    <loc>https://adam-denis.com/#career</loc>
-  </url>
-  <url>
-    <loc>https://adam-denis.com/#contact</loc>
-  </url>
-</urlset> 
+
+</urlset>

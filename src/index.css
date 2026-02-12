@@ -2,3 +2,105 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(59, 130, 246, 0.3);
+  color: inherit;
+}
+
+/* Print styles */
+@media print {
+  /* Reset backgrounds for print */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt;
+    line-height: 1.4;
+  }
+
+  /* Hide non-printable elements */
+  .print\:hidden,
+  nav,
+  .fixed,
+  button,
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom,
+  footer {
+    display: none !important;
+  }
+
+  /* Remove dark mode styles */
+  .dark * {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Ensure sections don't break awkwardly */
+  section {
+    page-break-inside: avoid;
+    padding: 1rem 0 !important;
+    background: white !important;
+  }
+
+  /* Reset container max width */
+  .container {
+    max-width: 100% !important;
+    padding: 0 1rem !important;
+  }
+
+  /* Make text dark */
+  h1, h2, h3, h4, h5, h6 {
+    color: black !important;
+    page-break-after: avoid;
+  }
+
+  p, li, span {
+    color: #333 !important;
+  }
+
+  /* Show link URLs */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #666;
+  }
+
+  /* Hide shadows */
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Progress bars - show as flat */
+  .bg-blue-500, .bg-blue-600, .bg-green-600, .bg-yellow-500, .bg-gray-400 {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

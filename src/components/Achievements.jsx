@@ -37,7 +37,7 @@ const Achievements = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
               {Array.isArray(formations) && formations.map((item, index) => (
-                <div key={index} className="flex items-start gap-4 bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm">
+                <div key={index} className="flex items-start gap-4 bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
                   <FiBookOpen className="text-blue-600 dark:text-blue-400 text-2xl flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold text-gray-800 dark:text-white">{item.degree}</h3>
@@ -55,7 +55,7 @@ const Achievements = () => {
             </h3>
             <div className="flex flex-wrap justify-center gap-3">
               {Array.isArray(certifications) && certifications.map((cert, index) => (
-                <span key={index} className="flex items-center gap-2 bg-white dark:bg-gray-800 px-4 py-2 rounded-full shadow-sm text-sm font-medium text-gray-700 dark:text-gray-300">
+                <span key={index} className="flex items-center gap-2 bg-white dark:bg-gray-800 px-4 py-2 rounded-full shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 text-sm font-medium text-gray-700 dark:text-gray-300">
                   <FiAward className="text-yellow-500" />
                   {cert}
                 </span>
@@ -70,7 +70,7 @@ const Achievements = () => {
             </h3>
             <div className="flex flex-wrap justify-center gap-4">
               {Array.isArray(langues) && langues.map((item, index) => (
-                <div key={index} className="flex items-center gap-2 bg-white dark:bg-gray-800 px-5 py-3 rounded-lg shadow-sm">
+                <div key={index} className="flex items-center gap-2 bg-white dark:bg-gray-800 px-5 py-3 rounded-lg shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
                   <FiGlobe className="text-blue-500" />
                   <span className="font-semibold text-gray-800 dark:text-white">{item.lang}</span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">({item.level})</span>
@@ -86,7 +86,7 @@ const Achievements = () => {
             </h3>
             <div className="flex flex-wrap justify-center gap-3">
               {Array.isArray(interets) && interets.map((item, index) => (
-                <span key={index} className="flex items-center gap-2 bg-white dark:bg-gray-800 px-4 py-2 rounded-full shadow-sm text-sm font-medium text-gray-700 dark:text-gray-300">
+                <span key={index} className="flex items-center gap-2 bg-white dark:bg-gray-800 px-4 py-2 rounded-full shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 text-sm font-medium text-gray-700 dark:text-gray-300">
                   <FiHeart className="text-red-400" />
                   {item}
                 </span>
@@ -100,13 +100,9 @@ const Achievements = () => {
               {t('references.title')}
             </h3>
             <div className="flex justify-center">
-              <div className="flex items-start gap-4 bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm max-w-md">
-                <FiUser className="text-blue-600 dark:text-blue-400 text-2xl flex-shrink-0 mt-1" />
-                <div>
-                  <h4 className="font-semibold text-gray-800 dark:text-white">{t('references.tachfin.name')}</h4>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">{t('references.tachfin.role')}</p>
-                  <p className="text-sm text-blue-600 dark:text-blue-400">{t('references.tachfin.email')}</p>
-                </div>
+              <div className="flex items-center gap-3 bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm">
+                <FiUser className="text-blue-600 dark:text-blue-400 text-xl flex-shrink-0" />
+                <p className="text-gray-600 dark:text-gray-300 italic">{t('references.available')}</p>
               </div>
             </div>
           </motion.div>

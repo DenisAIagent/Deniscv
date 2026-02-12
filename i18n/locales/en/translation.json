@@ -31,7 +31,7 @@
     "title": "Profile",
     "description": "Operational manager with 8+ years of experience in project management and team support.",
     "portrait": "Portrait of Denis Adam",
-    "texte": "Operational manager with over 8 years of experience in client relations, strategic support, and digital transformation. Founder of a digital marketing agency (500+ clients, 34M views). Startup co-founder with a Ledger co-creator. Expertise in digital tools deployment, workflow automation, and artificial intelligence. Strong passion for tech and continuous improvement.\n\nKey skills: digital project management, cross-functional team coordination, change management, user support and training, digital tools deployment and team upskilling.\n\nAccredited photographer for Rolling Stone France and Forbes. Contributor at Rolling Stone France on SEO and automation process implementation with AI tools. International Photography Awards 2023 Winner. A cultural and artistic sensitivity that enriches my project vision.",
+    "texte": "Operational manager with over 8 years of experience in client relations, strategic support, and digital transformation. Founder of a digital marketing agency (500+ clients, 34M views). Startup co-founder with a Ledger co-creator. Expertise in digital tools deployment, workflow automation, and artificial intelligence.\n\nSelf-taught and driven by continuous improvement: independently trained in web development (React, Node.js), automation (n8n, Make, APIs), and artificial intelligence (prompt engineering, Claude Code, AI agents). Proven ability to rapidly upskill on new tools and deploy them in real-world conditions.\n\nKey skills: digital project management, cross-functional team coordination, change management, user support and training, digital tools deployment and team upskilling.\n\nAccredited photographer for Rolling Stone France and Forbes. Contributor at Rolling Stone France on SEO and automation process implementation with AI tools. International Photography Awards 2023 Winner. A cultural and artistic sensitivity that enriches my project vision.",
     "highlight": "Ready to bring my project management experience and support skills to your organization."
   },
   "projects": {
@@ -81,7 +81,7 @@
     "dev": {
       "title": "Development & Programming",
       "detail": "React, Node.js, WordPress, Git",
-      "level": "Beginner",
+      "level": "Self-taught",
       "percent": 20
     },
     "automation": {
@@ -211,7 +211,8 @@
       "company": "Rolling Stone France",
       "seo": "Editorial content SEO optimization to improve organic visibility",
       "automation": "Implementation of automation workflows to increase fluidity and productivity",
-      "ai_tools": "Deployment of AI-based tools for content writing and publishing"
+      "ai_tools": "Deployment of AI-based admin productivity tools",
+      "photo": "Accredited photographer for concert and event coverage"
     },
     "cmo": {
       "title": "Co-Founder & CMO",
@@ -268,13 +269,18 @@
     },
     "ambulancier": {
       "title": "Ambulance Worker",
-      "company": "Private Sector - France",
+      "company": "Jussieu Secours - France",
       "description": "5 years of public service, teamwork, and emergency situation management."
     }
   },
   "formations": {
     "title": "Education",
     "items": [
+      {
+        "degree": "Ongoing Self-Training - Web Development & AI",
+        "school": "React, Node.js, Tailwind CSS, Claude Code, Prompt Engineering, n8n, Make",
+        "year": "2022 - Present"
+      },
       {
         "degree": "Professional License in Marketing & Communication",
         "school": "IUT Issoudun",
@@ -306,11 +312,7 @@
   },
   "references": {
     "title": "References",
-    "tachfin": {
-      "name": "Tachfin Khelil",
-      "role": "General Manager, John Paul",
-      "email": "tachfin.khelil@johnpaul.com"
-    }
+    "available": "Available upon request"
   },
   "testimonials": {
     "title": "Testimonials",

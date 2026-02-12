@@ -9,18 +9,10 @@ import translationES from './locales/es/translation.json';
 import translationPT from './locales/pt/translation.json';
 
 const resources = {
-  en: {
-    translation: translationEN
-  },
-  fr: {
-    translation: translationFR
-  },
-  es: {
-    translation: translationES
-  },
-  pt: {
-    translation: translationPT
-  }
+  en: { translation: translationEN },
+  fr: { translation: translationFR },
+  es: { translation: translationES },
+  pt: { translation: translationPT },
 };
 
 i18n
@@ -28,12 +20,24 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: 'en',
+    fallbackLng: 'fr',
     debug: process.env.NODE_ENV === 'development',
     returnObjects: true,
     interpolation: {
-      escapeValue: false
-    }
+      escapeValue: false,
+    },
+    detection: {
+      order: ['querystring', 'localStorage', 'navigator'],
+      lookupQuerystring: 'lang',
+      caches: ['localStorage'],
+    },
   });
 
-export default i18n; 
+// Sync URL ?lang= param on language change
+i18n.on('languageChanged', (lng) => {
+  const url = new URL(window.location.href);
+  url.searchParams.set('lang', lng.substring(0, 2));
+  window.history.replaceState({}, '', url.toString());
+});
+
+export default i18n;

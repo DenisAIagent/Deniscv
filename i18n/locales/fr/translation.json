@@ -31,7 +31,7 @@
     "title": "Profil",
     "description": "Manager operationnel avec plus de 8 ans d'experience en gestion de projets et accompagnement d'equipes.",
     "portrait": "Portrait de Denis Adam",
-    "texte": "Manager operationnel avec plus de 8 ans d'experience en relation client, accompagnement strategique et transformation numerique. Fondateur d'une agence de marketing digital (500+ clients, 34M de vues). Co-fondateur de startup avec un co-createur de Ledger. Expertise en deploiement d'outils numeriques, automatisation de workflows et intelligence artificielle. Forte appetence pour la tech et l'amelioration continue.\n\nCompetences cles : gestion de projets numeriques, coordination d'equipes en transversalite, conduite du changement, support et accompagnement utilisateurs, deploiement d'outils numeriques et formation des equipes.\n\nPhotographe accredite Rolling Stone France et Forbes. Collaborateur Rolling Stone France sur le SEO et la mise en place de process d'automatisation et d'outils IA. Laureat International Photography Awards 2023. Une sensibilite culturelle et artistique qui nourrit ma vision des projets.",
+    "texte": "Manager operationnel avec plus de 8 ans d'experience en relation client, accompagnement strategique et transformation numerique. Fondateur d'une agence de marketing digital (500+ clients, 34M de vues). Co-fondateur de startup avec un co-createur de Ledger. Expertise en deploiement d'outils numeriques, automatisation de workflows et intelligence artificielle.\n\nProfil autodidacte et oriente amelioration continue : formation en autonomie au developpement web (React, Node.js), a l'automatisation (n8n, Make, APIs) et a l'intelligence artificielle (prompt engineering, Claude Code, agents IA). Capacite a monter rapidement en competence sur de nouveaux outils et a les deployer en conditions reelles.\n\nCompetences cles : gestion de projets numeriques, coordination d'equipes en transversalite, conduite du changement, support et accompagnement utilisateurs, deploiement d'outils numeriques et formation des equipes.\n\nPhotographe accredite Rolling Stone France et Forbes. Collaborateur Rolling Stone France sur le SEO et la mise en place de process d'automatisation et d'outils IA. Laureat International Photography Awards 2023. Une sensibilite culturelle et artistique qui nourrit ma vision des projets.",
     "highlight": "Pret a mettre mon experience en gestion de projets et ma capacite d'accompagnement au service de votre organisation."
   },
   "projects": {
@@ -81,7 +81,7 @@
     "dev": {
       "title": "Developpement & Programmation",
       "detail": "React, Node.js, WordPress, Git",
-      "level": "Debutant",
+      "level": "Autodidacte",
       "percent": 20
     },
     "automation": {
@@ -211,7 +211,8 @@
       "company": "Rolling Stone France",
       "seo": "Optimisation SEO des contenus editoriaux pour ameliorer la visibilite organique",
       "automation": "Mise en place de workflows d'automatisation pour gagner en fluidite et en productivite",
-      "ai_tools": "Deploiement d'outils bases sur l'intelligence artificielle au service de la redaction et de la publication"
+      "ai_tools": "Deploiement d'outils de productivite admin bases sur l'intelligence artificielle",
+      "photo": "Photographe accredite pour les couvertures concerts et evenements"
     },
     "cmo": {
       "title": "Co-Fondateur & CMO",
@@ -268,13 +269,18 @@
     },
     "ambulancier": {
       "title": "Ambulancier",
-      "company": "Secteur prive - France",
+      "company": "Jussieu Secours - France",
       "description": "5 ans au service du public, travail en equipe, gestion de situations d'urgence."
     }
   },
   "formations": {
     "title": "Formation",
     "items": [
+      {
+        "degree": "Autoformation continue - Developpement Web & IA",
+        "school": "React, Node.js, Tailwind CSS, Claude Code, Prompt Engineering, n8n, Make",
+        "year": "2022 - Aujourd'hui"
+      },
       {
         "degree": "Licence Pro Marketing & Communication",
         "school": "IUT Issoudun",
@@ -306,11 +312,7 @@
   },
   "references": {
     "title": "References",
-    "tachfin": {
-      "name": "Tachfin Khelil",
-      "role": "General Manager, John Paul",
-      "email": "tachfin.khelil@johnpaul.com"
-    }
+    "available": "Sur demande"
   },
   "testimonials": {
     "title": "Temoignages",

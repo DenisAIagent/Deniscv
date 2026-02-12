@@ -31,7 +31,7 @@
     "title": "Perfil",
     "description": "Manager operacional com mais de 8 anos de experiencia em gestao de projetos e acompanhamento de equipas.",
     "portrait": "Retrato de Denis Adam",
-    "texte": "Manager operacional com mais de 8 anos de experiencia em relacao com o cliente, acompanhamento estrategico e transformacao digital. Fundador de uma agencia de marketing digital (500+ clientes, 34M de visualizacoes). Cofundador de startup com um cocriador da Ledger. Experiencia em implementacao de ferramentas digitais, automatizacao de workflows e inteligencia artificial. Forte interesse pela tecnologia e melhoria continua.\n\nCompetencias-chave: gestao de projetos digitais, coordenacao transversal de equipas, conducao da mudanca, suporte e acompanhamento de utilizadores, implementacao de ferramentas digitais e formacao de equipas.\n\nFotografo credenciado Rolling Stone Franca e Forbes. Colaborador Rolling Stone Franca em SEO e implementacao de processos de automatizacao e ferramentas IA. Laureado International Photography Awards 2023. Uma sensibilidade cultural e artistica que alimenta a minha visao dos projetos.",
+    "texte": "Manager operacional com mais de 8 anos de experiencia em relacao com o cliente, acompanhamento estrategico e transformacao digital. Fundador de uma agencia de marketing digital (500+ clientes, 34M de visualizacoes). Cofundador de startup com um cocriador da Ledger. Experiencia em implementacao de ferramentas digitais, automatizacao de workflows e inteligencia artificial.\n\nPerfil autodidata e orientado para a melhoria continua: formacao autonoma em desenvolvimento web (React, Node.js), automatizacao (n8n, Make, APIs) e inteligencia artificial (prompt engineering, Claude Code, agentes IA). Capacidade de evoluir rapidamente em novas ferramentas e implementa-las em condicoes reais.\n\nCompetencias-chave: gestao de projetos digitais, coordenacao transversal de equipas, conducao da mudanca, suporte e acompanhamento de utilizadores, implementacao de ferramentas digitais e formacao de equipas.\n\nFotografo credenciado Rolling Stone Franca e Forbes. Colaborador Rolling Stone Franca em SEO e implementacao de processos de automatizacao e ferramentas IA. Laureado International Photography Awards 2023. Uma sensibilidade cultural e artistica que alimenta a minha visao dos projetos.",
     "highlight": "Pronto para colocar a minha experiencia em gestao de projetos e a minha capacidade de acompanhamento ao servico da sua organizacao."
   },
   "projects": {
@@ -81,7 +81,7 @@
     "dev": {
       "title": "Desenvolvimento & Programacao",
       "detail": "React, Node.js, WordPress, Git",
-      "level": "Iniciante",
+      "level": "Autodidata",
       "percent": 20
     },
     "automation": {
@@ -211,7 +211,8 @@
       "company": "Rolling Stone Franca",
       "seo": "Otimizacao SEO de conteudos editoriais para melhorar a visibilidade organica",
       "automation": "Implementacao de workflows de automatizacao para ganhar em fluidez e produtividade",
-      "ai_tools": "Implementacao de ferramentas baseadas em inteligencia artificial para redacao e publicacao"
+      "ai_tools": "Implementacao de ferramentas de produtividade admin baseadas em inteligencia artificial",
+      "photo": "Fotografo credenciado para coberturas de concertos e eventos"
     },
     "cmo": {
       "title": "Cofundador & CMO",
@@ -256,13 +257,18 @@
     },
     "ambulancier": {
       "title": "Ambulanceiro",
-      "company": "Setor privado - Franca",
+      "company": "Jussieu Secours - Franca",
       "description": "5 anos ao servico do publico, trabalho em equipa, gestao de situacoes de emergencia."
     }
   },
   "formations": {
     "title": "Formacao",
     "items": [
+      {
+        "degree": "Autoformacao continua - Desenvolvimento Web & IA",
+        "school": "React, Node.js, Tailwind CSS, Claude Code, Prompt Engineering, n8n, Make",
+        "year": "2022 - Hoje"
+      },
       {
         "degree": "Licenciatura em Marketing & Comunicacao",
         "school": "IUT Issoudun",
@@ -294,11 +300,7 @@
   },
   "references": {
     "title": "Referencias",
-    "tachfin": {
-      "name": "Tachfin Khelil",
-      "role": "General Manager, John Paul",
-      "email": "tachfin.khelil@johnpaul.com"
-    }
+    "available": "Disponiveis mediante pedido"
   },
   "testimonials": {
     "title": "Depoimentos",
