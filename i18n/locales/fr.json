@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "job_title": "Chef de projets numeriques & Marketing digital",
+    "cta_contact": "Me Contacter",
+    "cta_cv": "Demander mon CV",
+    "focus_1_text": "Management Operationnel",
+    "focus_2_text": "Marketing Digital & IA",
+    "focus_3_text": "Partenariat Engage"
+  },
+  "achievements": {
+    "kpi_campaigns_label": "Campagnes Lancees (34M vues)",
+    "kpi_coaching_label": "Artistes accompagnes",
+    "kpi_objectives_label": "Satisfaction client"
+  },
+  "about": {
+    "title": "Qui Suis-Je ?",
+    "paragraph_management": "Manager operationnel et chef de projets numeriques avec plus de 8 ans d'experience en relation client, accompagnement strategique et digital. Fondateur d'une agence de marketing musical (500+ artistes, 34M de vues). Co-fondateur de startup avec un co-createur de Ledger.",
+    "paragraph_agency": "Depuis 2018, j'ai fonde et je dirige mon agence de marketing digital, MDMC Music Ads. Nous accompagnons plus de 500 artistes dans le developpement strategique et l'engagement de leur fanbase en ligne.",
+    "paragraph_results": "Notre savoir-faire digital a genere des resultats tangibles : plus de 1 500 campagnes lancees, 34 millions de vues cumulees, et un taux de conversion de 8%. Expertise en marketing digital, automatisation et intelligence artificielle.",
+    "paragraph_synthesis": "Aujourd'hui, en tant que co-fondateur de BandStream SAS avec David Balland (co-createur de Ledger), je mets cette double expertise — manageriale et digitale — au service de l'innovation dans l'ecosysteme musique-tech."
+  },
+  "skills": {
+    "photography_title": "Photographie"
+  },
+  "recognitions": {
+    "title": "Reconnaissances",
+    "item_forbes": "Publie dans Forbes",
+    "item_rolling_stone": "Photographe accredite Rolling Stone France",
+    "item_ipa_awards": "Laureat International Photography Awards 2023",
+    "cta_portfolio": "Voir mon portfolio"
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "form_name_label": "Nom",
+    "form_email_label": "Email",
+    "form_message_label": "Votre message",
+    "form_submit_button": "Envoyer",
+    "direct_title": "Coordonnees Directes",
+    "direct_email_label": "Email:",
+    "direct_timezone_label": "Fuseau horaire:"
+  },
+  "footer": {
+    "legal_link": "Mentions Legales",
+    "hosting_info": "Heberge sur Vercel",
+    "copyright_text": "Tous droits reserves."
+  }
+}

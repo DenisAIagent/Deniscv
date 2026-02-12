@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "job_title": "Digital Project Manager & Digital Marketing",
+    "cta_contact": "Contact Me",
+    "cta_cv": "Request my Resume",
+    "focus_1_text": "Operational Management",
+    "focus_2_text": "Digital Marketing & AI",
+    "focus_3_text": "Engaged Partnership"
+  },
+  "achievements": {
+    "kpi_campaigns_label": "Campaigns Launched (34M views)",
+    "kpi_coaching_label": "Artists supported",
+    "kpi_objectives_label": "Customer satisfaction"
+  },
+  "about": {
+    "title": "Who Am I?",
+    "paragraph_management": "Operational manager and digital project manager with over 8 years of experience in client relations, strategic support, and digital. Founder of a music marketing agency (500+ artists, 34M views). Startup co-founder with a Ledger co-creator.",
+    "paragraph_agency": "Since 2018, I have founded and run my digital marketing agency, MDMC Music Ads. We support over 500 artists in building their strategy and growing their online fanbase.",
+    "paragraph_results": "Our digital expertise has produced tangible results: over 1,500 campaigns launched, 34 million cumulative views, and an 8% conversion rate. Expertise in digital marketing, automation, and artificial intelligence.",
+    "paragraph_synthesis": "Today, as co-founder of BandStream SAS with David Balland (Ledger co-creator), I apply this dual expertise—managerial and digital—to drive innovation in the music-tech ecosystem."
+  },
+  "skills": {
+    "photography_title": "Photography"
+  },
+  "recognitions": {
+    "title": "Recognition",
+    "item_forbes": "Featured in Forbes",
+    "item_rolling_stone": "Accredited photographer Rolling Stone France",
+    "item_ipa_awards": "International Photography Awards 2023 Winner",
+    "cta_portfolio": "View my portfolio"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "form_name_label": "Name",
+    "form_email_label": "Email",
+    "form_message_label": "Your message",
+    "form_submit_button": "Send",
+    "direct_title": "Direct Contact",
+    "direct_email_label": "Email:",
+    "direct_timezone_label": "Time zone:"
+  },
+  "footer": {
+    "legal_link": "Legal Notice",
+    "hosting_info": "Hosted on Vercel",
+    "copyright_text": "All rights reserved."
+  }
+}

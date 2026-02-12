@@ -1,0 +1,310 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Perfil",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "fr": "FR",
+    "en": "EN",
+    "es": "ES",
+    "pt": "PT",
+    "skills": "Competencias",
+    "portfolio": "Portafolio",
+    "experience": "Trayectoria",
+    "formations": "Formacion"
+  },
+  "logo": "Logotipo Denis Adam",
+  "hero": {
+    "title": "Denis Adam",
+    "subtitle": "Jefe de proyectos digitales & Marketing digital",
+    "description": "Manager operativo y jefe de proyectos digitales",
+    "name": "Denis Adam",
+    "slogan": "Gestion de proyectos digitales, mediacion cultural e innovacion tecnologica al servicio del territorio.",
+    "cta_contact": "Contactame",
+    "cta_cv": "Solicitar mi CV",
+    "location": "Base en Lisboa | Movilidad: Bourges (18)",
+    "phone": "07 81 21 06 03",
+    "email_hero": "adpromo.media@gmail.com",
+    "logo_alt": "Logotipo Denis Adam"
+  },
+  "about": {
+    "title": "Perfil",
+    "description": "Manager operativo y jefe de proyectos digitales con mas de 8 anos de experiencia.",
+    "portrait": "Retrato de Denis Adam",
+    "texte": "Manager operativo y jefe de proyectos digitales con mas de 8 anos de experiencia en relacion con el cliente, acompanamiento estrategico y digital. Fundador de una agencia de marketing musical (500+ artistas, 34M de visualizaciones). Cofundador de startup con un cocreador de Ledger. Experiencia en marketing digital, automatizacion e inteligencia artificial. Fuerte interes por la tecnologia y la mejora continua.\n\nCompetencias clave: gestion de proyectos digitales, coordinacion de equipos, acompanamiento al cambio, vigilancia tecnologica, mediacion digital, despliegue de herramientas digitales y formacion de equipos.\n\nFotografo acreditado Rolling Stone Francia y Forbes. Laureado International Photography Awards 2023. Una sensibilidad cultural y artistica que nutre mi vision de los proyectos.",
+    "highlight": "Listo para poner mi experiencia digital y mi pasion cultural al servicio de su organizacion."
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "view": "Ver Proyecto"
+  },
+  "contact": {
+    "title": "Contactame",
+    "name": "Nombre",
+    "email": "Correo electronico",
+    "message": "Tu mensaje",
+    "send": "Enviar",
+    "success_message": "Tu mensaje ha sido enviado con exito!",
+    "error_message": "Ha ocurrido un error. Por favor, intentalo de nuevo."
+  },
+  "expertise": {
+    "management": "Gestion de Proyectos Digitales",
+    "strategie": "Marketing Digital & IA",
+    "partenariat": "Mediacion & Acompanamiento"
+  },
+  "expertise_desc": {
+    "management": "Coordinacion de equipos de proyecto, estructuracion de procesos, pilotaje de herramientas digitales y colaborativas. Experiencia en conduccion del cambio y acompanamiento a la transformacion digital.",
+    "strategie": "Google Ads, Meta Ads, SEO, Analytics, CRM. Automatizacion con n8n y Make. Inteligencia artificial aplicada (prompt engineering, Claude Code, agentes IA).",
+    "partenariat": "Acompanamiento de estructuras en sus proyectos digitales. Mediacion de recursos digitales. Formacion y desarrollo de competencias de los equipos."
+  },
+  "chiffres": {
+    "partnership_agreements": "Acuerdos de asociacion",
+    "technical_partners": "Socios tecnicos",
+    "strategic_documents": "Documentos estrategicos",
+    "youtube_campaigns": "Campanas de YouTube",
+    "total_views": "34M+ Visualizaciones acumuladas",
+    "engagement_rate": "Tasa de conversion",
+    "team_growth": "Crecimiento del equipo en 1 ano",
+    "agents_trained": "Agentes formados y entrenados",
+    "customer_satisfaction": "Satisfaccion del cliente",
+    "goals_achieved": "Objetivos alcanzados",
+    "conversion_improvement": "Mejora en la conversion",
+    "campagnes": "1 500+ Campanas gestionadas",
+    "sessions": "500+ Clientes acompanados",
+    "objectifs": "98% Satisfaccion del cliente",
+    "media_mentions": "50+ menciones en medios",
+    "media_projects": "500+ artistas acompanados",
+    "press_success": "8% de tasa de conversion"
+  },
+  "skills_section": {
+    "title": "Competencias Tecnicas & Digitales",
+    "dev": {
+      "title": "Desarrollo & Programacion",
+      "detail": "React, Node.js, WordPress, Git",
+      "level": "Principiante",
+      "percent": 20
+    },
+    "automation": {
+      "title": "Automatizacion & Integracion",
+      "detail": "n8n, Make, APIs REST",
+      "level": "Intermedio",
+      "percent": 50
+    },
+    "ai": {
+      "title": "Inteligencia Artificial",
+      "detail": "Prompt engineering, Claude Code, Agentes IA",
+      "level": "Avanzado",
+      "percent": 75
+    },
+    "marketing": {
+      "title": "Marketing Digital",
+      "detail": "Google Ads, Meta Ads, SEO, Analytics, CRM",
+      "level": "Experto",
+      "percent": 95
+    },
+    "project_management": {
+      "title": "Gestion de Proyectos & Coordinacion",
+      "detail": "Pilotaje de equipos, conduccion del cambio, herramientas colaborativas",
+      "level": "Avanzado",
+      "percent": 80
+    },
+    "mediation": {
+      "title": "Mediacion Digital & Cultural",
+      "detail": "Acompanamiento de publicos, formacion, difusion de recursos digitales",
+      "level": "Intermedio",
+      "percent": 55
+    }
+  },
+  "domaines": {
+    "management": {
+      "title": "Gestion de Equipos & Operaciones",
+      "desc": "Experiencia en liderazgo, coaching y estructuracion de equipos para rendimiento y desarrollo optimos."
+    },
+    "strategie": {
+      "title": "Marketing Digital & Inteligencia Artificial",
+      "desc": "Dominio del marketing digital (Google Ads, Meta Ads, SEO, Analytics, CRM), automatizacion (n8n, Make, APIs REST) e inteligencia artificial (prompt engineering, Claude Code, agentes IA)."
+    }
+  },
+  "portfolio": {
+    "title": "Fotografia Profesional",
+    "photos": [
+      "Marine en concierto",
+      "Black Pumas en vivo",
+      "Cigarettes After Sex en escena",
+      "Falling In Reverse actuacion 1",
+      "Falling In Reverse actuacion 2",
+      "Artista en escena, primer plano",
+      "Cantante con microfono en concierto",
+      "Guitarrista en escena",
+      "Retrato en blanco y negro de Leonore (IPA)",
+      "Nathaniel Rateliff & The Night Sweats en vivo",
+      "Sum 41 en escena, vista general",
+      "Sum 41 desde otro angulo",
+      "The Peakles en concierto (Tivoli)"
+    ]
+  },
+  "reconnaissances": {
+    "title": "Reconocimientos",
+    "forbes": "Publicado en Forbes",
+    "rollingstone": "Fotografo acreditado Rolling Stone Francia",
+    "ipa": "Laureado International Photography Awards 2023"
+  },
+  "cta_portfolio": "Ver mi portafolio",
+  "portfolio_tabs": {
+    "photos": "Fotografia",
+    "web": "Proyectos Web"
+  },
+  "web_projects": {
+    "title": "Proyectos Web",
+    "items": [
+      {
+        "name": "MounjaGO",
+        "url": "https://mounjago.com/",
+        "desc": "Aplicacion gratuita de seguimiento de salud para pacientes con Mounjaro. Seguimiento de inyecciones, peso, graficos de progreso y recordatorios.",
+        "tech": "React, Vite, Tailwind CSS, PWA"
+      },
+      {
+        "name": "Camille Osteopatia",
+        "url": "https://www.camilleosteopatia.com/fr",
+        "desc": "Sitio web para un consultorio de osteopatia en Lisboa. Presentacion de tratamientos, citas, multilingue.",
+        "tech": "React, i18n, Tailwind CSS"
+      },
+      {
+        "name": "MDMC Music Ads",
+        "url": "https://www.mdmcmusicads.com",
+        "desc": "Sitio de la agencia de marketing musical. Presentacion de servicios, portafolio de artistas, embudo de conversion.",
+        "tech": "React, Node.js, Railway"
+      },
+      {
+        "name": "Denis Adam - CV",
+        "url": "https://adam-denis.com",
+        "desc": "Este sitio! CV interactivo multilingue con modo oscuro, animaciones y formulario de contacto.",
+        "tech": "React, Vite, Tailwind CSS, Framer Motion, i18n"
+      }
+    ]
+  },
+  "zones": {
+    "title": "Ubicacion & Movilidad",
+    "desc": "Base en Lisboa | Movilidad: Bourges (18)",
+    "france": "Francia: Bourges, Vierzon"
+  },
+  "footer": {
+    "mentions": "Aviso Legal | Hospedado en Vercel",
+    "copyright": "(c) 2025 Denis Adam. Todos los derechos reservados.",
+    "legal": "Aviso Legal",
+    "hosting": "Hospedado en Vercel"
+  },
+  "cv_form": {
+    "title": "Solicitar mi CV",
+    "name": "Tu nombre",
+    "email": "Tu correo electronico",
+    "submit": "Enviar",
+    "success_message": "Tu solicitud ha sido enviada con exito!"
+  },
+  "timeline": {
+    "title": "Trayectoria Profesional",
+    "subtitle": "Mas de 8 anos de experiencia en gestion de proyectos, relacion con el cliente, acompanamiento estrategico y digital",
+    "cta": "Hablemos de tu proyecto",
+    "today": "Hoy",
+    "cmo": {
+      "title": "Cofundador & CMO",
+      "company": "BandStream SAS - Paris",
+      "strategy": "Lanzamiento de una startup musical con David Balland, cofundador de Ledger",
+      "mvp": "Estructuracion de la oferta de producto y canales de marketing",
+      "partnerships": "Reclutamiento de socios comerciales, tecnicos e institucionales",
+      "market": "Primeras tracciones de usuarios y notoriedad en el ecosistema musica-tech"
+    },
+    "team_leader": {
+      "title": "Team Manager (Nocturno)",
+      "company": "John Paul - Lisboa",
+      "team_creation": "Servicio premium internacional, gestion de equipo en autonomia",
+      "planning": "Paso del equipo de 3 a 8 personas, rediseno de procesos internos",
+      "quality": "Creacion de protocolos de alerta y deteccion de comportamientos de riesgo",
+      "coaching": "Resultado: -40% tiempo de tratamiento, satisfaccion del cliente reforzada"
+    },
+    "digital_marketing": {
+      "title": "Fundador & Digital Marketing Manager",
+      "company": "MDMC Music Ads - Lisboa / Paris",
+      "strategy": "Gestion simultanea de 500+ clientes, 1500+ campanas analizadas",
+      "performance": "Desarrollo de plataformas web (React/Node.js), despliegue cloud",
+      "business": "Workflows de automatizacion (n8n) para analisis de datos musicales",
+      "recruitment": "Resultado: 34M de vistas YouTube, 8% de conversiones, 98% de satisfaccion"
+    },
+    "account_strategist": {
+      "title": "Account Strategist",
+      "company": "Google Ads - Lisboa, Portugal",
+      "management": "Acompanamiento de PYMES en la optimizacion de sus inversiones digitales",
+      "strategy": "Analisis de Quality Score, optimizacion del ROAS, formaciones Google Ads"
+    },
+    "pr_manager": {
+      "title": "Responsable de Prensa",
+      "company": "Sector musical y cultural - Francia",
+      "strategy_creation": "Relaciones con medios y promocion de artistas y eventos culturales",
+      "value_transformation": "Redaccion de comunicados, gestion de campanas mediaticas"
+    },
+    "radio": {
+      "title": "Animador de radio",
+      "company": "Emision Session Live - 20 estaciones (Francia, Belgica, Quebec)",
+      "description": "Concepcion y animacion de un programa musical en una red de 20 estaciones. Mediacion cultural para el publico general."
+    },
+    "ambulancier": {
+      "title": "Ambulanciero",
+      "company": "Sector privado - Francia",
+      "description": "5 anos al servicio del publico, trabajo en equipo, gestion de situaciones de emergencia."
+    }
+  },
+  "formations": {
+    "title": "Formacion",
+    "items": [
+      {
+        "degree": "Licenciatura en Marketing & Comunicacion",
+        "school": "IUT Issoudun",
+        "year": "2011 - 2012"
+      },
+      {
+        "degree": "Diploma de Estado de Enfermero",
+        "school": "IFSI Toulouse",
+        "year": "2006"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certificaciones",
+    "items": ["Google Partner", "Certificaciones Google Ads", "Certificacion YouTube"]
+  },
+  "langues": {
+    "title": "Idiomas",
+    "items": [
+      { "lang": "Frances", "level": "Nativo" },
+      { "lang": "Ingles", "level": "B1" },
+      { "lang": "Portugues", "level": "B1" },
+      { "lang": "Espanol", "level": "Nociones" }
+    ]
+  },
+  "interets": {
+    "title": "Centros de interes",
+    "items": ["Fotografia de conciertos", "Inteligencia artificial", "Gastronomia"]
+  },
+  "references": {
+    "title": "Referencias",
+    "tachfin": {
+      "name": "Tachfin Khelil",
+      "role": "General Manager, John Paul",
+      "email": "tachfin.khelil@johnpaul.com"
+    }
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "tachfin": {
+      "name": "Tachfin Khelil",
+      "title": "General Manager - John Paul",
+      "text": "Como director del sitio de John Paul en Lisboa, tuve el placer de trabajar con Denis ADAM, cuya implicacion, rigor y versatilidad contribuyeron en gran medida a la calidad de nuestro servicio premium. Supo estructurar y reforzar nuestro equipo nocturno de conserjeria, demostrando una gran capacidad de gestion de crisis y experiencia cliente. Proactivo, resiliente y orientado a soluciones, Denis se gano la confianza tanto de clientes como de colaboradores. Lo recomiendo sin reservas."
+    },
+    "customer_feedback": {
+      "title": "Comentarios de Clientes",
+      "fraud": "Fraude con tarjeta bancaria:\n\"El manager Denis ADAM mostro un gran profesionalismo; su equipo respondio a todas nuestras solicitudes. Estamos muy satisfechos con el servicio.\"",
+      "mbappe": "Camiseta firmada por Mbappe:\n\"Muchas gracias Denis y Jade por su increible trabajo. Para ser la primera vez, fue un gran exito para mi! Gracias por transmitirlo al equipo.\"",
+      "covid": "Asistencia durante la crisis del COVID en el extranjero:\n\"Gracias por su amabilidad. Ya habia contactado con la embajada francesa en Cuba y el medico del seguro. Me emociono su rapidez, compasion y empatia.\""
+    }
+  }
+}

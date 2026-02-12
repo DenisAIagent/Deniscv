@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git rebase:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(npx vite:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:www.camilleosteopatia.com)",
+      "WebFetch(domain:mounjago.com)",
+      "WebFetch(domain:www.mdmcmusicads.com)",
+      "Bash(lsof:*)",
+      "Bash(curl:*)",
+      "Bash(cat:*)",
+      "WebFetch(domain:adam-denis.com)",
+      "WebFetch(domain:mdmcmusicads.com)",
+      "Bash(sips:*)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "disabledMcpjsonServers": [
+    "n8n-mcp"
+  ]
+}
