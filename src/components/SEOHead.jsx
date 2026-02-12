@@ -31,7 +31,7 @@ const SEO_DATA = {
 };
 
 const LANGUAGES = ['fr', 'en', 'es', 'pt'];
-const OG_IMAGE = 'https://i.postimg.cc/X7k4YTJC/banniere-site-cv.jpg';
+const OG_IMAGE = 'https://adam-denis.com/og-denis-adam.jpg';
 
 const SEOHead = () => {
   const { i18n } = useTranslation();
