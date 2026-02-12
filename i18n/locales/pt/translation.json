@@ -16,10 +16,10 @@
   "logo": "Logotipo Denis Adam",
   "hero": {
     "title": "Denis Adam",
-    "subtitle": "Gestor de projetos digitais & Marketing digital",
-    "description": "Manager operacional e gestor de projetos digitais",
+    "subtitle": "Gestor de Projetos SI & Transformacao Digital",
+    "description": "Manager operacional e gestor de projetos SI",
     "name": "Denis Adam",
-    "slogan": "Gestao de projetos digitais, mediacao cultural e inovacao tecnologica ao servico do territorio.",
+    "slogan": "Gestao de projetos SI, conducao da mudanca e acompanhamento de equipas ao servico das politicas publicas.",
     "cta_contact": "Entre em contato",
     "cta_cv": "Solicitar meu CV",
     "location": "Base em Lisboa | Mobilidade: Bourges (18)",
@@ -29,10 +29,10 @@
   },
   "about": {
     "title": "Perfil",
-    "description": "Manager operacional e gestor de projetos digitais com mais de 8 anos de experiencia.",
+    "description": "Manager operacional e gestor de projetos SI com mais de 8 anos de experiencia.",
     "portrait": "Retrato de Denis Adam",
-    "texte": "Manager operacional e gestor de projetos digitais com mais de 8 anos de experiencia em relacao com o cliente, acompanhamento estrategico e digital. Fundador de uma agencia de marketing musical (500+ artistas, 34M de visualizacoes). Cofundador de startup com um cocriador da Ledger. Experiencia em marketing digital, automatizacao e inteligencia artificial. Forte interesse pela tecnologia e melhoria continua.\n\nCompetencias-chave: gestao de projetos digitais, coordenacao de equipas, acompanhamento a mudanca, vigilancia tecnologica, mediacao digital, implementacao de ferramentas digitais e formacao de equipas.\n\nFotografo credenciado Rolling Stone Franca e Forbes. Laureado International Photography Awards 2023. Uma sensibilidade cultural e artistica que alimenta a minha visao dos projetos.",
-    "highlight": "Pronto para colocar a minha experiencia digital e a minha paixao cultural ao servico da sua organizacao."
+    "texte": "Manager operacional e gestor de projetos SI com mais de 8 anos de experiencia em relacao com o cliente, acompanhamento estrategico e transformacao digital. Fundador de uma agencia de marketing digital (500+ clientes, 34M de visualizacoes). Cofundador de startup com um cocriador da Ledger. Experiencia em implementacao de ferramentas digitais, automatizacao de workflows e inteligencia artificial. Forte interesse pela tecnologia e melhoria continua.\n\nCompetencias-chave: gestao de projetos SI, coordenacao transversal de equipas, conducao da mudanca, suporte e acompanhamento de utilizadores, implementacao de ferramentas digitais e formacao de equipas.\n\nFotografo credenciado Rolling Stone Franca e Forbes. Laureado International Photography Awards 2023. Uma sensibilidade cultural e artistica que alimenta a minha visao dos projetos.",
+    "highlight": "Pronto para colocar a minha experiencia SI e a minha capacidade de acompanhamento ao servico do Departamento du Cher."
   },
   "projects": {
     "title": "Meus Projetos",
@@ -48,14 +48,14 @@
     "error_message": "Ocorreu um erro. Por favor, tente novamente."
   },
   "expertise": {
-    "management": "Gestao de Projetos Digitais",
-    "strategie": "Marketing Digital & IA",
-    "partenariat": "Mediacao & Acompanhamento"
+    "management": "Gestao de Projetos SI",
+    "strategie": "Ferramentas Digitais & IA",
+    "partenariat": "Acompanhamento & Formacao"
   },
   "expertise_desc": {
-    "management": "Coordenacao de equipas de projeto, estruturacao de processos, pilotagem de ferramentas digitais e colaborativas. Experiencia em conducao da mudanca e acompanhamento a transformacao digital.",
-    "strategie": "Google Ads, Meta Ads, SEO, Analytics, CRM. Automatizacao com n8n e Make. Inteligencia artificial aplicada (prompt engineering, Claude Code, agentes IA).",
-    "partenariat": "Acompanhamento de estruturas nos seus projetos digitais. Mediacao de recursos digitais. Formacao e desenvolvimento de competencias das equipas."
+    "management": "Coordenacao transversal de equipas de projeto, estruturacao de processos, gestao de sistemas de informacao. Experiencia em conducao da mudanca e acompanhamento a transformacao digital.",
+    "strategie": "Implementacao de ferramentas digitais e colaborativas, CRM, Analytics. Automatizacao de workflows com n8n e Make. Inteligencia artificial aplicada (prompt engineering, Claude Code, agentes IA).",
+    "partenariat": "Acompanhamento e suporte aos utilizadores na implementacao de ferramentas SI. Pedagogia, escuta e formacao. Desenvolvimento de competencias das equipas."
   },
   "chiffres": {
     "partnership_agreements": "Acordos de parceria",
@@ -103,26 +103,26 @@
       "percent": 95
     },
     "project_management": {
-      "title": "Gestao de Projetos & Coordenacao",
-      "detail": "Pilotagem de equipas, conducao da mudanca, ferramentas colaborativas",
+      "title": "Gestao de Projetos SI & Coordenacao",
+      "detail": "Gestao de projetos transversais, conducao da mudanca, ferramentas colaborativas, suporte SI",
       "level": "Avancado",
-      "percent": 80
+      "percent": 85
     },
     "mediation": {
-      "title": "Mediacao Digital & Cultural",
-      "detail": "Acompanhamento de publicos, formacao, difusao de recursos digitais",
-      "level": "Intermedio",
-      "percent": 55
+      "title": "Acompanhamento & Formacao",
+      "detail": "Suporte aos utilizadores, pedagogia, formacao em ferramentas digitais, escuta e comunicacao",
+      "level": "Avancado",
+      "percent": 75
     }
   },
   "domaines": {
     "management": {
-      "title": "Gestao de Equipa & Operacional",
-      "desc": "Experiencia em lideranca, coaching e estruturacao de equipas para desempenho e desenvolvimento otimos."
+      "title": "Gestao de Equipa & Projetos SI",
+      "desc": "Experiencia em lideranca, coaching e estruturacao de equipas para desempenho otimo. Gestao transversal de projetos SI, conducao da mudanca e acompanhamento de utilizadores."
     },
     "strategie": {
-      "title": "Marketing Digital & Inteligencia Artificial",
-      "desc": "Dominio do marketing digital (Google Ads, Meta Ads, SEO, Analytics, CRM), automatizacao (n8n, Make, APIs REST) e inteligencia artificial (prompt engineering, Claude Code, agentes IA)."
+      "title": "Ferramentas Digitais & Inteligencia Artificial",
+      "desc": "Implementacao de ferramentas digitais e colaborativas, automatizacao (n8n, Make, APIs REST) e inteligencia artificial (prompt engineering, Claude Code, agentes IA). Marketing digital (Google Ads, Meta Ads, SEO, Analytics, CRM)."
     }
   },
   "portfolio": {
@@ -203,7 +203,7 @@
   },
   "timeline": {
     "title": "Percurso Profissional",
-    "subtitle": "Mais de 8 anos de experiencia em gestao de projetos, relacao com o cliente, acompanhamento estrategico e digital",
+    "subtitle": "Mais de 8 anos de experiencia em gestao de projetos SI, relacao com o cliente, acompanhamento estrategico e transformacao digital",
     "cta": "Vamos conversar sobre o seu projeto",
     "today": "Hoje",
     "cmo": {

@@ -16,10 +16,10 @@
   "logo": "Denis Adam Logo",
   "hero": {
     "title": "Denis Adam",
-    "subtitle": "Digital Project Manager & Digital Marketing",
-    "description": "Operational manager and digital project manager",
+    "subtitle": "IS Project Manager & Digital Transformation",
+    "description": "Operational manager and IS project manager",
     "name": "Denis Adam",
-    "slogan": "Digital project management, cultural mediation and technology innovation serving the community.",
+    "slogan": "IS project management, change management and team support serving public policies.",
     "cta_contact": "Contact Me",
     "cta_cv": "Request My CV",
     "location": "Based in Lisbon | Mobility: Bourges (18), France",
@@ -29,10 +29,10 @@
   },
   "about": {
     "title": "Profile",
-    "description": "Operational manager and digital project manager with 8+ years of experience.",
+    "description": "Operational manager and IS project manager with 8+ years of experience.",
     "portrait": "Portrait of Denis Adam",
-    "texte": "Operational manager and digital project manager with over 8 years of experience in client relations, strategic support, and digital. Founder of a music marketing agency (500+ artists, 34M views). Startup co-founder with a Ledger co-creator. Expertise in digital marketing, automation, and artificial intelligence. Strong passion for tech and continuous improvement.\n\nKey skills: digital project management, team coordination, change management, technology watch, digital mediation, digital tools deployment and team training.\n\nAccredited photographer for Rolling Stone France and Forbes. International Photography Awards 2023 Winner. A cultural and artistic sensitivity that enriches my project vision.",
-    "highlight": "Ready to bring my digital expertise and cultural passion to your organization."
+    "texte": "Operational manager and IS project manager with over 8 years of experience in client relations, strategic support, and digital transformation. Founder of a digital marketing agency (500+ clients, 34M views). Startup co-founder with a Ledger co-creator. Expertise in digital tools deployment, workflow automation, and artificial intelligence. Strong passion for tech and continuous improvement.\n\nKey skills: IS project management, cross-functional team coordination, change management, user support and training, digital tools deployment and team upskilling.\n\nAccredited photographer for Rolling Stone France and Forbes. International Photography Awards 2023 Winner. A cultural and artistic sensitivity that enriches my project vision.",
+    "highlight": "Ready to bring my IS expertise and support skills to the Departement du Cher."
   },
   "projects": {
     "title": "My Projects",
@@ -48,14 +48,14 @@
     "error_message": "An error occurred. Please try again."
   },
   "expertise": {
-    "management": "Digital Project Management",
-    "strategie": "Digital Marketing & AI",
-    "partenariat": "Mediation & Support"
+    "management": "IS Project Management",
+    "strategie": "Digital Tools & AI",
+    "partenariat": "Support & Training"
   },
   "expertise_desc": {
-    "management": "Project team coordination, process structuring, digital and collaborative tools management. Experience in change management and digital transformation support.",
-    "strategie": "Google Ads, Meta Ads, SEO, Analytics, CRM. Automation with n8n and Make. Applied artificial intelligence (prompt engineering, Claude Code, AI agents).",
-    "partenariat": "Supporting organizations in their digital projects. Digital resource mediation. Training and team upskilling."
+    "management": "Cross-functional project team coordination, process structuring, information systems management. Experience in change management and digital transformation support.",
+    "strategie": "Digital and collaborative tools deployment, CRM, Analytics. Workflow automation with n8n and Make. Applied artificial intelligence (prompt engineering, Claude Code, AI agents).",
+    "partenariat": "User support and training in IS tools deployment. Pedagogy, active listening and team upskilling."
   },
   "chiffres": {
     "partnership_agreements": "Partnership deals",
@@ -103,26 +103,26 @@
       "percent": 95
     },
     "project_management": {
-      "title": "Project Management & Coordination",
-      "detail": "Team leadership, change management, collaborative tools",
+      "title": "IS Project Management & Coordination",
+      "detail": "Cross-functional project management, change management, collaborative tools, IS support",
       "level": "Advanced",
-      "percent": 80
+      "percent": 85
     },
     "mediation": {
-      "title": "Digital & Cultural Mediation",
-      "detail": "Public support, training, digital resource dissemination",
-      "level": "Intermediate",
-      "percent": 55
+      "title": "Support & Training",
+      "detail": "User support, pedagogy, digital tools training, listening and communication skills",
+      "level": "Advanced",
+      "percent": 75
     }
   },
   "domaines": {
     "management": {
-      "title": "Team & Operational Management",
-      "desc": "Expertise in leadership, coaching, and team structuring for optimal performance and development. Time management, leadership, adaptability, and conflict resolution."
+      "title": "Team Management & IS Project Management",
+      "desc": "Expertise in leadership, coaching, and team structuring for optimal performance. Cross-functional IS project management, change management and user support."
     },
     "strategie": {
-      "title": "Digital Marketing & Artificial Intelligence",
-      "desc": "Mastery of digital marketing (Google Ads, Meta Ads, SEO, Analytics, CRM), automation (n8n, Make, REST APIs), and artificial intelligence (prompt engineering, Claude Code, AI agents)."
+      "title": "Digital Tools & Artificial Intelligence",
+      "desc": "Digital and collaborative tools deployment, automation (n8n, Make, REST APIs), and artificial intelligence (prompt engineering, Claude Code, AI agents). Digital marketing (Google Ads, Meta Ads, SEO, Analytics, CRM)."
     }
   },
   "portfolio": {

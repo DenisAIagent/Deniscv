@@ -16,10 +16,10 @@
   "logo": "Logo Denis Adam",
   "hero": {
     "title": "Denis Adam",
-    "subtitle": "Chef de projets numeriques & Marketing digital",
+    "subtitle": "Chef de projets SI & Transformation numerique",
     "description": "Manager operationnel et chef de projets numeriques",
     "name": "Denis Adam",
-    "slogan": "Gestion de projets numeriques, mediation culturelle et innovation technologique au service du territoire.",
+    "slogan": "Pilotage de projets SI, conduite du changement et accompagnement des equipes au service des politiques publiques.",
     "cta_contact": "Me Contacter",
     "cta_cv": "Demander mon CV",
     "location": "Base a Lisbonne | Mobilite : Bourges (18)",
@@ -29,10 +29,10 @@
   },
   "about": {
     "title": "Profil",
-    "description": "Manager operationnel et chef de projets numeriques avec plus de 8 ans d'experience.",
+    "description": "Manager operationnel et chef de projets SI avec plus de 8 ans d'experience.",
     "portrait": "Portrait de Denis Adam",
-    "texte": "Manager operationnel et chef de projets numeriques avec plus de 8 ans d'experience en relation client, accompagnement strategique et digital. Fondateur d'une agence de marketing musical (500+ artistes, 34M de vues). Co-fondateur de startup avec un co-createur de Ledger. Expertise en marketing digital, automatisation et intelligence artificielle. Forte appetence pour la tech et l'amelioration continue.\n\nCompetences cles : gestion de projets numeriques, coordination d'equipes, accompagnement au changement, veille technologique, mediation numerique, deploiement d'outils digitaux et formation des equipes.\n\nPhotographe accredite Rolling Stone France et Forbes. Laureat International Photography Awards 2023. Une sensibilite culturelle et artistique qui nourrit ma vision des projets.",
-    "highlight": "Pret a mettre mon expertise numerique et ma passion culturelle au service de votre structure."
+    "texte": "Manager operationnel et chef de projets SI avec plus de 8 ans d'experience en relation client, accompagnement strategique et transformation numerique. Fondateur d'une agence de marketing digital (500+ clients, 34M de vues). Co-fondateur de startup avec un co-createur de Ledger. Expertise en deploiement d'outils numeriques, automatisation de workflows et intelligence artificielle. Forte appetence pour la tech et l'amelioration continue.\n\nCompetences cles : pilotage de projets SI, coordination d'equipes en transversalite, conduite du changement, support et accompagnement utilisateurs, deploiement d'outils numeriques et formation des equipes.\n\nPhotographe accredite Rolling Stone France et Forbes. Laureat International Photography Awards 2023. Une sensibilite culturelle et artistique qui nourrit ma vision des projets.",
+    "highlight": "Pret a mettre mon expertise SI et ma capacite d'accompagnement au service du Departement du Cher."
   },
   "projects": {
     "title": "Mes Projets",
@@ -48,14 +48,14 @@
     "error_message": "Une erreur est survenue. Veuillez reessayer."
   },
   "expertise": {
-    "management": "Gestion de Projets Numeriques",
-    "strategie": "Marketing Digital & IA",
-    "partenariat": "Mediation & Accompagnement"
+    "management": "Pilotage de Projets SI",
+    "strategie": "Outils Numeriques & IA",
+    "partenariat": "Accompagnement & Formation"
   },
   "expertise_desc": {
-    "management": "Coordination d'equipes projets, structuration de process, pilotage d'outils numeriques et collaboratifs. Experience en conduite du changement et accompagnement a la transformation digitale.",
-    "strategie": "Google Ads, Meta Ads, SEO, Analytics, CRM. Automatisation avec n8n et Make. Intelligence artificielle appliquee (prompt engineering, Claude Code, agents IA).",
-    "partenariat": "Accompagnement des structures dans leurs projets numeriques. Mediation des ressources digitales. Formation et montee en competences des equipes."
+    "management": "Coordination d'equipes projets en transversalite, structuration de process, pilotage de systemes d'information. Experience en conduite du changement et accompagnement a la transformation numerique.",
+    "strategie": "Deploiement d'outils numeriques et collaboratifs, CRM, Analytics. Automatisation de workflows avec n8n et Make. Intelligence artificielle appliquee (prompt engineering, Claude Code, agents IA).",
+    "partenariat": "Accompagnement et support utilisateurs dans le deploiement d'outils SI. Pedagogie, ecoute et formation. Montee en competences des equipes."
   },
   "chiffres": {
     "partnership_agreements": "Accords de partenariat",
@@ -97,32 +97,32 @@
       "percent": 75
     },
     "marketing": {
-      "title": "Marketing Digital",
+      "title": "Marketing Digital & Analytics",
       "detail": "Google Ads, Meta Ads, SEO, Analytics, CRM",
       "level": "Expert",
       "percent": 95
     },
     "project_management": {
-      "title": "Gestion de Projets & Coordination",
-      "detail": "Pilotage d'equipes, conduite du changement, outils collaboratifs",
+      "title": "Pilotage de Projets SI & Coordination",
+      "detail": "Gestion de projets transversaux, conduite du changement, outils collaboratifs, support SI",
       "level": "Avance",
-      "percent": 80
+      "percent": 85
     },
     "mediation": {
-      "title": "Mediation Numerique & Culturelle",
-      "detail": "Accompagnement des publics, formation, diffusion des ressources numeriques",
-      "level": "Intermediaire",
-      "percent": 55
+      "title": "Accompagnement & Formation",
+      "detail": "Support utilisateurs, pedagogie, formation aux outils numeriques, ecoute et relationnel",
+      "level": "Avance",
+      "percent": 75
     }
   },
   "domaines": {
     "management": {
-      "title": "Management d'Equipe & Operationnel",
-      "desc": "Expertise en direction, coaching et structuration d'equipes pour une performance et un developpement optimaux. Gestion du temps, leadership, adaptabilite et resolution de conflits."
+      "title": "Management d'Equipe & Pilotage SI",
+      "desc": "Expertise en direction, coaching et structuration d'equipes pour une performance optimale. Pilotage de projets SI en transversalite, conduite du changement et accompagnement utilisateurs."
     },
     "strategie": {
-      "title": "Marketing Digital & Intelligence Artificielle",
-      "desc": "Maitrise du marketing digital (Google Ads, Meta Ads, SEO, Analytics, CRM), de l'automatisation (n8n, Make, APIs REST) et de l'intelligence artificielle (prompt engineering, Claude Code, agents IA)."
+      "title": "Outils Numeriques & Intelligence Artificielle",
+      "desc": "Deploiement d'outils numeriques et collaboratifs, automatisation (n8n, Make, APIs REST), intelligence artificielle appliquee (prompt engineering, Claude Code, agents IA). Marketing digital (Google Ads, Meta Ads, SEO, Analytics, CRM)."
     }
   },
   "portfolio": {
@@ -203,7 +203,7 @@
   },
   "timeline": {
     "title": "Parcours Professionnel",
-    "subtitle": "Plus de 8 ans d'experience en gestion de projets, relation client, accompagnement strategique et digital",
+    "subtitle": "Plus de 8 ans d'experience en gestion de projets SI, relation client, accompagnement strategique et transformation numerique",
     "cta": "Discutons de votre projet",
     "today": "Aujourd'hui",
     "cmo": {
